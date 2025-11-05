@@ -1,0 +1,1905 @@
+{
+  "rating": "18+",
+  "summary": {
+    "count_scenes": 30,
+    "scene_ratings": {
+      "6+": 3,
+      "12+": 0,
+      "16+": 0,
+      "18+": 27
+    }
+  },
+  "parents_guide": {
+    "violence": {
+      "percentage_scenes": 43.33,
+      "episodes_total": 49
+    },
+    "sexual": {
+      "percentage_scenes": 10.0,
+      "episodes_total": 4
+    },
+    "profanity": {
+      "percentage_scenes": 90.0,
+      "episodes_total": 98
+    },
+    "alcohol_drugs": {
+      "percentage_scenes": 13.33,
+      "episodes_total": 4
+    },
+    "scary": {
+      "percentage_scenes": 33.33,
+      "episodes_total": 14
+    }
+  },
+  "details": [
+    {
+      "scene_index": 1,
+      "scene_no": "7-1",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОБЩЕЕ ПОМЕЩЕНИЕ / КЛЕТКА",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.9271158142298193,
+          "severity": "Severe",
+          "episodes": 5
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.9133032693519351,
+          "severity": "Severe",
+          "episodes": 4
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.49260151319598083,
+          "severity": "Moderate",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "зажмурившись. Поняв, что удар пришелся не по руке, отк",
+          "offset": 194
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ДАША, ЛЮСя  Макс втыкает нож в деревянную чурку рядом",
+          "offset": 108
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": " прощение!  Катя хватает нож, замахивается и… хочет п",
+          "offset": 614
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ядом Люся бьет по руке с ножом. Катя лишь по касатель",
+          "offset": 697
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "льной режет себе ладонь. Нож падает на землю  Люся Во",
+          "offset": 748
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "шь по касательной режет себе ладонь. Нож падает на з",
+          "offset": 736
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": ". Сначала поручилась за тебя. Сама. Потом сама себя ",
+          "offset": 1008
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " тебя. Сама. Потом сама себя наказала.  РИТА Она ни ",
+          "offset": 1031
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "договор. И в отличие от тебя, Катя отвечает за базар",
+          "offset": 1224
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "ит на Катю в упор.  МАКС Страшно?.. Это хорошо. Значит, ",
+          "offset": 272
+        }
+      ]
+    },
+    {
+      "scene_index": 2,
+      "scene_no": "7-2",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ЛАГЕРЬ ПОДРУЧНЫХ СТАХОВА",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.48520302639196167,
+          "severity": "Moderate",
+          "episodes": 3
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.49260151319598083,
+          "severity": "Moderate",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "юбишь?  Прохоров достает нож, подносит к ее лицу.  Шу",
+          "offset": 1888
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": " ужасе смотрит на лезвие ножа.",
+          "offset": 1945
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "дело… Понял. В пещере не стрелять … А если забуровят?..",
+          "offset": 1583
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "не танцевала никогда? У тебя получается.  Шура перес",
+          "offset": 1205
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "носит к ее лицу.  Шура в ужасе смотрит на лезвие ножа.",
+          "offset": 1921
+        }
+      ]
+    },
+    {
+      "scene_index": 3,
+      "scene_no": "7-3",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ / КЛЕТКА",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 1.0,
+          "severity": "Severe",
+          "episodes": 7
+        },
+        "sexual": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "profanity": {
+          "score": 1.0,
+          "severity": "Severe",
+          "episodes": 14
+        },
+        "alcohol_drugs": {
+          "score": 0.6426015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ур у груши, отрабатывает удары под руководством своего",
+          "offset": 2682
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": " бойцов ММА.  ДЯДЯ Четче удар! Больше злости! Еще!  Ти",
+          "offset": 2750
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "р проводит серию быстрых ударов, опускает руки, смотри",
+          "offset": 2806
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "я Маги. Тимур обозначает удары и подсечки. Приятели Ма",
+          "offset": 4856
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "та, не от софитов, Не от ударов по корпусу и по лицу, ",
+          "offset": 5104
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "ницу спасаешь! Лживая ты сука!  Рита потрясенно смотри",
+          "offset": 2463
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "что именно?.. Не было у тебя второго суда! Ты не Мак",
+          "offset": 347
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "всем врал!  МАКС Только тебе. И это было не сложно. ",
+          "offset": 712
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "  МАКС Я скажу, почему. Тебе, как и всем остальным, ",
+          "offset": 970
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "л? Все это с нами из-за тебя?  Все смотрят на Макса.",
+          "offset": 1305
+        },
+        {
+          "category": "alcohol_drugs",
+          "severity": "Moderate",
+          "snippet": " своему рюкзаку, достает бутылку воды, телефон проверяет",
+          "offset": 4605
+        }
+      ]
+    },
+    {
+      "scene_index": 4,
+      "scene_no": "7-8",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. основное помещение",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "отреть.  Рита Что там?! Ребята? Что с ней?!  Шура вз",
+          "offset": 1297
+        }
+      ]
+    },
+    {
+      "scene_index": 5,
+      "scene_no": "7-9",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "У ГОСТИНИЦЫ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "ОСТИНИЦЫ. ВЕЧЕР РОМА  К небольшой гостинице с вывеск",
+          "offset": 38
+        }
+      ]
+    },
+    {
+      "scene_index": 6,
+      "scene_no": "7-10",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ГОСТИНИЦА",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "ицы поднимает трубку служебного телефона.",
+          "offset": 1056
+        }
+      ]
+    },
+    {
+      "scene_index": 7,
+      "scene_no": "7-11",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.9133032693519351,
+          "severity": "Severe",
+          "episodes": 4
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "нда растеряна.  ТИМУР Ни черта тут нет…  МАТВЕЙ Ну? И ",
+          "offset": 1237
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "С Чтобы прогнать? Хитровыебано для них как-то.  ТИМУ",
+          "offset": 492
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "камнями, отодвигают и перебирают ящики, стеллажи, ве",
+          "offset": 1088
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "перевернуто вверх дном. Ребята ничего не находят. Ко",
+          "offset": 1183
+        }
+      ]
+    },
+    {
+      "scene_index": 8,
+      "scene_no": "7-12",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ГОСТИНИЧНЫЙ НОМЕР ТАМАРЫ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.6845143010338384,
+          "severity": "Moderate",
+          "episodes": 2
+        },
+        "sexual": {
+          "score": 0.3845143010338384,
+          "severity": "Mild",
+          "episodes": 2
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.49260151319598083,
+          "severity": "Moderate",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "углом влажного полотенца кровь с его лица, обмывает ран",
+          "offset": 179
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "Почему? Где она?! Они ее убили!  Рому трясет, на глаза",
+          "offset": 565
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " пугает.  ТАМАРА Возьми себя в руки!  Рома начинает ",
+          "offset": 723
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": " ей это неприятно, он ее пугает.  ТАМАРА Возьми себя в р",
+          "offset": 699
+        }
+      ]
+    },
+    {
+      "scene_index": 9,
+      "scene_no": "7-13",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.7345143010338384,
+          "severity": "Severe",
+          "episodes": 2
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "ЮСЯ, МАКС, ТИМУР, КАТЯ  Ребята кроме Шуры и Люси сид",
+          "offset": 97
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "очно! Чего сидите! Ну!  Ребята направляются к входу.",
+          "offset": 344
+        }
+      ]
+    },
+    {
+      "scene_index": 10,
+      "scene_no": "7-14",
+      "period": "",
+      "place_type": "инт.",
+      "location": "Пещера. Больничная ниша / вход в пещеру",
+      "tod": "Ночь",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.8352030263919616,
+          "severity": "Severe",
+          "episodes": 3
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.49260151319598083,
+          "severity": "Moderate",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "Нет!  ТИМУР Закрываемся, блин! Чтоб из нас ночью шаурм",
+          "offset": 754
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "шо, тут все свои… Никто тебя не…  Но от объятий – ст",
+          "offset": 1118
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " не решается возражать. Ребята освобождают проход.  ",
+          "offset": 1636
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "урму не сделали!  Шура в ужасе смотрит на забаррикадир",
+          "offset": 805
+        }
+      ]
+    },
+    {
+      "scene_index": 11,
+      "scene_no": "7-15",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ВОЗЛЕ ПЕЩЕРЫ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 1.0,
+          "severity": "Severe",
+          "episodes": 7
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.49260151319598083,
+          "severity": "Moderate",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "о опен-эйр порно…  тимур Блин… адский кринж… Шур, это ",
+          "offset": 749
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "виновата, что меня эти гоблины загребли…  От воспомина",
+          "offset": 878
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "что меня эти гоблины загребли…  От воспоминания у Шу",
+          "offset": 888
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " резко притягивает ее к себе. Целует.  ТИМУР Они за ",
+          "offset": 1112
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "ет Матери Тимура.  ДЯДЯ Тебе, Амина. Хорошего парня ",
+          "offset": 1408
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "з пещеры, но там темно и страшно - Шура останавливается,",
+          "offset": 84
+        }
+      ]
+    },
+    {
+      "scene_index": 12,
+      "scene_no": "7-18",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 1.0,
+          "severity": "Severe",
+          "episodes": 9
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 1.0,
+          "severity": "Severe",
+          "episodes": 14
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ижений руками, изображая удары.  КАТЯ Как ты собрался ",
+          "offset": 405
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ий качок, проводит серию ударов по корпусу. Тимур став",
+          "offset": 2714
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "чок наносит ему ощутимые удары.  ДЯДЯ (ЗК) Не подпуска",
+          "offset": 3216
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "тает, как снова получает удар в голову. Высокий машет ",
+          "offset": 3561
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": " У нас тоже!  Люся берет нож. Катю при виде ножа пере",
+          "offset": 489
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "Я Вы серьезно?! Викинги, блин! Это вам не на белок охо",
+          "offset": 827
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "сфальту.  ВЫСОКИЙ (орет) Сука! Отпусти! Все, все! Хват",
+          "offset": 3822
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "чики с тобой нежны… И ты херишь правила и кидаешь бра",
+          "offset": 2498
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " жопы. Не меньше, чем у тебя.  РИТА Ребята! Прошу ва",
+          "offset": 1192
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "ньше, чем у тебя.  РИТА Ребята! Прошу вас, опомнитес",
+          "offset": 1204
+        }
+      ]
+    },
+    {
+      "scene_index": 13,
+      "scene_no": "7-20",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.9271158142298193,
+          "severity": "Severe",
+          "episodes": 5
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 1.0,
+          "severity": "Severe",
+          "episodes": 11
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ешь, я…  ДЯДЯ Тимур…  Но ударить Магу Тимур не может. ",
+          "offset": 3114
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": " наносит акцентированные удары в лицо. Мага уже без со",
+          "offset": 3455
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ания. Но Тимур все бьет. Кровь Маги брызжет ему на лицо",
+          "offset": 3511
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": " Тренировка!  Люся берет нож.  ЛЮСЯ (Тимуру) А если т",
+          "offset": 1937
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": " руку, берет на болевой, нож падает на землю.  ТИМУР ",
+          "offset": 2188
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "я, держась за пах.  ДАША Блин, сорри, я не хотела жест",
+          "offset": 696
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "головой в цель, как бык, сука. Вкладывай массу и бухай",
+          "offset": 1350
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " зла. Как мне причинить тебе вред?  Катя приближаетс",
+          "offset": 496
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "о обалденно! Ты мягкий, тебе не больно, и ты - масса",
+          "offset": 1116
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "ьс, это не твое. Не дай себя измотать. И не дай себя",
+          "offset": 1228
+        }
+      ]
+    },
+    {
+      "scene_index": 14,
+      "scene_no": "7-22",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "адут, а мы просто дадим себя убить?  Отряд не знает,",
+          "offset": 563
+        }
+      ]
+    },
+    {
+      "scene_index": 15,
+      "scene_no": "7-23",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ГОСТИНИЦА. НОМЕР ТАМАРЫ",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "profanity": {
+          "score": 0.7345143010338384,
+          "severity": "Severe",
+          "episodes": 2
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " пор она не спешила все тебе рассказать. Не знаю, че",
+          "offset": 498
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "ы Следственный комитет, тебя менты боятся. Неужели т",
+          "offset": 875
+        }
+      ]
+    },
+    {
+      "scene_index": 16,
+      "scene_no": "7-24",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ВОЗЛЕ ПЕЩЕРЫ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "score": 0.6271158142298192,
+          "severity": "Moderate",
+          "episodes": 5
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.7345143010338384,
+          "severity": "Severe",
+          "episodes": 2
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.49260151319598083,
+          "severity": "Moderate",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "аготовку для наконечника стрелы. Тем временем, Макс при",
+          "offset": 163
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "рикручивает его к древку стрелы.  Люся ... А то, что за",
+          "offset": 771
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "лке, водит ею, как будто стреляет из автомата. Натыкает",
+          "offset": 911
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "е, они целуются. Шокер и стрела падают у их ног.",
+          "offset": 1138
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "серьезно. Ты реально его убил?  Макс улыбается. Опуска",
+          "offset": 999
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "му, угрожают. Так ведут себя трусы. А трусов легко п",
+          "offset": 392
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "Люсе.  макс Какой ответ тебя больше заводит?  Макс т",
+          "offset": 1074
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "еревкой.  ЛЮСЯ Макс… мне страшно.  МАКС Они нас больше б",
+          "offset": 270
+        }
+      ]
+    },
+    {
+      "scene_index": 17,
+      "scene_no": "7-25",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. КЛЕТКА",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.9133032693519351,
+          "severity": "Severe",
+          "episodes": 4
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " ходит по клетке, места себе не находит. К клетке по",
+          "offset": 92
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "мне!  РИТА (тихо) Я жду ребенка…  КАТЯ Что?!  РИТА …",
+          "offset": 351
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "огда ты узнала?..  РИТА Небольшой. Но я знала еще до",
+          "offset": 498
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "рдо, точно, хочу, чтобы ребенок был. И поэтому побеж",
+          "offset": 794
+        }
+      ]
+    },
+    {
+      "scene_index": 18,
+      "scene_no": "7-26",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.8352030263919616,
+          "severity": "Severe",
+          "episodes": 3
+        },
+        "alcohol_drugs": {
+          "score": 0.6426015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "scary": {
+          "score": 0.49260151319598083,
+          "severity": "Moderate",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "МАТВЕЙ Если не замерзнем нахрен раньше, без еды и огня. ",
+          "offset": 641
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "р - ударим внезапно и перебьем их.  КАТЯ Так себе пл",
+          "offset": 389
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " перебьем их.  КАТЯ Так себе план.  МАКС Есть идеи п",
+          "offset": 410
+        },
+        {
+          "category": "alcohol_drugs",
+          "severity": "Moderate",
+          "snippet": " Оставить палки, луки, копья. Сдаться.  МАКС А дальше",
+          "offset": 526
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "азводит руками, как бы демонстрируя свой грязный прикид.",
+          "offset": 1368
+        }
+      ]
+    },
+    {
+      "scene_index": 19,
+      "scene_no": "7-27",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА. клетка",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.9133032693519351,
+          "severity": "Severe",
+          "episodes": 4
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "Говорил про зверя… Но в тебе самом нет зверя, Тимур…",
+          "offset": 351
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "мом нет зверя, Тимур… В тебе есть человек.  ТИМУР Ну",
+          "offset": 382
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "ай снова дернуть. Из-за тебя и так двое наших постра",
+          "offset": 572
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "дали уже… Если мы берем тебя с нами, ты больше не пр",
+          "offset": 624
+        }
+      ]
+    },
+    {
+      "scene_index": 20,
+      "scene_no": "7-29",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ВОЗЛЕ ПЕЩЕРЫ. МЕСТО ЗАСАДЫ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.7345143010338384,
+          "severity": "Severe",
+          "episodes": 2
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "решь?  МАКС Мой ответ: к черту тесты. Они не оставляют",
+          "offset": 759
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "аблудились в пустыне. У тебя - воды на два дня. У др",
+          "offset": 505
+        }
+      ]
+    },
+    {
+      "scene_index": 21,
+      "scene_no": "7-30",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ВОЗЛЕ ДОМА МАРИИ",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 22,
+      "scene_no": "7-31",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ОТДЕЛЕНИЕ ПОЛИЦИИ. КАБИНЕТ СТАХОВА",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "бернатор в бешенстве и требует крови. Меня послал с ",
+          "offset": 803
+        }
+      ]
+    },
+    {
+      "scene_index": 23,
+      "scene_no": "7-32",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ВОЗЛЕ ПЕЩЕРЫ",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "scary": {
+          "score": 0.6345143010338383,
+          "severity": "Moderate",
+          "episodes": 2
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "? Нельзя!  ПРОХОРОВ Да похер! Шевелись!  Чистяков тор",
+          "offset": 1150
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "ится.  Выстрел! Матвей вскрикивает. Он ранен в руку.  ",
+          "offset": 894
+        },
+        {
+          "category": "scary",
+          "severity": "Moderate",
+          "snippet": "ится.  Выстрел! Матвей вскрикивает. Он ранен в руку.  Р",
+          "offset": 894
+        }
+      ]
+    },
+    {
+      "scene_index": 24,
+      "scene_no": "7-33",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ПЕЩЕРА",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.7345143010338384,
+          "severity": "Severe",
+          "episodes": 2
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "вей вздрагивает.  МАТВЕЙ Блин, ааа, больно как!  Тимур",
+          "offset": 264
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "пье, хватает и бежит за ребятами.",
+          "offset": 507
+        }
+      ]
+    },
+    {
+      "scene_index": 25,
+      "scene_no": "7-34",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ВОЗЛЕ ПЕЩЕРЫ",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.7690286020676768,
+          "severity": "Severe",
+          "episodes": 8
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 1.0,
+          "severity": "Severe",
+          "episodes": 6
+        },
+        "alcohol_drugs": {
+          "score": 0.6426015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "scary": {
+          "score": 0.8133032693519351,
+          "severity": "Severe",
+          "episodes": 4
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "о бронежилет защищает от удара самодельного копья Люси",
+          "offset": 1429
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "какивает и вырубает Люсю ударом кулака в висок, Макс п",
+          "offset": 1521
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "а в висок, Макс пытается ударить Прохорова шокером на ",
+          "offset": 1558
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ко приходит в себя после удара Прохорова.  РИТА Ты как",
+          "offset": 2912
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "имур швыряет в Прохорова нож - мимо. Тимур подлетает ",
+          "offset": 374
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "а в первом раунде… Боец, блин…  Шура обнимает и целует",
+          "offset": 2719
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "менно, но не прицельно. Ребята пригибаются, не попал",
+          "offset": 307
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " РИТА Сбежал, кажется…  Ребята озираются. Больше ник",
+          "offset": 2188
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " затравленно смотрит на ребят.  Чуть в стороне Шура ",
+          "offset": 2587
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "олный фейл… Сделали как ребенка в первом раунде… Бое",
+          "offset": 2689
+        },
+        {
+          "category": "alcohol_drugs",
+          "severity": "Moderate",
+          "snippet": " от удара самодельного копья Люси, которое тут же лом",
+          "offset": 1450
+        },
+        {
+          "category": "scary",
+          "severity": "Severe",
+          "snippet": "  Вооруженная команда, с криками выбегает на открытое ",
+          "offset": 124
+        },
+        {
+          "category": "scary",
+          "severity": "Severe",
+          "snippet": "а, обнимается с Дашей. Вскрикивает от боли в раненой р",
+          "offset": 2351
+        },
+        {
+          "category": "scary",
+          "severity": "Severe",
+          "snippet": "а, обнимается с Дашей. Вскрикивает от боли в раненой ру",
+          "offset": 2351
+        },
+        {
+          "category": "scary",
+          "severity": "Severe",
+          "snippet": "т выстрелить. Чистяков в ужасе. Тогда Матвей отбирает ",
+          "offset": 1106
+        }
+      ]
+    },
+    {
+      "scene_index": 26,
+      "scene_no": "7-35",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "заброшенный город. машина логинова",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 27,
+      "scene_no": "7-36",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ЗАБРОШЕННЫЙ ГОРОД. улица",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.5926015131959808,
+          "severity": "Moderate",
+          "episodes": 1
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "торонам. Ему явно не по себе в этих развалинах.",
+          "offset": 1054
+        }
+      ]
+    },
+    {
+      "scene_index": 28,
+      "scene_no": "7-37",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ОТДЕЛЕНИЕ ПОЛИЦИИ. КАБИНЕТ СТАХОВА",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.7345143010338384,
+          "severity": "Severe",
+          "episodes": 2
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "райним придется сделать тебя, майор, поскольку ты до",
+          "offset": 167
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": ".. В общем, все уже без тебя порешали: подавай в отс",
+          "offset": 428
+        }
+      ]
+    },
+    {
+      "scene_index": 29,
+      "scene_no": "7-38",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ОТДЕЛЕНИЕ ПОЛИЦИИ. КАБИНЕТ ТАМАРЫ",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 30,
+      "scene_no": "7-39",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ЗАБРОШЕННЫЙ ГОРОД. развалины дома",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "score": 0.24260151319598083,
+          "severity": "Mild",
+          "episodes": 1
+        },
+        "sexual": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "profanity": {
+          "score": 0.8352030263919616,
+          "severity": "Severe",
+          "episodes": 3
+        },
+        "alcohol_drugs": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        },
+        "scary": {
+          "score": 0.0,
+          "severity": "None",
+          "episodes": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " знает?.. А по-моему, ни черта она не знает. Но ты не ",
+          "offset": 1616
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "АХОВ А не заткнуться ли тебе перед смертью? Лучше б ",
+          "offset": 1385
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": " хотел меня убить… Но я тебя опередил.  С этими слов",
+          "offset": 1715
+        }
+      ]
+    }
+  ]
+}
