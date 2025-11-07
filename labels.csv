@@ -1,0 +1,34 @@
+scene_no,place_type,location,tod,has_violence,sev_violence,has_sexual,sev_sexual,has_profanity,sev_profanity,has_alcohol_drugs,sev_alcohol_drugs,has_scary,sev_scary
+1-1,НАТ.,ЛЕС.ПОЛЯНА,НОЧЬ,1,Severe,0,None,0,None,0,None,1,Severe
+1-1-А,НАТ.,ЛЕС.ОПУШКА,НОЧЬ,1,Severe,0,None,0,None,0,None,1,Severe
+1-2,ИНТ.,ДАЧА МАЛЬЦЕВЫХ,НОЧЬ,1,Severe,0,None,0,None,1,Mild,1,Severe
+1-3,ИНТ.,БАНКЕТНЫЙ ЗАЛ.КОРИДОР,НОЧЬ,1,Severe,0,None,0,None,0,None,1,Severe
+1-4,ИНТ.,КВАРТИРА БОКОВА.КУХНЯ,НОЧЬ,0,None,0,None,0,None,1,Mild,0,None
+1-4-А,ИНТ.,КВАРТИРА БОКОВА.ВАННАЯ,НОЧЬ,1,Mild,0,None,0,None,0,None,0,None
+1-4-В,ИНТ.,КВАРТИРА БОКОВА.КОМНАТА,НОЧЬ,0,None,1,Mild,0,None,1,Mild,0,None
+1-5,НАТ.,АЭРОПОРТ МОСКВЫ.СТОЯНКА МИЛИЦЕЙСКИЙ “БОБИК”,НОЧЬ,0,None,0,None,0,None,1,Mild,0,None
+1-6,НАТ.,АЭРОПОРТ МОСКВЫ.СТОЯНКА МИЛИЦЕЙСКИЙ “БОБИК”,НОЧЬ,0,None,1,Moderate,1,Severe,1,Mild,0,None
+1-7,ИНТ.,ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.ДЕЖУРКА КОРИДОР У КПЗ,НОЧЬ,1,Mild,0,None,0,None,0,None,0,None
+1-8,ИНТ.,ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ,НОЧЬ,1,Severe,0,None,0,None,0,None,1,Severe
+1-9,ИНТ.,ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КЛЕТКА,НОЧЬ,1,Severe,0,None,0,None,0,None,0,None
+1-10,ИНТ.,ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КОРИДОР ОКОЛО ДЕЖУРКИ,НОЧЬ,0,None,0,None,1,Moderate,0,None,0,None
+1-11,НАТ.,ДАЧА МАЛЬЦЕВЫХ.У ЗАБОРА С КАЛИТКОЙ,НОЧЬ,0,None,0,None,0,None,0,None,0,None
+1-11-А,НАТ.,ДАЧА МАЛЬЦЕВЫХ.КРЫЛЬЦО,НОЧЬ,0,None,0,None,0,None,1,Mild,0,None
+1-12,ИНТ.,ДАЧА МАЛЬЦЕВЫХ.ГОСТИНАЯ,НОЧЬ,1,Mild,0,None,0,None,0,None,0,None
+1-13,ИНТ.,ДОМ ПАНОВЫХ,НОЧЬ,1,Mild,1,Severe,0,None,0,None,0,None
+1-14,НАТ.,МИЛИЦЕЙСКИЙ АВТОМОБИЛЬ,НОЧЬ,0,None,0,None,0,None,0,None,0,None
+1-15,ИНТ.,МОРГ.ПРОЗЕКТОРСКАЯ,НОЧЬ,1,Severe,1,Mild,0,None,0,None,1,Mild
+1-16,НАТ.,АВТОБУСНЫЙ ПАРК,НОЧЬ,1,Mild,0,None,0,None,0,None,0,None
+1-17,НАТ.,АВТОБУС.КАБИНА,НОЧЬ,0,None,1,Moderate,0,None,0,None,0,None
+1-18,ИНТ.,ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ,НОЧЬ,0,None,0,None,0,None,1,Mild,0,None
+1-19,НАТ.,ЛЕС.ЧАЩА,УТРО,0,None,0,None,0,None,0,None,0,None
+1-19-A,НАТ.,ЛЕС.ЧАЩА,УТРО,0,None,0,None,0,None,0,None,0,None
+1-19-B,НАТ.,ЛЕС.ЛЕСНАЯ ТРОПА МЕСТО УБИЙСТВА,УТРО,1,Mild,0,None,0,None,0,None,0,None
+1-19- D,НАТ.,ЛЕС.МЕСТО УБИЙСТВА,УТРО,1,Severe,0,None,1,Severe,1,Mild,0,None
+1-20,НАТ.,ЛЕС.БЕРЕГ РЕКИ,УТРО,0,None,1,Moderate,0,None,0,None,0,None
+1-21,ИНТ.,ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ,УТРО,1,Severe,0,None,0,None,1,Mild,0,None
+1-21-А,НАТ.,ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.ЧЕРЕЗ ОКНО ИЗ КАБИНЕТА,УТРО,0,None,0,None,0,None,0,None,0,None
+1-22,ИНТ.,ГЕНПРОКУРАТУРА МОСКВА.КАБИНЕТ ГЕНПРОКУРОРА СССР,УТРО,1,Mild,1,Moderate,0,None,0,None,0,None
+1-23,НАТ.,УЛИЦА МОСКВЫ,ДЕНЬ,1,Severe,0,None,1,Severe,0,None,0,None
+1-24,ИНТ.,ДАЧА МАЛЬЦЕВЫХ.ДЕТСКАЯ,НОЧЬ,1,Severe,0,None,0,None,1,Mild,0,None
+1-25,ИНТ.,ДАЧА МАЛЬЦЕВЫХ.ГОСТИНАЯ,НОЧЬ,1,Severe,0,None,0,None,1,Mild,0,None

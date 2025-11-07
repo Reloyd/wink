@@ -1,1399 +1,1214 @@
 {
   "rating": "18+",
   "summary": {
-    "count_scenes": 30,
+    "count_scenes": 55,
     "scene_ratings": {
-      "6+": 3,
-      "12+": 0,
-      "16+": 0,
-      "18+": 27
+      "6+": 37,
+      "12+": 1,
+      "16+": 8,
+      "18+": 9
     }
   },
   "parents_guide": {
     "violence": {
-      "percentage_scenes": 43.33,
-      "episodes_total": 49
+      "percentage_scenes": 45.45,
+      "episodes_total": 21
     },
     "sexual": {
-      "percentage_scenes": 10.0,
-      "episodes_total": 4
+      "percentage_scenes": 32.73,
+      "episodes_total": 3
     },
     "profanity": {
-      "percentage_scenes": 90.0,
-      "episodes_total": 98
+      "percentage_scenes": 40.0,
+      "episodes_total": 80
     },
     "alcohol_drugs": {
-      "percentage_scenes": 13.33,
-      "episodes_total": 4
+      "percentage_scenes": 21.82,
+      "episodes_total": 7
     },
     "scary": {
-      "percentage_scenes": 33.33,
-      "episodes_total": 14
+      "percentage_scenes": 3.64,
+      "episodes_total": 6
     }
   },
   "details": [
     {
       "scene_index": 1,
-      "scene_no": "7-1",
+      "scene_no": "2-1",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОБЩЕЕ ПОМЕЩЕНИЕ / КЛЕТКА",
-      "tod": "ВЕЧЕР",
+      "place_type": "НАТ.",
+      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.9271158142298193,
-          "severity": "Severe",
-          "episodes": 5
+          "rule_score": 0.0,
+          "model_proba": 0.2986636739716505,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1642650206844078,
+          "severity": "None",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.37942884752896366,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.20868586614093004,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.9133032693519351,
-          "severity": "Severe",
-          "episodes": 4
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.20533824703294534,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.29071648982691417,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.21383318067610413,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.19038870333065153,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 1
         },
         "scary": {
-          "score": 0.49260151319598083,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.04597343013081156,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.02528538657194636,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "зажмурившись. Поняв, что удар пришелся не по руке, отк",
-          "offset": 194
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ДАША, ЛЮСя  Макс втыкает нож в деревянную чурку рядом",
-          "offset": 108
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": " прощение!  Катя хватает нож, замахивается и… хочет п",
-          "offset": 614
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ядом Люся бьет по руке с ножом. Катя лишь по касатель",
-          "offset": 697
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "льной режет себе ладонь. Нож падает на землю  Люся Во",
-          "offset": 748
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "шь по касательной режет себе ладонь. Нож падает на з",
-          "offset": 736
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": ". Сначала поручилась за тебя. Сама. Потом сама себя ",
-          "offset": 1008
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " тебя. Сама. Потом сама себя наказала.  РИТА Она ни ",
-          "offset": 1031
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "договор. И в отличие от тебя, Катя отвечает за базар",
-          "offset": 1224
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "ит на Катю в упор.  МАКС Страшно?.. Это хорошо. Значит, ",
-          "offset": 272
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 2,
-      "scene_no": "7-2",
+      "scene_no": "2-2",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ЛАГЕРЬ ПОДРУЧНЫХ СТАХОВА",
-      "tod": "ВЕЧЕР",
+      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.48520302639196167,
+          "rule_score": 0.5426015131959808,
+          "model_proba": 0.7118017118646996,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5542713954843791,
           "severity": "Moderate",
-          "episodes": 3
+          "episodes_count": 1
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.46573737817161426,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2561555579943879,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.9133032693519351,
+          "model_proba": 0.20553391919209293,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3870346363612316,
+          "severity": "Mild",
+          "episodes_count": 4
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.10016368653160401,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.05509002759238221,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.49260151319598083,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.08289394168650371,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.045591667927577045,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
+      "scene_rating": "16+",
       "problems": [
         {
           "category": "violence",
           "severity": "Moderate",
-          "snippet": "юбишь?  Прохоров достает нож, подносит к ее лицу.  Шу",
-          "offset": 1888
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": " ужасе смотрит на лезвие ножа.",
-          "offset": 1945
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "дело… Понял. В пещере не стрелять … А если забуровят?..",
-          "offset": 1583
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "не танцевала никогда? У тебя получается.  Шура перес",
-          "offset": 1205
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "носит к ее лицу.  Шура в ужасе смотрит на лезвие ножа.",
-          "offset": 1921
+          "snippet": "е - рубашка, пропитанная кровью.  Козырев внимательно р",
+          "offset": 1432
         }
       ]
     },
     {
       "scene_index": 3,
-      "scene_no": "7-3",
+      "scene_no": "2-3",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ / КЛЕТКА",
-      "tod": "ВЕЧЕР",
+      "location": "ПИОНЕРЛАГЕРЬ.АКТОВЫЙ ЗАЛ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 1.0,
-          "severity": "Severe",
-          "episodes": 7
+          "rule_score": 0.0,
+          "model_proba": 0.831015156794014,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.4570583362367078,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.24260151319598083,
-          "severity": "Mild",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.21143505853810507,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1162892821959578,
+          "severity": "None",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 1.0,
-          "severity": "Severe",
-          "episodes": 14
+          "rule_score": 0.9771158142298192,
+          "model_proba": 0.14625993356889538,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.37357770773183824,
+          "severity": "Mild",
+          "episodes_count": 5
         },
         "alcohol_drugs": {
-          "score": 0.6426015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.3104863731902705,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1707675052546488,
+          "severity": "None",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.050698756760971235,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.027884316218534183,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ур у груши, отрабатывает удары под руководством своего",
-          "offset": 2682
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": " бойцов ММА.  ДЯДЯ Четче удар! Больше злости! Еще!  Ти",
-          "offset": 2750
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "р проводит серию быстрых ударов, опускает руки, смотри",
-          "offset": 2806
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "я Маги. Тимур обозначает удары и подсечки. Приятели Ма",
-          "offset": 4856
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "та, не от софитов, Не от ударов по корпусу и по лицу, ",
-          "offset": 5104
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "ницу спасаешь! Лживая ты сука!  Рита потрясенно смотри",
-          "offset": 2463
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "что именно?.. Не было у тебя второго суда! Ты не Мак",
-          "offset": 347
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "всем врал!  МАКС Только тебе. И это было не сложно. ",
-          "offset": 712
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "  МАКС Я скажу, почему. Тебе, как и всем остальным, ",
-          "offset": 970
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "л? Все это с нами из-за тебя?  Все смотрят на Макса.",
-          "offset": 1305
-        },
-        {
-          "category": "alcohol_drugs",
-          "severity": "Moderate",
-          "snippet": " своему рюкзаку, достает бутылку воды, телефон проверяет",
-          "offset": 4605
-        }
-      ]
+      "scene_rating": "16+",
+      "problems": []
     },
     {
       "scene_index": 4,
-      "scene_no": "7-8",
+      "scene_no": "2-4",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. основное помещение",
-      "tod": "ВЕЧЕР",
+      "place_type": "НАТ.",
+      "location": "ЛЕС.ОЦЕПЛЕНИЕ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.3174443450835642,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.17459438979596034,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.2415293637793687,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1328411500786528,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.0395685285312207,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.021762690692171387,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.22197917966140485,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.12208854881377268,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.04821656889909834,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.02651911289450409,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "отреть.  Рита Что там?! Ребята? Что с ней?!  Шура вз",
-          "offset": 1297
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 5,
-      "scene_no": "7-9",
+      "scene_no": "2-5",
       "period": "",
       "place_type": "НАТ.",
-      "location": "У ГОСТИНИЦЫ",
-      "tod": "ВЕЧЕР",
+      "location": "ШОССЕ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.1622995591647651,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08926475754062081,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.09843813561203876,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.05414097458662132,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.018747352487883492,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.010311043868335921,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.04078587057834008,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.022432228818087045,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.043023539248987705,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.02366294658694324,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "ОСТИНИЦЫ. ВЕЧЕР РОМА  К небольшой гостинице с вывеск",
-          "offset": 38
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 6,
-      "scene_no": "7-10",
+      "scene_no": "2-6",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ГОСТИНИЦА",
-      "tod": "ВЕЧЕР",
+      "place_type": "НАТ.",
+      "location": "АВТОМОБИЛЬ МАЛЬЦЕВЫХ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.23290039971927412,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.12809521984560077,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.4233151402261051,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.23282332712435783,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.07722513082064478,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.22025427591014884,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.34596557682836254,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1902810672555994,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.03999335936907191,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.021996347652989554,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "ицы поднимает трубку служебного телефона.",
-          "offset": 1056
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 7,
-      "scene_no": "7-11",
+      "scene_no": "2-7",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
-      "tod": "ВЕЧЕР",
+      "place_type": "НАТ.",
+      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.3845143010338384,
+          "model_proba": 0.5011832597433671,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3910050831690034,
+          "severity": "Mild",
+          "episodes_count": 2
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.5208341705482007,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2864587938015104,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.9133032693519351,
-          "severity": "Severe",
-          "episodes": 4
+          "rule_score": 0.0,
+          "model_proba": 0.24372975008977799,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1340513625493779,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.6426015131959808,
+          "model_proba": 0.5845469922407892,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5142812996912283,
+          "severity": "Moderate",
+          "episodes_count": 1
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.0728158418918151,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.040048713040498306,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
+      "scene_rating": "16+",
       "problems": [
         {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "нда растеряна.  ТИМУР Ни черта тут нет…  МАТВЕЙ Ну? И ",
-          "offset": 1237
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "С Чтобы прогнать? Хитровыебано для них как-то.  ТИМУ",
-          "offset": 492
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "камнями, отодвигают и перебирают ящики, стеллажи, ве",
-          "offset": 1088
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "перевернуто вверх дном. Ребята ничего не находят. Ко",
-          "offset": 1183
+          "category": "alcohol_drugs",
+          "severity": "Moderate",
+          "snippet": "ик приносит стакан воды (бутылку Боржоми???) Мать пьёт. ",
+          "offset": 1979
         }
       ]
     },
     {
       "scene_index": 8,
-      "scene_no": "7-12",
+      "scene_no": "2-8",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ГОСТИНИЧНЫЙ НОМЕР ТАМАРЫ",
-      "tod": "ВЕЧЕР",
+      "place_type": "НАТ.",
+      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.6845143010338384,
+          "rule_score": 0.0,
+          "model_proba": 0.9180969517880053,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5049533234834029,
           "severity": "Moderate",
-          "episodes": 2
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.3845143010338384,
-          "severity": "Mild",
-          "episodes": 2
+          "rule_score": 0.0,
+          "model_proba": 0.19276005876663435,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1060180323216489,
+          "severity": "None",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 1.0,
+          "model_proba": 0.731538820274925,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.7023463511512087,
+          "severity": "Severe",
+          "episodes_count": 12
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.3845143010338384,
+          "model_proba": 0.3705899128942814,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3191787424020063,
+          "severity": "Mild",
+          "episodes_count": 2
         },
         "scary": {
-          "score": 0.49260151319598083,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.49260151319598083,
+          "model_proba": 0.020154016523676075,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.15886516304681608,
+          "severity": "None",
+          "episodes_count": 1
         }
       },
       "scene_rating": "18+",
       "problems": [
         {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "углом влажного полотенца кровь с его лица, обмывает ран",
-          "offset": 179
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "Почему? Где она?! Они ее убили!  Рому трясет, на глаза",
-          "offset": 565
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "Был бы ты взрослым, я б тебя уже арестовал. Потому ш",
+          "offset": 482
         },
         {
           "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " пугает.  ТАМАРА Возьми себя в руки!  Рома начинает ",
-          "offset": 723
+          "severity": "Severe",
+          "snippet": "здесь так накурено, что ребёнку вредно находиться в ",
+          "offset": 775
         },
         {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": " ей это неприятно, он ее пугает.  ТАМАРА Возьми себя в р",
-          "offset": 699
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "горь, мы будем задавать тебе вопросы, а ты должен го",
+          "offset": 949
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "а-да, а иначе они потом тебя посадят в тюрьму за дач",
+          "offset": 1040
+        },
+        {
+          "category": "profanity",
+          "severity": "Severe",
+          "snippet": "преждают, чтоб потом на тебя давить. ДОБРОВОЛЬСКАЯ М",
+          "offset": 1133
         }
       ]
     },
     {
       "scene_index": 9,
-      "scene_no": "7-13",
+      "scene_no": "2-8-А",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
-      "tod": "ВЕЧЕР",
+      "place_type": "НАТ.",
+      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
+      "tod": "УТРО",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.16019242657270297,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08810583461498664,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.36477164085625324,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2006244024709393,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.7345143010338384,
-          "severity": "Severe",
-          "episodes": 2
+          "rule_score": 0.8352030263919616,
+          "model_proba": 0.30196087592791915,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.41663938967794406,
+          "severity": "Moderate",
+          "episodes_count": 3
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.3611642735114383,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.19864035043129108,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.024407771094065694,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.013424274101736133,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
       "scene_rating": "18+",
       "problems": [
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": "ЮСЯ, МАКС, ТИМУР, КАТЯ  Ребята кроме Шуры и Люси сид",
-          "offset": 97
+          "severity": "Moderate",
+          "snippet": "мер. МАЛЬЦЕВА Да что вы себе позволяете?! Материтесь",
+          "offset": 840
         },
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": "очно! Чего сидите! Ну!  Ребята направляются к входу.",
-          "offset": 344
+          "severity": "Moderate",
+          "snippet": "оляете?! Материтесь при ребёнке! Боков не обращает в",
+          "offset": 873
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " маме покажу кое-что, а тебя тётя Наташа с дядей Вал",
+          "offset": 1124
         }
       ]
     },
     {
       "scene_index": 10,
-      "scene_no": "7-14",
+      "scene_no": "2-9",
       "period": "",
-      "place_type": "инт.",
-      "location": "Пещера. Больничная ниша / вход в пещеру",
-      "tod": "Ночь",
+      "place_type": "ИНТ.",
+      "location": "МОРГ.ПРОЗЕКТОРСКАЯ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.29393074512250406,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.16166190981737724,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.3536705504752281,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.19451880276137548,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.8352030263919616,
-          "severity": "Severe",
-          "episodes": 3
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.0639265543313472,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.21294005884103517,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.30361294664331495,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2397675746126175,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "scary": {
-          "score": 0.49260151319598083,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.04342605622811445,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.023884330925462948,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "Нет!  ТИМУР Закрываемся, блин! Чтоб из нас ночью шаурм",
-          "offset": 754
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "шо, тут все свои… Никто тебя не…  Но от объятий – ст",
-          "offset": 1118
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " не решается возражать. Ребята освобождают проход.  ",
-          "offset": 1636
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "урму не сделали!  Шура в ужасе смотрит на забаррикадир",
-          "offset": 805
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 11,
-      "scene_no": "7-15",
+      "scene_no": "2-10",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ВОЗЛЕ ПЕЩЕРЫ",
-      "tod": "ВЕЧЕР",
+      "place_type": "ИНТ.",
+      "location": "МОРГ.КОРИДОР ПРОЗЕКТОРСКАЯ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.14833373990234572,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08158355694629014,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.12744753538541748,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.07009614446197962,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 1.0,
-          "severity": "Severe",
-          "episodes": 7
+          "rule_score": 0.0,
+          "model_proba": 0.12500983434661386,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06875540889063764,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.32768170054142903,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.180224935297786,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.49260151319598083,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.02235570094127401,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.012295635517700706,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "о опен-эйр порно…  тимур Блин… адский кринж… Шур, это ",
-          "offset": 749
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "виновата, что меня эти гоблины загребли…  От воспомина",
-          "offset": 878
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "что меня эти гоблины загребли…  От воспоминания у Шу",
-          "offset": 888
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " резко притягивает ее к себе. Целует.  ТИМУР Они за ",
-          "offset": 1112
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "ет Матери Тимура.  ДЯДЯ Тебе, Амина. Хорошего парня ",
-          "offset": 1408
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "з пещеры, но там темно и страшно - Шура останавливается,",
-          "offset": 84
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 12,
-      "scene_no": "7-18",
+      "scene_no": "2-10-А",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
-      "tod": "ВЕЧЕР",
+      "location": "МОРГ.ПРОЗЕКТОРСКАЯ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 1.0,
-          "severity": "Severe",
-          "episodes": 9
+          "rule_score": 0.0,
+          "model_proba": 0.7571700613405666,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.4164435337373117,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.041157254394646334,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.022636489917055486,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 1.0,
-          "severity": "Severe",
-          "episodes": 14
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.010596739844664435,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.18360866087335964,
+          "severity": "None",
+          "episodes_count": 1
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.03729896937337739,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.02051443315535757,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.07629143860783201,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.04196029123430761,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ижений руками, изображая удары.  КАТЯ Как ты собрался ",
-          "offset": 405
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ий качок, проводит серию ударов по корпусу. Тимур став",
-          "offset": 2714
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "чок наносит ему ощутимые удары.  ДЯДЯ (ЗК) Не подпуска",
-          "offset": 3216
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "тает, как снова получает удар в голову. Высокий машет ",
-          "offset": 3561
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": " У нас тоже!  Люся берет нож. Катю при виде ножа пере",
-          "offset": 489
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "Я Вы серьезно?! Викинги, блин! Это вам не на белок охо",
-          "offset": 827
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "сфальту.  ВЫСОКИЙ (орет) Сука! Отпусти! Все, все! Хват",
-          "offset": 3822
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "чики с тобой нежны… И ты херишь правила и кидаешь бра",
-          "offset": 2498
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " жопы. Не меньше, чем у тебя.  РИТА Ребята! Прошу ва",
-          "offset": 1192
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "ньше, чем у тебя.  РИТА Ребята! Прошу вас, опомнитес",
-          "offset": 1204
-        }
-      ]
+      "scene_rating": "16+",
+      "problems": []
     },
     {
       "scene_index": 13,
-      "scene_no": "7-20",
+      "scene_no": "2-11",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
-      "tod": "ВЕЧЕР",
+      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КОМНАТА ДЛЯ СОСТАВЛЕНИЯ ФОТОРОБОТА",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.9271158142298193,
-          "severity": "Severe",
-          "episodes": 5
+          "rule_score": 0.0,
+          "model_proba": 0.4376658685527743,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.24071622770402587,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.42466759279059224,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.23356717603482574,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 1.0,
-          "severity": "Severe",
-          "episodes": 11
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.07680611741969891,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2200238185396286,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.28667448861738376,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.15767096873956107,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.05775992053288021,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03176795629308412,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ешь, я…  ДЯДЯ Тимур…  Но ударить Магу Тимур не может. ",
-          "offset": 3114
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": " наносит акцентированные удары в лицо. Мага уже без со",
-          "offset": 3455
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ания. Но Тимур все бьет. Кровь Маги брызжет ему на лицо",
-          "offset": 3511
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": " Тренировка!  Люся берет нож.  ЛЮСЯ (Тимуру) А если т",
-          "offset": 1937
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": " руку, берет на болевой, нож падает на землю.  ТИМУР ",
-          "offset": 2188
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "я, держась за пах.  ДАША Блин, сорри, я не хотела жест",
-          "offset": 696
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "головой в цель, как бык, сука. Вкладывай массу и бухай",
-          "offset": 1350
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " зла. Как мне причинить тебе вред?  Катя приближаетс",
-          "offset": 496
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "о обалденно! Ты мягкий, тебе не больно, и ты - масса",
-          "offset": 1116
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "ьс, это не твое. Не дай себя измотать. И не дай себя",
-          "offset": 1228
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 14,
-      "scene_no": "7-22",
+      "scene_no": "2-12",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
-      "tod": "ВЕЧЕР",
+      "place_type": "НАТ.",
+      "location": "ДОМ ПАНОВА",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.24260151319598083,
+          "rule_score": 0.0,
+          "model_proba": 0.39685476684769194,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2182701217662306,
           "severity": "Mild",
-          "episodes": 1
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.2865880888349484,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.15762344885922164,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.15087104595726936,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08297907527649816,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.3123596991823839,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.17179783455031114,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.02570521968927578,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.01413787082910168,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "адут, а мы просто дадим себя убить?  Отряд не знает,",
-          "offset": 563
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 15,
-      "scene_no": "7-23",
+      "scene_no": "2-12-А",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ГОСТИНИЦА. НОМЕР ТАМАРЫ",
-      "tod": "ВЕЧЕР",
+      "location": "ДОМ ПАНОВА.ПРИХОЖАЯ КУХНЯ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.26800862674496573,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.14740474470973117,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.24260151319598083,
-          "severity": "Mild",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.10204310528029034,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.05612370790415969,
+          "severity": "None",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.7345143010338384,
-          "severity": "Severe",
-          "episodes": 2
+          "rule_score": 0.0,
+          "model_proba": 0.03570060990633296,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.01963533544848313,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.6426015131959808,
+          "model_proba": 0.45139541699270025,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.4410479333047794,
+          "severity": "Moderate",
+          "episodes_count": 1
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.024577671729358267,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.013517719451147048,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
+      "scene_rating": "16+",
       "problems": [
         {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " пор она не спешила все тебе рассказать. Не знаю, че",
-          "offset": 498
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "ы Следственный комитет, тебя менты боятся. Неужели т",
-          "offset": 875
+          "category": "alcohol_drugs",
+          "severity": "Moderate",
+          "snippet": "те.  Отпивает немного из бутылки. Добровольская уходит в",
+          "offset": 393
         }
       ]
     },
     {
       "scene_index": 16,
-      "scene_no": "7-24",
+      "scene_no": "2-13",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ВОЗЛЕ ПЕЩЕРЫ",
-      "tod": "НОЧЬ",
+      "place_type": "ИНТ.",
+      "location": "ДОМ ПАНОВА.КОМНАТА БАБУШКИ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.6271158142298192,
-          "severity": "Moderate",
-          "episodes": 5
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.45633306072752,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.32376363735893027,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.6323956739472343,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3478176206709789,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.7345143010338384,
-          "severity": "Severe",
-          "episodes": 2
+          "rule_score": 0.0,
+          "model_proba": 0.06272873527671685,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.034500804402194274,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.374376644006181,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.20590715420339956,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.49260151319598083,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.025494002777574215,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.01402170152766582,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "аготовку для наконечника стрелы. Тем временем, Макс при",
-          "offset": 163
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "рикручивает его к древку стрелы.  Люся ... А то, что за",
-          "offset": 771
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "лке, водит ею, как будто стреляет из автомата. Натыкает",
-          "offset": 911
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "е, они целуются. Шокер и стрела падают у их ног.",
-          "offset": 1138
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "серьезно. Ты реально его убил?  Макс улыбается. Опуска",
-          "offset": 999
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "му, угрожают. Так ведут себя трусы. А трусов легко п",
-          "offset": 392
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "Люсе.  макс Какой ответ тебя больше заводит?  Макс т",
-          "offset": 1074
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "еревкой.  ЛЮСЯ Макс… мне страшно.  МАКС Они нас больше б",
-          "offset": 270
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 17,
-      "scene_no": "7-25",
+      "scene_no": "2-14",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. КЛЕТКА",
-      "tod": "НОЧЬ",
+      "location": "ДОМ ПАНОВА.ПРИХОЖАЯ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.3633609512758003,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1998485232016902,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.10763580812294092,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.05919969446761751,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.9133032693519351,
-          "severity": "Severe",
-          "episodes": 4
+          "rule_score": 0.0,
+          "model_proba": 0.02510931290725835,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.013810122098992093,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.5676299239975426,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3121964581986485,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.031438181496160005,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.017290999822888006,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " ходит по клетке, места себе не находит. К клетке по",
-          "offset": 92
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "мне!  РИТА (тихо) Я жду ребенка…  КАТЯ Что?!  РИТА …",
-          "offset": 351
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "огда ты узнала?..  РИТА Небольшой. Но я знала еще до",
-          "offset": 498
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "рдо, точно, хочу, чтобы ребенок был. И поэтому побеж",
-          "offset": 794
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 18,
-      "scene_no": "7-26",
+      "scene_no": "2-15",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. ОСНОВНОЕ ПОМЕЩЕНИЕ",
-      "tod": "НОЧЬ",
+      "location": "ДОМ ПАНОВА.КОМНАТА БАБУШКИ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.24260151319598083,
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.2581062832413748,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2147389097415504,
           "severity": "Mild",
-          "episodes": 1
+          "episodes_count": 1
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.7018106656702113,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.38599586611861625,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.8352030263919616,
-          "severity": "Severe",
-          "episodes": 3
+          "rule_score": 0.0,
+          "model_proba": 0.1052934025548353,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.057911371405159416,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.6426015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.6814645740165993,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3748055157091297,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.49260151319598083,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.02537063582649224,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.013953849704570734,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "МАТВЕЙ Если не замерзнем нахрен раньше, без еды и огня. ",
-          "offset": 641
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "р - ударим внезапно и перебьем их.  КАТЯ Так себе пл",
-          "offset": 389
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " перебьем их.  КАТЯ Так себе план.  МАКС Есть идеи п",
-          "offset": 410
-        },
-        {
-          "category": "alcohol_drugs",
-          "severity": "Moderate",
-          "snippet": " Оставить палки, луки, копья. Сдаться.  МАКС А дальше",
-          "offset": 526
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "азводит руками, как бы демонстрируя свой грязный прикид.",
-          "offset": 1368
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 19,
-      "scene_no": "7-27",
+      "scene_no": "2-16",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА. клетка",
-      "tod": "НОЧЬ",
+      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.5137189132215374,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.35532585623063984,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.4077071607528495,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2970193923728615,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "profanity": {
-          "score": 0.9133032693519351,
-          "severity": "Severe",
-          "episodes": 4
+          "rule_score": 0.8352030263919616,
+          "model_proba": 0.6026481330226254,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5820173810800325,
+          "severity": "Moderate",
+          "episodes_count": 3
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.055809125896685595,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03069501924317708,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.024806761160668805,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.013643718638367844,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
       "scene_rating": "18+",
       "problems": [
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": "Говорил про зверя… Но в тебе самом нет зверя, Тимур…",
-          "offset": 351
+          "severity": "Moderate",
+          "snippet": "зырев что-то выписывает себе в блокнот. Снимает теле",
+          "offset": 232
         },
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": "мом нет зверя, Тимур… В тебе есть человек.  ТИМУР Ну",
-          "offset": 382
+          "severity": "Moderate",
+          "snippet": "но не интересно.  БОКОВ Тебе поспать надо, у тебя бе",
+          "offset": 2227
         },
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": "ай снова дернуть. Из-за тебя и так двое наших постра",
-          "offset": 572
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "дали уже… Если мы берем тебя с нами, ты больше не пр",
-          "offset": 624
+          "severity": "Moderate",
+          "snippet": "ОВ Тебе поспать надо, у тебя белочка уже начинается.",
+          "offset": 2248
         }
       ]
     },
     {
       "scene_index": 20,
-      "scene_no": "7-29",
+      "scene_no": "2-17",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ВОЗЛЕ ПЕЩЕРЫ. МЕСТО ЗАСАДЫ",
-      "tod": "НОЧЬ",
+      "location": "УЛИЦА. ТЕЛЕФОННАЯ БУДКА",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.09619033198573328,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.05290468259215331,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.049772890283939164,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.027375089656166543,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.7345143010338384,
-          "severity": "Severe",
-          "episodes": 2
+          "rule_score": 0.0,
+          "model_proba": 0.050805610898437915,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.027943085994140856,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.12399127458974776,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06819520102436127,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.019858069946475668,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.010921938470561618,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "решь?  МАКС Мой ответ: к черту тесты. Они не оставляют",
-          "offset": 759
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "аблудились в пустыне. У тебя - воды на два дня. У др",
-          "offset": 505
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 21,
-      "scene_no": "7-30",
+      "scene_no": "2-18",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ВОЗЛЕ ДОМА МАРИИ",
-      "tod": "УТРО",
+      "location": "МЯСОКОМБИНАТ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.17902098580488546,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.098461542192687,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.11334954107796343,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06234224759287989,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.02357906500662845,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.01296848575364565,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.06133406347550584,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.033733734911528215,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.039998226466839974,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.021999024556761986,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
       "scene_rating": "6+",
@@ -1401,314 +1216,290 @@
     },
     {
       "scene_index": 22,
-      "scene_no": "7-31",
+      "scene_no": "2-19",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ОТДЕЛЕНИЕ ПОЛИЦИИ. КАБИНЕТ СТАХОВА",
-      "tod": "УТРО",
+      "location": "МЯСОКОМБИНАТ.РАЗДЕЛОЧНЫЙ ЦЕХ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.9810685521693596,
+          "model_proba": 0.6806128003269811,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.6686576058306475,
+          "severity": "Moderate",
+          "episodes_count": 6
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.3918187418085426,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.28828076195349267,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.3598164529831006,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.19789904914070536,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.37794712654542917,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.20787091959998605,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.2437979015842503,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.13408884587133768,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
+      "scene_rating": "16+",
       "problems": [
         {
-          "category": "profanity",
+          "category": "violence",
           "severity": "Moderate",
-          "snippet": "бернатор в бешенстве и требует крови. Меня послал с ",
-          "offset": 803
+          "snippet": " замечает, что замарался кровью. Хочет вытереть обо что",
+          "offset": 343
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": " в морг. МЯСНИК Я просто кровь тут сливаю, нехорошо сей",
+          "offset": 582
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "атривает. Мясник сливает кровь из туши. Она стекает в о",
+          "offset": 712
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "о, сливайте. Боков берёт нож, рассматривает. Мясник с",
+          "offset": 677
+        },
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "нкованную ванну. БОКОВ А нож у вас, Николай Платоныч,",
+          "offset": 769
         }
       ]
     },
     {
       "scene_index": 23,
-      "scene_no": "7-32",
+      "scene_no": "2-20",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ВОЗЛЕ ПЕЩЕРЫ",
-      "tod": "УТРО",
+      "location": "ДАЧА ПЕВИЦЫ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.24260151319598083,
-          "severity": "Mild",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.27531982265998434,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1514259024629914,
+          "severity": "None",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.07889660773488803,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.04339313425418842,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.014837477044980354,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.008160612374739196,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.24260151319598083,
-          "severity": "Mild",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.04651796534815822,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.02558488094148702,
+          "severity": "None",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.6345143010338383,
-          "severity": "Moderate",
-          "episodes": 2
+          "rule_score": 0.0,
+          "model_proba": 0.06438103924852549,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.035409571586689025,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "? Нельзя!  ПРОХОРОВ Да похер! Шевелись!  Чистяков тор",
-          "offset": 1150
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "ится.  Выстрел! Матвей вскрикивает. Он ранен в руку.  ",
-          "offset": 894
-        },
-        {
-          "category": "scary",
-          "severity": "Moderate",
-          "snippet": "ится.  Выстрел! Матвей вскрикивает. Он ранен в руку.  Р",
-          "offset": 894
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 24,
-      "scene_no": "7-33",
+      "scene_no": "2-21",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ПЕЩЕРА",
-      "tod": "УТРО",
+      "location": "ДАЧА ПЕВИЦЫ.ГОСТИНАЯ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.24260151319598083,
-          "severity": "Mild",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.29284433049307496,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.16106438177119123,
+          "severity": "None",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.014375066199973063,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.007906286409985185,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.7345143010338384,
-          "severity": "Severe",
-          "episodes": 2
+          "rule_score": 0.0,
+          "model_proba": 0.009664079200290056,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0053152435601595315,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.1492808393752929,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08210446165641111,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.06972893392867549,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03835091366077152,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "вей вздрагивает.  МАТВЕЙ Блин, ааа, больно как!  Тимур",
-          "offset": 264
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "пье, хватает и бежит за ребятами.",
-          "offset": 507
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 25,
-      "scene_no": "7-34",
+      "scene_no": "2-22",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ВОЗЛЕ ПЕЩЕРЫ",
-      "tod": "УТРО",
+      "location": "ДАЧА ПЕВИЦЫ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.7690286020676768,
-          "severity": "Severe",
-          "episodes": 8
+          "rule_score": 0.0,
+          "model_proba": 0.18835620447067553,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.10359591245887155,
+          "severity": "None",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.11003553172696592,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.060519542449831265,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 1.0,
-          "severity": "Severe",
-          "episodes": 6
+          "rule_score": 0.0,
+          "model_proba": 0.11692963285394445,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06431129806966945,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.6426015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.1764504907465581,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09704776991060697,
+          "severity": "None",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.8133032693519351,
-          "severity": "Severe",
-          "episodes": 4
+          "rule_score": 0.0,
+          "model_proba": 0.017305276720683976,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.009517902196376188,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "о бронежилет защищает от удара самодельного копья Люси",
-          "offset": 1429
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "какивает и вырубает Люсю ударом кулака в висок, Макс п",
-          "offset": 1521
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "а в висок, Макс пытается ударить Прохорова шокером на ",
-          "offset": 1558
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ко приходит в себя после удара Прохорова.  РИТА Ты как",
-          "offset": 2912
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "имур швыряет в Прохорова нож - мимо. Тимур подлетает ",
-          "offset": 374
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "а в первом раунде… Боец, блин…  Шура обнимает и целует",
-          "offset": 2719
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "менно, но не прицельно. Ребята пригибаются, не попал",
-          "offset": 307
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " РИТА Сбежал, кажется…  Ребята озираются. Больше ник",
-          "offset": 2188
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": " затравленно смотрит на ребят.  Чуть в стороне Шура ",
-          "offset": 2587
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "олный фейл… Сделали как ребенка в первом раунде… Бое",
-          "offset": 2689
-        },
-        {
-          "category": "alcohol_drugs",
-          "severity": "Moderate",
-          "snippet": " от удара самодельного копья Люси, которое тут же лом",
-          "offset": 1450
-        },
-        {
-          "category": "scary",
-          "severity": "Severe",
-          "snippet": "  Вооруженная команда, с криками выбегает на открытое ",
-          "offset": 124
-        },
-        {
-          "category": "scary",
-          "severity": "Severe",
-          "snippet": "а, обнимается с Дашей. Вскрикивает от боли в раненой р",
-          "offset": 2351
-        },
-        {
-          "category": "scary",
-          "severity": "Severe",
-          "snippet": "а, обнимается с Дашей. Вскрикивает от боли в раненой ру",
-          "offset": 2351
-        },
-        {
-          "category": "scary",
-          "severity": "Severe",
-          "snippet": "т выстрелить. Чистяков в ужасе. Тогда Матвей отбирает ",
-          "offset": 1106
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 26,
-      "scene_no": "7-35",
+      "scene_no": "2-23",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "заброшенный город. машина логинова",
-      "tod": "УТРО",
+      "place_type": "ИНТ.",
+      "location": "ДАЧА ПЕВИЦЫ.ГОСТИНАЯ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.5059568095386902,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3510566992050738,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "sexual": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.379983316810392,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2089908242457156,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.09329486361032657,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.051312174985679616,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.31638123878273144,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.17400968133050232,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.08182521136665215,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.045003866251658683,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
       "scene_rating": "6+",
@@ -1716,130 +1507,155 @@
     },
     {
       "scene_index": 27,
-      "scene_no": "7-36",
+      "scene_no": "2-24",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ЗАБРОШЕННЫЙ ГОРОД. улица",
-      "tod": "УТРО",
+      "place_type": "ИНТ.",
+      "location": "ПОЧТА",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.192560691184209,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.17868883411010922,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 1
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.3223636797551434,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1773000238653289,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.5926015131959808,
-          "severity": "Moderate",
-          "episodes": 1
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.21142006730521953,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.29406149097666495,
+          "severity": "Mild",
+          "episodes_count": 1
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.6675187991027719,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.36713533950652455,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.24260151319598083,
-          "severity": "Mild",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.023284881526719498,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.012806684839695725,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "торонам. Ему явно не по себе в этих развалинах.",
-          "offset": 1054
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 28,
-      "scene_no": "7-37",
+      "scene_no": "2-25",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ОТДЕЛЕНИЕ ПОЛИЦИИ. КАБИНЕТ СТАХОВА",
-      "tod": "УТРО",
+      "place_type": "НАТ.",
+      "location": "КОНЮШНЯ",
+      "tod": "ВЕЧЕР",
       "per_class": {
         "violence": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.3034420605492115,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.16689313330206634,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.16783074877854498,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09230691182819975,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.7345143010338384,
-          "severity": "Severe",
-          "episodes": 2
+          "rule_score": 0.7345143010338384,
+          "model_proba": 0.17047637074912597,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3141162942221708,
+          "severity": "Mild",
+          "episodes_count": 2
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.23578360219608463,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.12968098120784655,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.022451772411033157,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.012348474826068238,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "райним придется сделать тебя, майор, поскольку ты до",
-          "offset": 167
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": ".. В общем, все уже без тебя порешали: подавай в отс",
-          "offset": 428
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 29,
-      "scene_no": "7-38",
+      "scene_no": "2-26-А",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ОТДЕЛЕНИЕ ПОЛИЦИИ. КАБИНЕТ ТАМАРЫ",
-      "tod": "УТРО",
+      "location": "КВАРТИРА ДОБРОВОЛЬСКОЙ.ДВЕРЬ ПРИХОЖАЯ",
+      "tod": "ВЕЧЕР",
       "per_class": {
         "violence": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.48953312604187693,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.26924321932303236,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.02588660396461404,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.014237632180537722,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.01698463270345528,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.009341547986900404,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.1894576150416316,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1042016882728974,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.0383827611244675,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.021110518618457128,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         }
       },
       "scene_rating": "6+",
@@ -1847,59 +1663,1541 @@
     },
     {
       "scene_index": 30,
-      "scene_no": "7-39",
+      "scene_no": "2-26-В",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ЗАБРОШЕННЫЙ ГОРОД. развалины дома",
-      "tod": "УТРО",
+      "location": "КВАРТИРА ДОБРОВЛЬСКОЙ.СПАЛЬНЯ",
+      "tod": "ВЕЧЕР",
       "per_class": {
         "violence": {
-          "score": 0.24260151319598083,
-          "severity": "Mild",
-          "episodes": 1
+          "rule_score": 0.0,
+          "model_proba": 0.2582692641986199,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.14204809530924095,
+          "severity": "None",
+          "episodes_count": 0
         },
         "sexual": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.039799106025857664,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.021889508314221717,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
         },
         "profanity": {
-          "score": 0.8352030263919616,
-          "severity": "Severe",
-          "episodes": 3
+          "rule_score": 0.0,
+          "model_proba": 0.02581433002239031,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.01419788151231467,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "score": 0.0,
-          "severity": "None",
-          "episodes": 0
+          "rule_score": 0.0,
+          "model_proba": 0.48629104895571035,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2674600769256407,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
-          "score": 0.0,
+          "rule_score": 0.0,
+          "model_proba": 0.0448553815847187,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.024670459871595284,
           "severity": "None",
-          "episodes": 0
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 31,
+      "scene_no": "2-27",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "МОРГ.ЛАБОРАТОРИЯ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.3921827090762598,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2157004899919429,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.6751707189081795,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.37134389539949875,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.0391964355015915,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.19933849348466953,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.06532218870778014,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.035927203789279084,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.059660775357799956,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03281342644678998,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 32,
+      "scene_no": "2-28",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДОРОГА ИЗ ОДИНЦОВО В МОСКВУ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.5185429064647779,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.28519859855562785,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.20994153833767407,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.11546784608572075,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.8352030263919616,
+          "model_proba": 0.48258379133530177,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5159819931520044,
+          "severity": "Moderate",
+          "episodes_count": 3
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.09045585197322359,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.049750718585272975,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.024828264027326342,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.013655545215029489,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
       "scene_rating": "18+",
       "problems": [
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": " знает?.. А по-моему, ни черта она не знает. Но ты не ",
-          "offset": 1616
+          "severity": "Moderate",
+          "snippet": " он. Как об стену горох, сука!!!  КОЗЫРЕВ А если это е",
+          "offset": 252
         },
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": "АХОВ А не заткнуться ли тебе перед смертью? Лучше б ",
-          "offset": 1385
+          "severity": "Moderate",
+          "snippet": "а Козырева.  БОКОВ Вот нахера вы это с Пановым устрои",
+          "offset": 124
         },
         {
           "category": "profanity",
-          "severity": "Severe",
-          "snippet": " хотел меня убить… Но я тебя опередил.  С этими слов",
-          "offset": 1715
+          "severity": "Moderate",
+          "snippet": "урак, Валера?! У нас тут ебанат детей режет каждый д",
+          "offset": 597
         }
       ]
+    },
+    {
+      "scene_index": 33,
+      "scene_no": "2-29",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДАЧА МАЛЬЦЕВЫХ.ДЕТСКАЯ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.48967632115178467,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.26932197663348156,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.019634793914094225,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.010799136652751824,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.006551928962320974,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.003603560929276536,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.07383368908392589,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.04060852899615924,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.20606788671715673,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.11333733769443621,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 34,
+      "scene_no": "2-30",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДАЧА МАЛЬЦЕВЫХ.ДВОР ЗА ЗАБОРОМ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.44040646977016945,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.24222355837359322,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.06443968376797435,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03544182607238589,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.7345143010338384,
+          "model_proba": 0.03229894341636939,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.23811870918915468,
+          "severity": "Mild",
+          "episodes_count": 2
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.17566335354114607,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09661484444763034,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.6345143010338383,
+          "model_proba": 0.18219185443414268,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.29055981024892996,
+          "severity": "Mild",
+          "episodes_count": 2
+        }
+      },
+      "scene_rating": "12+",
+      "problems": []
+    },
+    {
+      "scene_index": 35,
+      "scene_no": "2-30-А",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДАЧА МАЛЬЦЕВЫХ.ДВОР",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.2645958640083864,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.14552772520461255,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.06964869299486927,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0383067811471781,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.019589086682858813,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.010773997675572348,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.471040205260129,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.25907211289307097,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.05938576807542161,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03266217244148189,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 36,
+      "scene_no": "2-30-В",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДАЧА МАЛЬЦЕВЫХ.ЗА ЗАБОРОМ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.18913763943029,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1040257016866595,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.03680067368642303,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.020240370527532667,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.01568074026066724,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.008624407143366982,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.27379208445954323,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1505856464527488,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.04830848080639514,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.02656966444351733,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 37,
+      "scene_no": "2-31",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ГЕНПРОКУРАТУРА МОСКВА.КАБИНЕТ ГЕНПРОКУРОРА СССР",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.5426015131959808,
+          "model_proba": 0.6263336692288121,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5072639720346409,
+          "severity": "Moderate",
+          "episodes_count": 1
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.4616575395177523,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2539116467347638,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.8352030263919616,
+          "model_proba": 0.3754461437673332,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.45705628698962175,
+          "severity": "Moderate",
+          "episodes_count": 3
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.0985745228972138,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.054215987593467595,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.06144877010935242,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03379682356014384,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Moderate",
+          "snippet": "цу, а ты находишь только трупы! Что ещё?  БОКОВ Улик п",
+          "offset": 495
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "нные останки ещё одного ребёнка.  ГЕНПРОКУРОР Боков,",
+          "offset": 418
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": ".  ГЕНПРОКУРОР Боков, я тебя вызвал найти убийцу, а ",
+          "offset": 449
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "маним!!  ГЕНПРОКУРОР (перебивает) Козырев, я всегда ",
+          "offset": 1993
+        }
+      ]
+    },
+    {
+      "scene_index": 38,
+      "scene_no": "2-32",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ГЕНПРОКУРАТУРА МОСКВА.КОРИДОР",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.17159083764623967,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09437496070543183,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.18012904325525614,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09907097379039088,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.13905505713233066,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.07648028142278186,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.08300370711917879,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.04565203891554834,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.03101505116389786,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.017058278140143823,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 39,
+      "scene_no": "2-33",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "КЛАДБИЩЕ",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.6808988897947308,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.37449438938710194,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.2290806870672561,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.12599437788699086,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.9771158142298192,
+          "model_proba": 0.5511683353996362,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5962773287387457,
+          "severity": "Moderate",
+          "episodes_count": 5
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.11664301977460428,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06415366087603236,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.6345143010338383,
+          "model_proba": 0.03357612916007848,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.20882116134819467,
+          "severity": "Mild",
+          "episodes_count": 2
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "льно вскрикивает.  БОКОВ Сука!  Люди оборачиваются, Бо",
+          "offset": 987
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " на дворе. Ну и идите на хер, товарищ прокурор, со св",
+          "offset": 680
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " на них не то чтобы враждебно, но с некоторой неприя",
+          "offset": 442
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "сё.  БОКОВ Прям так они тебя и послушали. Комендантс",
+          "offset": 604
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " вообще молчала, голову тебе охота оторвать за вчера",
+          "offset": 761
+        }
+      ]
+    },
+    {
+      "scene_index": 40,
+      "scene_no": "2-34",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "БОЛЬНИЦА ОДИНЦОВО.ПАЛАТА",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.4606127336183246,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.25333700349007854,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.10550738623418364,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.05802906242880101,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.8352030263919616,
+          "model_proba": 0.09527896488927785,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3029643386066913,
+          "severity": "Mild",
+          "episodes_count": 3
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.29676793379148403,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.16322236358531622,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.02741449762080224,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.015077973691441232,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 41,
+      "scene_no": "2-35",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "МИЛИЦЕЙСКИЙ АВТОМОБИЛЬ",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.1778059140239873,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09779325271319302,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.47018534317906374,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2586019387484851,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.18991502696398843,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.28223371878898784,
+          "severity": "Mild",
+          "episodes_count": 1
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.23059510583886245,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.12682730821137436,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.03211878053464654,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0176653292940556,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 42,
+      "scene_no": "2-36",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "МЯСОКОМБИНАТ.СТОЛОВАЯ",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.32986660928678924,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1814266351077341,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.15698576104503328,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08634216857476831,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.7345143010338384,
+          "model_proba": 0.06489150597500373,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2560446185964036,
+          "severity": "Mild",
+          "episodes_count": 2
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.1797297433872819,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09885135886300506,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.0147764470270908,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.008127045864899941,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 43,
+      "scene_no": "2-37",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.6810455365480608,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.37457504510143347,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.4575934119457833,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2516763765701808,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.9771158142298192,
+          "model_proba": 0.30956728223084073,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.46339674949590814,
+          "severity": "Moderate",
+          "episodes_count": 5
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.15777486153972373,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1595566278056423,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.017830328157534915,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.009806680486644204,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " было сообщника, он там себя за двойника выдавал, с ",
+          "offset": 948
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "луйста, использовать служебную машину? Хочу в детдом",
+          "offset": 2165
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "последнюю фразу.  БОКОВ Ребёнка решила сдать? Правил",
+          "offset": 2256
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "ть? Правильно, зачем он тебе, ты ж всё время на рабо",
+          "offset": 2298
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " вы провели опознание с ребёнком без понятых, без по",
+          "offset": 2748
+        }
+      ]
+    },
+    {
+      "scene_index": 44,
+      "scene_no": "2-38",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ГОРКИ",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.00041559371262907236,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.07300903050074024,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.004371408952304802,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0024042749237676415,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.01836742255097842,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.010102082403038132,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.9124188839426876,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5018303861684782,
+          "severity": "Moderate",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.0009274913242383255,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0005101202283310791,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "16+",
+      "problems": []
+    },
+    {
+      "scene_index": 45,
+      "scene_no": "2-39",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДЕТСКИЙ ДОМ",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.15066011424164022,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08286306283290212,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.1752019963115602,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.09636109797135811,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.03266545257553527,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0179659989165444,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.1928066639047488,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.10604366514761185,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.05846774160429592,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.03215725788236276,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 46,
+      "scene_no": "2-40",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ДЕТСКИЙ ДОМ.ХОЛЛ",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.4775954957358717,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.26267752265472943,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.13724360682841166,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.07548398375562643,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.020771766607807596,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.18920492559308838,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.15416055176511906,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0847883034708155,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.018775808103586842,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.010326694456972764,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 47,
+      "scene_no": "2-41",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ДЕТСКИЙ ДОМ.АКТОВЫЙ ЗАЛ",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.34403380931108696,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.18921859512109784,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.11358596492027172,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06247228070614945,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.013560125845428098,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.007458069214985454,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.23529777673174143,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1294137772024578,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.050599323156549275,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.027829627736102102,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 48,
+      "scene_no": "2-42",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ДЕТСКИЙ ДОМ.ХОЛЛ",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.8464786965567394,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.4655632831062067,
+          "severity": "Moderate",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.2870984270544665,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.15790413487995658,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.9771158142298192,
+          "model_proba": 0.4366695890127087,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.5333030182259355,
+          "severity": "Moderate",
+          "episodes_count": 5
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.16130455376462158,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08871750457054188,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.040369923609696864,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.022203457985333276,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " всех предупредили: кто ребёнка прохлопает - увольне",
+          "offset": 514
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " смотреть соседям — вот тебе и зоопарк. У меня воспи",
+          "offset": 1751
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "иректрису. Но она берёт себя в руки и продолжает диа",
+          "offset": 1948
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "скелетированные останки ребёнка. И я очень вас прошу",
+          "offset": 2033
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "друг всё-таки кто-то из ребят у вас убегал, а вы про",
+          "offset": 2116
+        }
+      ]
+    },
+    {
+      "scene_index": 49,
+      "scene_no": "2-43",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДЕТСКИЙ ДОМ",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.737105761000562,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.40540816855030914,
+          "severity": "Moderate",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.43781731286461173,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.24079952207553648,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.7345143010338384,
+          "model_proba": 0.2706215134135258,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.3691961226875907,
+          "severity": "Mild",
+          "episodes_count": 2
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.34645111751322294,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.19054811463227264,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.04658508778063599,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.025621798279349798,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "16+",
+      "problems": []
+    },
+    {
+      "scene_index": 50,
+      "scene_no": "2-44",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "ТЮРЬМА. КАМЕРА",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.7852030263919616,
+          "model_proba": 0.9960550379272701,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.783391178777587,
+          "severity": "Severe",
+          "episodes_count": 3
+        },
+        "sexual": {
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.0872626529013766,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.12077491305455137,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "profanity": {
+          "rule_score": 1.0,
+          "model_proba": 0.4747318928719783,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.561102541079588,
+          "severity": "Moderate",
+          "episodes_count": 11
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.12243122248985812,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06733717236942197,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.49260151319598083,
+          "model_proba": 0.06485794536433316,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.18345232390917748,
+          "severity": "None",
+          "episodes_count": 1
+        }
+      },
+      "scene_rating": "18+",
+      "problems": [
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "юношей, я увидел ужасную аварию, там погиб мальчик лет",
+          "offset": 1451
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "лезы.  СЛИВКО Вы меня расстреливать будете, да?  КОЗЫРЕ",
+          "offset": 355
+        },
+        {
+          "category": "violence",
+          "severity": "Severe",
+          "snippet": "ЫРЕВ И как ты первый раз убил ребёнка?  Сливко вздыхае",
+          "offset": 2584
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "льное качество какое-то? Черта характера?  Сливко как ",
+          "offset": 1354
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": " Вы можете спасти жизнь ребёнка и хоть немного облег",
+          "offset": 435
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "рдца?  СОТРУДНИК СИЗО У тебя нет сердца, нечего у те",
+          "offset": 557
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "бя нет сердца, нечего у тебя брать. Слушай тихо и на",
+          "offset": 583
+        },
+        {
+          "category": "profanity",
+          "severity": "Moderate",
+          "snippet": "оняли, что хотите убить ребёнка?  СЛИВКО Нет, я не х",
+          "offset": 1016
+        }
+      ]
+    },
+    {
+      "scene_index": 51,
+      "scene_no": "2-45",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "АВТОБУСНАЯ ОСТАНОВКА",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.05230012566622465,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.02876506911642356,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.22438227051467916,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.12341024878307355,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.01619210168885164,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.008905655928868403,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.11712912877537701,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06442102082645736,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.03481328444470621,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.019147306444588418,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 52,
+      "scene_no": "2-45-А",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДОМ МАКУРИНА",
+      "tod": "ВЕЧЕР",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.13111763737047316,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.07211470055376025,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.009430728398898138,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.005186900619393977,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.5926015131959808,
+          "model_proba": 0.013572187557172499,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.1852451571152391,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.20286313730974337,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.11157472552035887,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.04193300757990714,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.023063154168948927,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 53,
+      "scene_no": "2-46",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ",
+      "tod": "НОЧЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.14144039022136795,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.07779221462175238,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.41983930745810594,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2309116191019583,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.25340824285271973,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.13937453356899587,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.08248305256136004,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.04536567890874803,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.01693686032663618,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.0093152731796499,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 54,
+      "scene_no": "2-47",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДОМ МАКУРИНА",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.21312294466853068,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.18999807352648612,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.16129577565091494,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08871267660800322,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.1541173460632421,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.08476454033478316,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.034477533078456954,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.018962643193151326,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.05166833419746247,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.028417583808604364,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
+    },
+    {
+      "scene_index": 55,
+      "scene_no": "2-48",
+      "period": "",
+      "place_type": "НАТ.",
+      "location": "ДОМ МАКУРИНА",
+      "tod": "УТРО",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.24260151319598083,
+          "model_proba": 0.2073197839614753,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.18680633513760567,
+          "severity": "None",
+          "episodes_count": 1
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.5385843327024957,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.2962213829863727,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.11481990486544259,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.06315094767599343,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.0882478491551686,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.04853631703534274,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.0480653361798279,
+          "manual_ep_score": 0.0,
+          "final_proba": 0.026435934898905347,
+          "severity": "None",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "6+",
+      "problems": []
     }
   ]
 }

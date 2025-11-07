@@ -1,9 +1,12 @@
-import os, re, json
+# mvp_rating.py — полный код с эпизодными признаками
+import os, re, json, pickle
 import numpy as np
+import torch
 import pdfplumber
 from docx import Document
+from transformers import AutoTokenizer, AutoModel
 
-# ---------- Regex и очистка ----------
+# ============ Regex & Parsing ============
 SCENE_HEADING_RE = re.compile(
     r"""^\s*((?:\d+\s*-\s*\d+(?:\s*-\s*[А-ЯA-Z])?)\.?\s*(?:\d{1,2}-Е\.)?\s*(?:ИНТ\.|НАТ\.|INT\.|EXT\.|ИНТ|НАТ|INT|EXT)?[^\n]*?(?:\s*-\s*|\s+)?(?:ДЕНЬ|НОЧЬ|ВЕЧЕР|УТРО)\s*\d*\.?)\s*$""",
     re.IGNORECASE | re.MULTILINE | re.VERBOSE
@@ -16,6 +19,7 @@ CAST_LINE_RE = re.compile(r'^\s*\[.*?\]\s*$', re.MULTILINE)
 UNDERLINE_MARK_RE = re.compile(r'\{\.underline\}', re.IGNORECASE)
 BOLD_MARK_RE = re.compile(r'\*\*(.*?)\*\*')
 LINE_BACKSLASH_RE = re.compile(r'\\\s*$')
+EP_RE = re.compile(r'\[\s*ep\s*:\s*([^\]]+)\]', re.IGNORECASE)
 
 def read_pdf(path):
     txt = ""
@@ -37,6 +41,8 @@ def read_docx(path):
     txt = "\n".join(parts)
     txt = CAST_LINE_RE.sub('', txt)
     txt = re.sub(r'[ \t]+\n', '\n', txt)
+    txt = txt.replace("\\[", "[").replace("\\]", "]")
+    txt = re.sub(r"[ \t]*\\\\\s*$", "", txt, flags=re.MULTILINE)
     return txt
 
 def read_script(path):
@@ -76,7 +82,7 @@ def parse_header(scene_text):
         "tod": (m.group(5) or "").strip()
     }
 
-# ---------- Словари и правила ----------
+# ============ Rule-based keywords ============
 keywords = {
     "violence": ["удар", "ударил", "столкновени", "авар", "дтп", "скрежет", "кровь", "нож", "пистолет", "стрел", "труп", "убил"],
     "sexual": ["поцелу", "раздел", "постель", "эрот", "интим", "секс"],
@@ -95,7 +101,7 @@ def find_triggers(text, words):
             hits.append({"offset": m.start(), "match": w, "snippet": snippet})
     return hits
 
-def analyze_scene(scene_text):
+def rule_based_score(scene_text):
     text = scene_text[:8000]
     low = text.lower()
     result = {k: 0.0 for k in keywords}
@@ -107,7 +113,6 @@ def analyze_scene(scene_text):
         score = min(1.0, np.log1p(len(trig)) * 0.35)
         result[cat] = score
 
-    # Усилители
     if re.search(r'\bводка|бутылк|пья|виски|алкогол|спирт\b', low):
         result["alcohol_drugs"] = min(1.0, result["alcohol_drugs"] + 0.4)
     if re.search(r'\bстолкновени|авар|дтп|скрежет|кровь|труп|удар\b', low):
@@ -117,37 +122,130 @@ def analyze_scene(scene_text):
     if re.search(r'\bнахрен|охрен|сука|хер|блин|дерьмо|еб', low):
         result["profanity"] = min(1.0, result["profanity"] + 0.35)
 
-    # Severity маппинг
-    def sev(x):
-        if x < 0.2: return "None"
-        if x < 0.4: return "Mild"
-        if x < 0.7: return "Moderate"
-        return "Severe"
+    return result, episodes
 
-    per_class = {k: {"score": float(v), "severity": sev(v), "episodes": episodes[k]} for k, v in result.items()}
+# ============ Эпизодные признаки ============
+MAP_KEY = {"v":"violence","p":"profanity","s":"sexual","a":"alcohol_drugs","sc":"scary"}
+SEV_TO_NUM = {"None":0.0,"Mild":0.33,"Moderate":0.66,"Severe":1.0}
+
+def parse_ep_features(text):
+    max_sev = {k: 0.0 for k in keywords}
+    count = {k: 0 for k in keywords}
+    
+    for m in EP_RE.finditer(text):
+        payload = m.group(1)
+        fields = {}
+        for part in [x.strip() for x in payload.split(",") if x.strip()]:
+            if "=" in part:
+                k, v = [t.strip() for t in part.split("=", 1)]
+                fields[k.lower()] = v
+        
+        for short, full in MAP_KEY.items():
+            if short in fields:
+                sev_val = SEV_TO_NUM.get(fields[short].title(), 0.66)
+                max_sev[full] = max(max_sev[full], sev_val)
+                count[full] += 1
+        
+        if "cat" in fields:
+            full = MAP_KEY.get(fields["cat"].lower(), fields["cat"].lower())
+            sev = fields.get("sev","Moderate").title()
+            sev_val = SEV_TO_NUM.get(sev, 0.66)
+            if full in max_sev:
+                max_sev[full] = max(max_sev[full], sev_val)
+                count[full] += 1
+    
+    cats = list(keywords.keys())
+    vec = [max_sev[c] for c in cats] + [count[c] for c in cats]
+    return vec
+
+# ============ ML Model ============
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+EMB_MODEL = "ai-forever/ruRoberta-large"
+
+print("Загрузка модели RuRoBERTa...")
+tok = AutoTokenizer.from_pretrained(EMB_MODEL)
+mdl = AutoModel.from_pretrained(EMB_MODEL).to(DEVICE)
+mdl.eval()
+
+if os.path.exists("heads.pkl"):
+    with open("heads.pkl","rb") as f:
+        HEADS = pickle.load(f)
+    print("Обученные головы загружены из heads.pkl")
+else:
+    print("heads.pkl не найден, используется только rule-based")
+    HEADS = None
+
+def embed_scene(text):
+    x = tok(text[:2000], return_tensors="pt", truncation=True, max_length=512).to(DEVICE)
+    with torch.no_grad():
+        h = mdl(**x).last_hidden_state[:,0,:].cpu().numpy().ravel()
+    return h
+
+def rule_vec(text):
+    lf = text.lower()
+    return np.array([sum(lf.count(w) for w in words) for words in keywords.values()], dtype=float)
+
+THRESH = {"None":0.2,"Mild":0.4,"Moderate":0.7}
+
+def to_severity(p):
+    if p < THRESH["None"]: return "None"
+    if p < THRESH["Mild"]: return "Mild"
+    if p < THRESH["Moderate"]: return "Moderate"
+    return "Severe"
+
+def analyze_scene(scene_text):
+    rule_scores, episodes = rule_based_score(scene_text)
+    ep_feats_vec = parse_ep_features(scene_text)
+    
+    if HEADS:
+        emb = embed_scene(scene_text)
+        rv = rule_vec(scene_text)
+        x = np.hstack([emb, rv, ep_feats_vec])
+        model_probs = {cat: float(clf.predict_proba([x])[0,1]) for cat, clf in HEADS.items()}
+        
+        # Извлечём вклад эпизодов как среднее max_sev
+        cats = list(keywords.keys())
+        ep_max = {cats[i]: ep_feats_vec[i] for i in range(5)}
+        
+        # Гибрид: 55% модель, 30% правила, 15% ручные эпизоды
+        final_probs = {cat: 0.55*model_probs[cat] + 0.30*rule_scores[cat] + 0.15*ep_max[cat] 
+                       for cat in keywords}
+    else:
+        model_probs = {k: 0.0 for k in keywords}
+        cats = list(keywords.keys())
+        ep_max = {cats[i]: ep_feats_vec[i] for i in range(5)}
+        final_probs = {cat: 0.85*rule_scores[cat] + 0.15*ep_max[cat] for cat in keywords}
+    
+    severity = {cat: to_severity(p) for cat, p in final_probs.items()}
+    
+    per_class = {cat: {
+        "rule_score": float(rule_scores[cat]),
+        "model_proba": float(model_probs.get(cat, 0.0)),
+        "manual_ep_score": float(ep_max[cat]),
+        "final_proba": float(final_probs[cat]),
+        "severity": severity[cat],
+        "episodes": episodes[cat]
+    } for cat in keywords}
+    
     return per_class
 
-# ---------- Рейтинг по 436-ФЗ-подобной логике ----------
+# ============ Age Rating ============
 def age_from_scene(per_class):
-    # Жёсткие правила
     if per_class["profanity"]["severity"] in ["Moderate","Severe"]:
         return "18+"
     if per_class["sexual"]["severity"] == "Severe":
         return "18+"
     if per_class["violence"]["severity"] == "Severe":
         return "18+"
-    # Средний уровень
     if per_class["violence"]["severity"] == "Moderate" or per_class["sexual"]["severity"] == "Moderate":
         return "16+"
     if per_class["alcohol_drugs"]["severity"] in ["Moderate","Severe"]:
         return "16+"
-    # Мягкие
     if per_class["scary"]["severity"] in ["Mild","Moderate"]:
         return "12+"
     return "6+"
 
 def aggregate_rating(scene_levels):
-    # Самый тяжёлый элемент
     order = ["0+","6+","12+","16+","18+"]
     worst = "0+"
     for r in scene_levels:
@@ -155,24 +253,24 @@ def aggregate_rating(scene_levels):
             worst = r
     return worst
 
-# ---------- Основной поток ----------
+# ============ Main Pipeline ============
 def analyze_script(path, report_path="final_report.json"):
     text = read_script(path)
     scenes = split_scenes(text)
     details = []
     scene_levels = []
 
+    print(f"Найдено сцен: {len(scenes)}")
     for i, s in enumerate(scenes, 1):
         meta = parse_header(s)
         per_class = analyze_scene(s)
         scene_rate = age_from_scene(per_class)
         scene_levels.append(scene_rate)
 
-        # собрать проблемные эпизоды
         problems = []
         for cat, data in per_class.items():
             if data["severity"] in ["Moderate","Severe"]:
-                for ep in data["episodes"][:5]:  # ограничим
+                for ep in data["episodes"][:5]:
                     problems.append({
                         "category": cat,
                         "severity": data["severity"],
@@ -183,25 +281,31 @@ def analyze_script(path, report_path="final_report.json"):
         details.append({
             "scene_index": i,
             **meta,
-            "per_class": {k: {"score": data["score"], "severity": data["severity"], "episodes": len(data["episodes"])} for k, data in per_class.items()},
+            "per_class": {k: {
+                "rule_score": data["rule_score"],
+                "model_proba": data["model_proba"],
+                "manual_ep_score": data["manual_ep_score"],
+                "final_proba": data["final_proba"],
+                "severity": data["severity"],
+                "episodes_count": len(data["episodes"])
+            } for k, data in per_class.items()},
             "scene_rating": scene_rate,
             "problems": problems
         })
-        print(f"Сцена {i}: рейтинг {scene_rate}; {meta.get('scene_no','')} {meta.get('place_type','')} {meta.get('location','')} - {meta.get('tod','')}")
+        print(f"Сцена {i}: {scene_rate} | {meta.get('scene_no','')} {meta.get('place_type','')} {meta.get('location','')} - {meta.get('tod','')}")
 
     rating = aggregate_rating(scene_levels)
 
-    # Статистика для Parents Guide
     def pct(cat):
         cnt = sum(1 for d in details if d["per_class"][cat]["severity"] in ["Mild","Moderate","Severe"])
         return round(100.0 * cnt / max(1, len(details)), 2)
 
     guide = {
-        "violence": {"percentage_scenes": pct("violence"), "episodes_total": sum(d["per_class"]["violence"]["episodes"] for d in details)},
-        "sexual": {"percentage_scenes": pct("sexual"), "episodes_total": sum(d["per_class"]["sexual"]["episodes"] for d in details)},
-        "profanity": {"percentage_scenes": pct("profanity"), "episodes_total": sum(d["per_class"]["profanity"]["episodes"] for d in details)},
-        "alcohol_drugs": {"percentage_scenes": pct("alcohol_drugs"), "episodes_total": sum(d["per_class"]["alcohol_drugs"]["episodes"] for d in details)},
-        "scary": {"percentage_scenes": pct("scary"), "episodes_total": sum(d["per_class"]["scary"]["episodes"] for d in details)},
+        "violence": {"percentage_scenes": pct("violence"), "episodes_total": sum(d["per_class"]["violence"]["episodes_count"] for d in details)},
+        "sexual": {"percentage_scenes": pct("sexual"), "episodes_total": sum(d["per_class"]["sexual"]["episodes_count"] for d in details)},
+        "profanity": {"percentage_scenes": pct("profanity"), "episodes_total": sum(d["per_class"]["profanity"]["episodes_count"] for d in details)},
+        "alcohol_drugs": {"percentage_scenes": pct("alcohol_drugs"), "episodes_total": sum(d["per_class"]["alcohol_drugs"]["episodes_count"] for d in details)},
+        "scary": {"percentage_scenes": pct("scary"), "episodes_total": sum(d["per_class"]["scary"]["episodes_count"] for d in details)},
     }
 
     payload = {
