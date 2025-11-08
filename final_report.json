@@ -3,32 +3,32 @@
   "summary": {
     "count_scenes": 55,
     "scene_ratings": {
-      "6+": 37,
-      "12+": 1,
-      "16+": 8,
-      "18+": 9
+      "6+": 29,
+      "12+": 5,
+      "16+": 17,
+      "18+": 4
     }
   },
   "parents_guide": {
     "violence": {
-      "percentage_scenes": 45.45,
-      "episodes_total": 21
+      "percentage_scenes": 87.27,
+      "episodes_total": 0
     },
     "sexual": {
-      "percentage_scenes": 32.73,
-      "episodes_total": 3
+      "percentage_scenes": 94.55,
+      "episodes_total": 0
     },
     "profanity": {
-      "percentage_scenes": 40.0,
-      "episodes_total": 80
+      "percentage_scenes": 38.18,
+      "episodes_total": 0
     },
     "alcohol_drugs": {
-      "percentage_scenes": 21.82,
-      "episodes_total": 7
+      "percentage_scenes": 67.27,
+      "episodes_total": 0
     },
     "scary": {
-      "percentage_scenes": 3.64,
-      "episodes_total": 6
+      "percentage_scenes": 12.73,
+      "episodes_total": 0
     }
   },
   "details": [
@@ -42,41 +42,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.2986636739716505,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1642650206844078,
-          "severity": "None",
+          "model_proba": 0.3434282686954057,
+          "episode_max": 0.9380235766302418,
+          "final_proba": 0.3764902631085215,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.37942884752896366,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.20868586614093004,
+          "model_proba": 0.31723691402989446,
+          "episode_max": 0.9678435226866858,
+          "final_proba": 0.36804900725377915,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.20533824703294534,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.29071648982691417,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.16461946107769734,
+          "episode_max": 0.2493926487106284,
+          "final_proba": 0.14041923333485923,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.21383318067610413,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.19038870333065153,
+          "rule_score": 0.0,
+          "model_proba": 0.11724367599983171,
+          "episode_max": 0.6631050164774376,
+          "final_proba": 0.19710502509539496,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.04597343013081156,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.02528538657194636,
+          "model_proba": 0.025271370916315112,
+          "episode_max": 0.8621728022076938,
+          "final_proba": 0.18633381444551209,
           "severity": "None",
           "episodes_count": 0
         }
@@ -93,55 +93,48 @@
       "tod": "УТРО",
       "per_class": {
         "violence": {
-          "rule_score": 0.5426015131959808,
-          "model_proba": 0.7118017118646996,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5542713954843791,
+          "rule_score": 0.0,
+          "model_proba": 0.4138545830993706,
+          "episode_max": 0.9800420277653423,
+          "final_proba": 0.42362842625772235,
           "severity": "Moderate",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.46573737817161426,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2561555579943879,
+          "model_proba": 0.3631306044060408,
+          "episode_max": 0.9657612117639063,
+          "final_proba": 0.3928740747761037,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.9133032693519351,
-          "model_proba": 0.20553391919209293,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3870346363612316,
-          "severity": "Mild",
-          "episodes_count": 4
+          "rule_score": 0.0,
+          "model_proba": 0.2032751095585891,
+          "episode_max": 0.1590065789533751,
+          "final_proba": 0.14360262604789903,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.10016368653160401,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.05509002759238221,
+          "model_proba": 0.15712268678028782,
+          "episode_max": 0.5467914717235648,
+          "final_proba": 0.19577577207387126,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.08289394168650371,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.045591667927577045,
-          "severity": "None",
+          "model_proba": 0.14341906594922488,
+          "episode_max": 0.9135537267083845,
+          "final_proba": 0.2615912316137506,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
       "scene_rating": "16+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "е - рубашка, пропитанная кровью.  Козырев внимательно р",
-          "offset": 1432
-        }
-      ]
+      "problems": []
     },
     {
       "scene_index": 3,
@@ -153,41 +146,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.831015156794014,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.4570583362367078,
+          "model_proba": 0.5573954361724821,
+          "episode_max": 0.8849844538730779,
+          "final_proba": 0.4835643806694808,
           "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.21143505853810507,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1162892821959578,
-          "severity": "None",
+          "model_proba": 0.22219331724337982,
+          "episode_max": 0.9424136341344573,
+          "final_proba": 0.3106890513107504,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.9771158142298192,
-          "model_proba": 0.14625993356889538,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.37357770773183824,
+          "rule_score": 0.0,
+          "model_proba": 0.31301606420619354,
+          "episode_max": 0.18710467168275405,
+          "final_proba": 0.20957976964995728,
           "severity": "Mild",
-          "episodes_count": 5
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.3104863731902705,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1707675052546488,
-          "severity": "None",
+          "model_proba": 0.36732870038090704,
+          "episode_max": 0.3673759204368929,
+          "final_proba": 0.27550596929687743,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.050698756760971235,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.027884316218534183,
+          "model_proba": 0.046132293323102536,
+          "episode_max": 0.8273125018174873,
+          "final_proba": 0.19083526169120385,
           "severity": "None",
           "episodes_count": 0
         }
@@ -205,41 +198,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.3174443450835642,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.17459438979596034,
-          "severity": "None",
+          "model_proba": 0.1827532012599289,
+          "episode_max": 0.9605234628172062,
+          "final_proba": 0.29261895325640214,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.2415293637793687,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1328411500786528,
-          "severity": "None",
+          "model_proba": 0.14553928323775916,
+          "episode_max": 0.9762927946680421,
+          "final_proba": 0.275305164714376,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0395685285312207,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.021762690692171387,
+          "model_proba": 0.08238613980667511,
+          "episode_max": 0.13608970188310582,
+          "final_proba": 0.07253031727029248,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.22197917966140485,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.12208854881377268,
-          "severity": "None",
+          "model_proba": 0.3506145146299604,
+          "episode_max": 0.31664474937253695,
+          "final_proba": 0.25616693292098563,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.04821656889909834,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.02651911289450409,
+          "model_proba": 0.027947401787580595,
+          "episode_max": 0.7165095749718131,
+          "final_proba": 0.15867298597753196,
           "severity": "None",
           "episodes_count": 0
         }
@@ -257,41 +250,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.1622995591647651,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08926475754062081,
-          "severity": "None",
+          "model_proba": 0.14493465687446924,
+          "episode_max": 0.7693538840846234,
+          "final_proba": 0.23358483809788277,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.09843813561203876,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.05414097458662132,
-          "severity": "None",
+          "model_proba": 0.041248666198854624,
+          "episode_max": 0.9851135526899482,
+          "final_proba": 0.21970947694735968,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.018747352487883492,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.010311043868335921,
+          "model_proba": 0.014182151685272695,
+          "episode_max": 0.24802072328639435,
+          "final_proba": 0.057404328084178856,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.04078587057834008,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.022432228818087045,
+          "model_proba": 0.06003414095684204,
+          "episode_max": 0.32637137517317577,
+          "final_proba": 0.09829305256089829,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.043023539248987705,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.02366294658694324,
+          "model_proba": 0.022259929390692584,
+          "episode_max": 0.8218001092658941,
+          "final_proba": 0.17660298301805974,
           "severity": "None",
           "episodes_count": 0
         }
@@ -309,46 +302,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.23290039971927412,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.12809521984560077,
-          "severity": "None",
+          "model_proba": 0.30137075201958236,
+          "episode_max": 0.9334733566731159,
+          "final_proba": 0.3524485849453935,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.4233151402261051,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.23282332712435783,
+          "model_proba": 0.23787432433421438,
+          "episode_max": 0.9694910351776914,
+          "final_proba": 0.3247290854193562,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.07722513082064478,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.22025427591014884,
+          "rule_score": 0.0,
+          "model_proba": 0.277481253103785,
+          "episode_max": 0.48964255110612315,
+          "final_proba": 0.2505431994283064,
           "severity": "Mild",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.34596557682836254,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1902810672555994,
-          "severity": "None",
+          "model_proba": 0.5557789701719295,
+          "episode_max": 0.569389537664012,
+          "final_proba": 0.4195563411273636,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.03999335936907191,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.021996347652989554,
+          "model_proba": 0.03623183339090174,
+          "episode_max": 0.7960661390127165,
+          "final_proba": 0.17914073616753928,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     },
     {
@@ -360,55 +353,48 @@
       "tod": "УТРО",
       "per_class": {
         "violence": {
-          "rule_score": 0.3845143010338384,
-          "model_proba": 0.5011832597433671,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3910050831690034,
-          "severity": "Mild",
-          "episodes_count": 2
+          "rule_score": 0.0,
+          "model_proba": 0.5899848989304997,
+          "episode_max": 0.9254475611669664,
+          "final_proba": 0.5095812066451681,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.5208341705482007,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2864587938015104,
-          "severity": "Mild",
+          "model_proba": 0.4996837466064738,
+          "episode_max": 0.9567206841938618,
+          "final_proba": 0.466170197472333,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.24372975008977799,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1340513625493779,
-          "severity": "None",
+          "model_proba": 0.4521085118815393,
+          "episode_max": 0.12004544049506552,
+          "final_proba": 0.2726687696338597,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
-          "rule_score": 0.6426015131959808,
-          "model_proba": 0.5845469922407892,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5142812996912283,
-          "severity": "Moderate",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.3994014865232956,
+          "episode_max": 0.5767276053843444,
+          "final_proba": 0.3350163386646815,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0728158418918151,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.040048713040498306,
+          "model_proba": 0.0404583185908673,
+          "episode_max": 0.7558008624630388,
+          "final_proba": 0.1734122477175848,
           "severity": "None",
           "episodes_count": 0
         }
       },
       "scene_rating": "16+",
-      "problems": [
-        {
-          "category": "alcohol_drugs",
-          "severity": "Moderate",
-          "snippet": "ик приносит стакан воды (бутылку Боржоми???) Мать пьёт. ",
-          "offset": 1979
-        }
-      ]
+      "problems": []
     },
     {
       "scene_index": 8,
@@ -420,78 +406,47 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.9180969517880053,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5049533234834029,
-          "severity": "Moderate",
+          "model_proba": 0.4087898662599446,
+          "episode_max": 0.7749412366105719,
+          "final_proba": 0.37982267376508394,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.19276005876663435,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1060180323216489,
-          "severity": "None",
+          "model_proba": 0.49321043687224175,
+          "episode_max": 0.9607771980473355,
+          "final_proba": 0.4634211798892001,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 1.0,
-          "model_proba": 0.731538820274925,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.7023463511512087,
-          "severity": "Severe",
-          "episodes_count": 12
+          "rule_score": 0.0,
+          "model_proba": 0.5027250225045743,
+          "episode_max": 0.6997751676193555,
+          "final_proba": 0.416453795901387,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "rule_score": 0.3845143010338384,
-          "model_proba": 0.3705899128942814,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3191787424020063,
+          "rule_score": 0.0,
+          "model_proba": 0.42042094818628184,
+          "episode_max": 0.8201365953761897,
+          "final_proba": 0.39525884057769295,
           "severity": "Mild",
-          "episodes_count": 2
+          "episodes_count": 0
         },
         "scary": {
-          "rule_score": 0.49260151319598083,
-          "model_proba": 0.020154016523676075,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.15886516304681608,
+          "rule_score": 0.0,
+          "model_proba": 0.028282321293204425,
+          "episode_max": 0.7007012413759671,
+          "final_proba": 0.15569552498645586,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         }
       },
       "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "Был бы ты взрослым, я б тебя уже арестовал. Потому ш",
-          "offset": 482
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "здесь так накурено, что ребёнку вредно находиться в ",
-          "offset": 775
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "горь, мы будем задавать тебе вопросы, а ты должен го",
-          "offset": 949
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "а-да, а иначе они потом тебя посадят в тюрьму за дач",
-          "offset": 1040
-        },
-        {
-          "category": "profanity",
-          "severity": "Severe",
-          "snippet": "преждают, чтоб потом на тебя давить. ДОБРОВОЛЬСКАЯ М",
-          "offset": 1133
-        }
-      ]
+      "problems": []
     },
     {
       "scene_index": 9,
@@ -503,66 +458,47 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.16019242657270297,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08810583461498664,
-          "severity": "None",
+          "model_proba": 0.17614645245194743,
+          "episode_max": 0.7181293658870657,
+          "final_proba": 0.2405064220259842,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.36477164085625324,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2006244024709393,
+          "model_proba": 0.28838861980987635,
+          "episode_max": 0.8905298264550008,
+          "final_proba": 0.3367197061864322,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.8352030263919616,
-          "model_proba": 0.30196087592791915,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.41663938967794406,
-          "severity": "Moderate",
-          "episodes_count": 3
+          "rule_score": 0.0,
+          "model_proba": 0.2858490330452028,
+          "episode_max": 0.4323394735285918,
+          "final_proba": 0.24368486288057992,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.3611642735114383,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.19864035043129108,
-          "severity": "None",
+          "model_proba": 0.43953989170922564,
+          "episode_max": 0.743769345231004,
+          "final_proba": 0.3905008094862749,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.024407771094065694,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.013424274101736133,
+          "model_proba": 0.03554004063155644,
+          "episode_max": 0.8693798448104655,
+          "final_proba": 0.19342299130944918,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "мер. МАЛЬЦЕВА Да что вы себе позволяете?! Материтесь",
-          "offset": 840
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "оляете?! Материтесь при ребёнке! Боков не обращает в",
-          "offset": 873
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " маме покажу кое-что, а тебя тётя Наташа с дядей Вал",
-          "offset": 1124
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 10,
@@ -574,41 +510,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.29393074512250406,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.16166190981737724,
-          "severity": "None",
+          "model_proba": 0.17131388560965252,
+          "episode_max": 0.8867182797803055,
+          "final_proba": 0.27156629304137003,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.3536705504752281,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.19451880276137548,
-          "severity": "None",
+          "model_proba": 0.17768751000936353,
+          "episode_max": 0.9902428227795781,
+          "final_proba": 0.2957766950610656,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.0639265543313472,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.21294005884103517,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.03319274644104584,
+          "episode_max": 0.22336833782488777,
+          "final_proba": 0.06292967810755278,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.30361294664331495,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2397675746126175,
+          "rule_score": 0.0,
+          "model_proba": 0.21297427516987522,
+          "episode_max": 0.8491923124684039,
+          "final_proba": 0.28697431383711214,
           "severity": "Mild",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.04342605622811445,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.023884330925462948,
+          "model_proba": 0.04082662477849282,
+          "episode_max": 0.7044564444666044,
+          "final_proba": 0.16334593252149193,
           "severity": "None",
           "episodes_count": 0
         }
@@ -626,41 +562,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.14833373990234572,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08158355694629014,
-          "severity": "None",
+          "model_proba": 0.19387200238532915,
+          "episode_max": 0.8344537834957343,
+          "final_proba": 0.27352035801107794,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.12744753538541748,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.07009614446197962,
-          "severity": "None",
+          "model_proba": 0.09922716549251663,
+          "episode_max": 0.9696136401207583,
+          "final_proba": 0.2484976690450358,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.12500983434661386,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06875540889063764,
+          "model_proba": 0.12749699500636927,
+          "episode_max": 0.26855424096290476,
+          "final_proba": 0.12383419544608407,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.32768170054142903,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.180224935297786,
-          "severity": "None",
+          "model_proba": 0.2453262478774928,
+          "episode_max": 0.8390964905103451,
+          "final_proba": 0.3027487344346901,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.02235570094127401,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.012295635517700706,
+          "model_proba": 0.018996186667875517,
+          "episode_max": 0.6034363655395307,
+          "final_proba": 0.1311351757752377,
           "severity": "None",
           "episodes_count": 0
         }
@@ -678,41 +614,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.7571700613405666,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.4164435337373117,
+          "model_proba": 0.43643765907931203,
+          "episode_max": 0.9404275814949611,
+          "final_proba": 0.42812622879261386,
           "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.041157254394646334,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.022636489917055486,
+          "model_proba": 0.025050809883808246,
+          "episode_max": 0.9200025150435812,
+          "final_proba": 0.1977784484448108,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.010596739844664435,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.18360866087335964,
+          "rule_score": 0.0,
+          "model_proba": 0.01021840216522853,
+          "episode_max": 0.019031048947541502,
+          "final_proba": 0.009426330980383993,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.03729896937337739,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.02051443315535757,
+          "model_proba": 0.09809083007860252,
+          "episode_max": 0.47210531300891323,
+          "final_proba": 0.14837101914501405,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.07629143860783201,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.04196029123430761,
+          "model_proba": 0.03561925117706359,
+          "episode_max": 0.8645738001719412,
+          "final_proba": 0.19250534818177323,
           "severity": "None",
           "episodes_count": 0
         }
@@ -730,46 +666,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.4376658685527743,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.24071622770402587,
-          "severity": "Mild",
+          "model_proba": 0.41392542030170093,
+          "episode_max": 0.9744538311843772,
+          "final_proba": 0.422549747402811,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.42466759279059224,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.23356717603482574,
+          "model_proba": 0.2241913395842098,
+          "episode_max": 0.9645397952197629,
+          "final_proba": 0.31621319581526797,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.07680611741969891,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2200238185396286,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.14030557562606588,
+          "episode_max": 0.11205477725730087,
+          "final_proba": 0.09957902204579641,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.28667448861738376,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.15767096873956107,
-          "severity": "None",
+          "model_proba": 0.22818152863444346,
+          "episode_max": 0.43060676454329844,
+          "final_proba": 0.2116211936576036,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.05775992053288021,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03176795629308412,
+          "model_proba": 0.04812094558306362,
+          "episode_max": 0.7778081999528269,
+          "final_proba": 0.1820281600612504,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     },
     {
@@ -782,46 +718,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.39685476684769194,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2182701217662306,
-          "severity": "Mild",
+          "model_proba": 0.4156894896299082,
+          "episode_max": 0.9886893254494911,
+          "final_proba": 0.42636708438634774,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.2865880888349484,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.15762344885922164,
-          "severity": "None",
+          "model_proba": 0.32326531377529816,
+          "episode_max": 0.9675514636251573,
+          "final_proba": 0.3713062153014455,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.15087104595726936,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08297907527649816,
+          "model_proba": 0.14449575915670243,
+          "episode_max": 0.1436786523100467,
+          "final_proba": 0.10820839799819568,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.3123596991823839,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.17179783455031114,
-          "severity": "None",
+          "model_proba": 0.3363014020576174,
+          "episode_max": 0.7399170648722935,
+          "final_proba": 0.33294918410614827,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.02570521968927578,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.01413787082910168,
+          "model_proba": 0.0074453438874199675,
+          "episode_max": 0.5168183089026733,
+          "final_proba": 0.10745860091861566,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     },
     {
@@ -834,54 +770,47 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.26800862674496573,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.14740474470973117,
-          "severity": "None",
+          "model_proba": 0.3150463233727821,
+          "episode_max": 0.9116253584061262,
+          "final_proba": 0.3556005495362554,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.10204310528029034,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.05612370790415969,
-          "severity": "None",
+          "model_proba": 0.09623978052995727,
+          "episode_max": 0.863672634474465,
+          "final_proba": 0.2256664061863695,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.03570060990633296,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.01963533544848313,
+          "model_proba": 0.11206957078302504,
+          "episode_max": 0.6167491251880104,
+          "final_proba": 0.18498808896826585,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
-          "rule_score": 0.6426015131959808,
-          "model_proba": 0.45139541699270025,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.4410479333047794,
-          "severity": "Moderate",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.28941554066576164,
+          "episode_max": 0.5394634586506444,
+          "final_proba": 0.2670712390962978,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.024577671729358267,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.013517719451147048,
+          "model_proba": 0.0090538863768991,
+          "episode_max": 0.6248499236480394,
+          "final_proba": 0.12994962223690237,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "16+",
-      "problems": [
-        {
-          "category": "alcohol_drugs",
-          "severity": "Moderate",
-          "snippet": "те.  Отпивает немного из бутылки. Добровольская уходит в",
-          "offset": 393
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 16,
@@ -892,47 +821,47 @@
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.45633306072752,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.32376363735893027,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.4298658295305042,
+          "episode_max": 0.9865199824969157,
+          "final_proba": 0.4337302027411605,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.6323956739472343,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3478176206709789,
-          "severity": "Mild",
+          "model_proba": 0.6189790735310783,
+          "episode_max": 0.8876552514012063,
+          "final_proba": 0.5179695407223344,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.06272873527671685,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.034500804402194274,
+          "model_proba": 0.22092956286120768,
+          "episode_max": 0.36530618865120706,
+          "final_proba": 0.19457249730390563,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.374376644006181,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.20590715420339956,
+          "model_proba": 0.3865325908590992,
+          "episode_max": 0.5527076944998562,
+          "final_proba": 0.3231344638724758,
           "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.025494002777574215,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.01402170152766582,
+          "model_proba": 0.00600219205431857,
+          "episode_max": 0.35499608783451175,
+          "final_proba": 0.07430042319677756,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     },
     {
@@ -945,41 +874,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.3633609512758003,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1998485232016902,
-          "severity": "None",
+          "model_proba": 0.3568000199460029,
+          "episode_max": 0.9937761594132452,
+          "final_proba": 0.3949952428529506,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.10763580812294092,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.05919969446761751,
-          "severity": "None",
+          "model_proba": 0.1977223371468025,
+          "episode_max": 0.9471716884641765,
+          "final_proba": 0.2981816231235767,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.02510931290725835,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.013810122098992093,
+          "model_proba": 0.05778284435273625,
+          "episode_max": 0.08971746177828455,
+          "final_proba": 0.04972405674966185,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.5676299239975426,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3121964581986485,
+          "model_proba": 0.3989710196167092,
+          "episode_max": 0.5454614009277682,
+          "final_proba": 0.32852634097474376,
           "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.031438181496160005,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.017290999822888006,
+          "model_proba": 0.014299153024396353,
+          "episode_max": 0.7709193297809948,
+          "final_proba": 0.16204840011961696,
           "severity": "None",
           "episodes_count": 0
         }
@@ -996,47 +925,47 @@
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.2581062832413748,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2147389097415504,
+          "rule_score": 0.0,
+          "model_proba": 0.3651928821623396,
+          "episode_max": 0.9677435946672148,
+          "final_proba": 0.39440480412272977,
           "severity": "Mild",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.7018106656702113,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.38599586611861625,
-          "severity": "Mild",
+          "model_proba": 0.6473089385181974,
+          "episode_max": 0.9384310957003226,
+          "final_proba": 0.5437061353250732,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.1052934025548353,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.057911371405159416,
-          "severity": "None",
+          "model_proba": 0.3035856953141396,
+          "episode_max": 0.36779928852960564,
+          "final_proba": 0.24053199012869791,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.6814645740165993,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3748055157091297,
-          "severity": "Mild",
+          "model_proba": 0.5429899141975717,
+          "episode_max": 0.5909918470903223,
+          "final_proba": 0.4168428222267289,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.02537063582649224,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.013953849704570734,
+          "model_proba": 0.009248200004847329,
+          "episode_max": 0.3095157106008037,
+          "final_proba": 0.06698965212282677,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     },
     {
@@ -1048,67 +977,48 @@
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.5137189132215374,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.35532585623063984,
+          "rule_score": 0.0,
+          "model_proba": 0.30651173404604243,
+          "episode_max": 0.8532272503772443,
+          "final_proba": 0.33922690380077225,
           "severity": "Mild",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "sexual": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.4077071607528495,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2970193923728615,
+          "rule_score": 0.0,
+          "model_proba": 0.33222045288185015,
+          "episode_max": 0.968024332606283,
+          "final_proba": 0.3763261156062742,
           "severity": "Mild",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.8352030263919616,
-          "model_proba": 0.6026481330226254,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5820173810800325,
-          "severity": "Moderate",
-          "episodes_count": 3
+          "rule_score": 0.0,
+          "model_proba": 0.45642814102676366,
+          "episode_max": 0.6713122312196873,
+          "final_proba": 0.3852979238086575,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.055809125896685595,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03069501924317708,
+          "model_proba": 0.07553071333154297,
+          "episode_max": 0.5139614744703829,
+          "final_proba": 0.14433418722642521,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.024806761160668805,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.013643718638367844,
+          "model_proba": 0.01775683505250124,
+          "episode_max": 0.718151720416638,
+          "final_proba": 0.1533966033622033,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "зырев что-то выписывает себе в блокнот. Снимает теле",
-          "offset": 232
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "но не интересно.  БОКОВ Тебе поспать надо, у тебя бе",
-          "offset": 2227
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "ОВ Тебе поспать надо, у тебя белочка уже начинается.",
-          "offset": 2248
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 20,
@@ -1120,41 +1030,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.09619033198573328,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.05290468259215331,
+          "model_proba": 0.04823026874770019,
+          "episode_max": 0.6609901120809101,
+          "final_proba": 0.15872467022741715,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.049772890283939164,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.027375089656166543,
-          "severity": "None",
+          "model_proba": 0.07433952009226132,
+          "episode_max": 0.9796022840817394,
+          "final_proba": 0.23680719286709162,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.050805610898437915,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.027943085994140856,
+          "model_proba": 0.0487779436226025,
+          "episode_max": 0.42633102418122093,
+          "final_proba": 0.11209407382867558,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.12399127458974776,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06819520102436127,
+          "model_proba": 0.22153172906921034,
+          "episode_max": 0.3378428054335196,
+          "final_proba": 0.18941101207476962,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.019858069946475668,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.010921938470561618,
+          "model_proba": 0.002234378050637304,
+          "episode_max": 0.7005260426547083,
+          "final_proba": 0.14133411645879218,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1172,41 +1082,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.17902098580488546,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.098461542192687,
+          "model_proba": 0.12257922851805812,
+          "episode_max": 0.4560859013019414,
+          "final_proba": 0.15863575594532026,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.11334954107796343,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06234224759287989,
-          "severity": "None",
+          "model_proba": 0.1891928254441875,
+          "episode_max": 0.9864601616148891,
+          "final_proba": 0.301348086317281,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.02357906500662845,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.01296848575364565,
+          "model_proba": 0.06399210976474133,
+          "episode_max": 0.5071430834522204,
+          "final_proba": 0.13662427706105182,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.06133406347550584,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.033733734911528215,
+          "model_proba": 0.12071954436714727,
+          "episode_max": 0.5644416398903421,
+          "final_proba": 0.17928407737999943,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.039998226466839974,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.021999024556761986,
+          "model_proba": 0.015956410904202994,
+          "episode_max": 0.11252697261304881,
+          "final_proba": 0.03128142051992141,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1223,79 +1133,48 @@
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.9810685521693596,
-          "model_proba": 0.6806128003269811,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.6686576058306475,
-          "severity": "Moderate",
-          "episodes_count": 6
+          "rule_score": 0.0,
+          "model_proba": 0.35309850986978186,
+          "episode_max": 0.6017119621848742,
+          "final_proba": 0.31454657286535487,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.3918187418085426,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.28828076195349267,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.510126175284708,
+          "episode_max": 0.952468093178979,
+          "final_proba": 0.47106301504238524,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.3598164529831006,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.19789904914070536,
-          "severity": "None",
+          "model_proba": 0.4568151400108959,
+          "episode_max": 0.6523395154246133,
+          "final_proba": 0.38171623009091543,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.37794712654542917,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.20787091959998605,
-          "severity": "Mild",
+          "model_proba": 0.23241227182490742,
+          "episode_max": 0.30702336225923055,
+          "final_proba": 0.1892314219555452,
+          "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.2437979015842503,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.13408884587133768,
+          "model_proba": 0.021135154490661983,
+          "episode_max": 0.3236162587286352,
+          "final_proba": 0.07634758671559114,
           "severity": "None",
           "episodes_count": 0
         }
       },
       "scene_rating": "16+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": " замечает, что замарался кровью. Хочет вытереть обо что",
-          "offset": 343
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": " в морг. МЯСНИК Я просто кровь тут сливаю, нехорошо сей",
-          "offset": 582
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "атривает. Мясник сливает кровь из туши. Она стекает в о",
-          "offset": 712
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "о, сливайте. Боков берёт нож, рассматривает. Мясник с",
-          "offset": 677
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "нкованную ванну. БОКОВ А нож у вас, Николай Платоныч,",
-          "offset": 769
-        }
-      ]
+      "problems": []
     },
     {
       "scene_index": 23,
@@ -1307,41 +1186,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.27531982265998434,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1514259024629914,
+          "model_proba": 0.16117518907280629,
+          "episode_max": 0.3791841062884455,
+          "final_proba": 0.16448317524773257,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.07889660773488803,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.04339313425418842,
-          "severity": "None",
+          "model_proba": 0.10332000596309775,
+          "episode_max": 0.9833193025893668,
+          "final_proba": 0.25348986379757715,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.014837477044980354,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.008160612374739196,
+          "model_proba": 0.01151324061212629,
+          "episode_max": 0.13576636514788792,
+          "final_proba": 0.03348555536624705,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.04651796534815822,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.02558488094148702,
+          "model_proba": 0.05071400908320169,
+          "episode_max": 0.5472094598379161,
+          "final_proba": 0.13733459696334416,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.06438103924852549,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.035409571586689025,
+          "model_proba": 0.026783721860154607,
+          "episode_max": 0.6328685774646363,
+          "final_proba": 0.1413047625160123,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1359,46 +1238,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.29284433049307496,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.16106438177119123,
-          "severity": "None",
+          "model_proba": 0.25221445511100393,
+          "episode_max": 0.82787956015078,
+          "final_proba": 0.30429386234120814,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.014375066199973063,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.007906286409985185,
-          "severity": "None",
+          "model_proba": 0.014516128353468398,
+          "episode_max": 0.981513988868886,
+          "final_proba": 0.20428666836818482,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.009664079200290056,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0053152435601595315,
+          "model_proba": 0.006467776340229348,
+          "episode_max": 0.06553165183957711,
+          "final_proba": 0.016663607355041566,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.1492808393752929,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08210446165641111,
+          "model_proba": 0.09093867381403214,
+          "episode_max": 0.4691572092380922,
+          "final_proba": 0.14384771244533612,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.06972893392867549,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03835091366077152,
-          "severity": "None",
+          "model_proba": 0.07294027450037205,
+          "episode_max": 0.8927168500866071,
+          "final_proba": 0.21866052099252606,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
@@ -1411,41 +1290,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.18835620447067553,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.10359591245887155,
+          "model_proba": 0.11071918166590018,
+          "episode_max": 0.6472746069257739,
+          "final_proba": 0.19035047130139987,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.11003553172696592,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.060519542449831265,
-          "severity": "None",
+          "model_proba": 0.09449942996771868,
+          "episode_max": 0.9890107193999271,
+          "final_proba": 0.2497768303622307,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.11692963285394445,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06431129806966945,
+          "model_proba": 0.06288335101337059,
+          "episode_max": 0.5653292916180728,
+          "final_proba": 0.1476517013809684,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.1764504907465581,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09704776991060697,
-          "severity": "None",
+          "model_proba": 0.13000183986601233,
+          "episode_max": 0.8099331434522983,
+          "final_proba": 0.23348764061676644,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.017305276720683976,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.009517902196376188,
+          "model_proba": 0.011014409847720601,
+          "episode_max": 0.862691450364691,
+          "final_proba": 0.17859621548918453,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1462,47 +1341,47 @@
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.5059568095386902,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3510566992050738,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.659831421687012,
+          "episode_max": 0.9653959766829967,
+          "final_proba": 0.555986477264456,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.379983316810392,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2089908242457156,
+          "model_proba": 0.18728009045033653,
+          "episode_max": 0.9483823126004145,
+          "final_proba": 0.29268051226776803,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.09329486361032657,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.051312174985679616,
+          "model_proba": 0.08606778885155783,
+          "episode_max": 0.3479673541226443,
+          "final_proba": 0.11693075469288568,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.31638123878273144,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.17400968133050232,
-          "severity": "None",
+          "model_proba": 0.12716157743343667,
+          "episode_max": 0.8763914559384165,
+          "final_proba": 0.24521715877607347,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.08182521136665215,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.045003866251658683,
+          "model_proba": 0.05729873072498108,
+          "episode_max": 0.8209606593176818,
+          "final_proba": 0.19570643376227598,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     },
     {
@@ -1514,47 +1393,47 @@
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.192560691184209,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.17868883411010922,
-          "severity": "None",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.18828802902447825,
+          "episode_max": 0.5858986646203881,
+          "final_proba": 0.22073814888754067,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.3223636797551434,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1773000238653289,
-          "severity": "None",
+          "model_proba": 0.3731413058815103,
+          "episode_max": 0.9739393012817237,
+          "final_proba": 0.4000155784911754,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.21142006730521953,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.29406149097666495,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.5014773216809444,
+          "episode_max": 0.6293684418323261,
+          "final_proba": 0.4016862152909847,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.6675187991027719,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.36713533950652455,
-          "severity": "Mild",
+          "model_proba": 0.5502903112531192,
+          "episode_max": 0.8414055016887446,
+          "final_proba": 0.47094077152696456,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.023284881526719498,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.012806684839695725,
+          "model_proba": 0.02134233305652471,
+          "episode_max": 0.7340760182375903,
+          "final_proba": 0.15855348682860665,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "18+",
       "problems": []
     },
     {
@@ -1567,41 +1446,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.3034420605492115,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.16689313330206634,
-          "severity": "None",
+          "model_proba": 0.3217897067186905,
+          "episode_max": 0.8980887249258895,
+          "final_proba": 0.3566020836804577,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.16783074877854498,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09230691182819975,
-          "severity": "None",
+          "model_proba": 0.12485720977351468,
+          "episode_max": 0.9810066351728989,
+          "final_proba": 0.2648727924100129,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.7345143010338384,
-          "model_proba": 0.17047637074912597,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3141162942221708,
-          "severity": "Mild",
-          "episodes_count": 2
+          "rule_score": 0.0,
+          "model_proba": 0.16014124068023255,
+          "episode_max": 0.24087448023834182,
+          "final_proba": 0.13625257842179628,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.23578360219608463,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.12968098120784655,
-          "severity": "None",
+          "model_proba": 0.2703773764380253,
+          "episode_max": 0.5958132188450963,
+          "final_proba": 0.2678702008099332,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.022451772411033157,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.012348474826068238,
+          "model_proba": 0.02619230263982605,
+          "episode_max": 0.7780827006617677,
+          "final_proba": 0.17002230658425788,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1619,41 +1498,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.48953312604187693,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.26924321932303236,
+          "model_proba": 0.2609066417100498,
+          "episode_max": 0.44324565688266554,
+          "final_proba": 0.2321477843170605,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.02588660396461404,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.014237632180537722,
-          "severity": "None",
+          "model_proba": 0.08653560192784318,
+          "episode_max": 0.9233289838336213,
+          "final_proba": 0.232260377827038,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.01698463270345528,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.009341547986900404,
+          "model_proba": 0.06798272205825258,
+          "episode_max": 0.12683255622625725,
+          "final_proba": 0.06275700837729037,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.1894576150416316,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1042016882728974,
-          "severity": "None",
+          "model_proba": 0.3638241531433616,
+          "episode_max": 0.7349041641339071,
+          "final_proba": 0.3470841170556303,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0383827611244675,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.021110518618457128,
+          "model_proba": 0.00728279670935216,
+          "episode_max": 0.4758627530007254,
+          "final_proba": 0.09917808879028878,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1671,41 +1550,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.2582692641986199,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.14204809530924095,
-          "severity": "None",
+          "model_proba": 0.2121107054993849,
+          "episode_max": 0.64194109368856,
+          "final_proba": 0.2450491067623737,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.039799106025857664,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.021889508314221717,
-          "severity": "None",
+          "model_proba": 0.06373146060179488,
+          "episode_max": 0.8584764632939006,
+          "final_proba": 0.20674759598976733,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.02581433002239031,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.01419788151231467,
+          "model_proba": 0.03771744858600905,
+          "episode_max": 0.45615244896998697,
+          "final_proba": 0.11197508651630236,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.48629104895571035,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2674600769256407,
+          "model_proba": 0.39980309578174994,
+          "episode_max": 0.29555324233856134,
+          "final_proba": 0.2790023511476748,
           "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0448553815847187,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.024670459871595284,
+          "model_proba": 0.02131738776014325,
+          "episode_max": 0.6938692964511705,
+          "final_proba": 0.15049842255831286,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1723,46 +1602,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.3921827090762598,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2157004899919429,
-          "severity": "Mild",
+          "model_proba": 0.47068926715462683,
+          "episode_max": 0.9448085582125164,
+          "final_proba": 0.4478408085775481,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.6751707189081795,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.37134389539949875,
-          "severity": "Mild",
+          "model_proba": 0.43320968739114113,
+          "episode_max": 0.9406678717561048,
+          "final_proba": 0.4263989024163486,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.0391964355015915,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.19933849348466953,
+          "rule_score": 0.0,
+          "model_proba": 0.13580311640364823,
+          "episode_max": 0.17050572461171493,
+          "final_proba": 0.10879285894434951,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.06532218870778014,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.035927203789279084,
+          "model_proba": 0.11808925809110112,
+          "episode_max": 0.4212638190214304,
+          "final_proba": 0.1492018557543917,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.059660775357799956,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03281342644678998,
-          "severity": "None",
+          "model_proba": 0.0837312117591037,
+          "episode_max": 0.9237943569358484,
+          "final_proba": 0.23081103785467674,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     },
     {
@@ -1775,66 +1654,47 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.5185429064647779,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.28519859855562785,
+          "model_proba": 0.36587547982899193,
+          "episode_max": 0.9666145673393605,
+          "final_proba": 0.3945544273738177,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.20994153833767407,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.11546784608572075,
-          "severity": "None",
+          "model_proba": 0.2197018967482314,
+          "episode_max": 0.9789476031383133,
+          "final_proba": 0.31662556383918994,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.8352030263919616,
-          "model_proba": 0.48258379133530177,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5159819931520044,
+          "rule_score": 0.0,
+          "model_proba": 0.581281583730798,
+          "episode_max": 0.6133694245402906,
+          "final_proba": 0.44237875595999704,
           "severity": "Moderate",
-          "episodes_count": 3
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.09045585197322359,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.049750718585272975,
+          "model_proba": 0.1627550216795434,
+          "episode_max": 0.3573477625129726,
+          "final_proba": 0.16098481442634338,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.024828264027326342,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.013655545215029489,
+          "model_proba": 0.01756456284526287,
+          "episode_max": 0.7216939143969185,
+          "final_proba": 0.1539992924442783,
           "severity": "None",
           "episodes_count": 0
         }
       },
       "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " он. Как об стену горох, сука!!!  КОЗЫРЕВ А если это е",
-          "offset": 252
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "а Козырева.  БОКОВ Вот нахера вы это с Пановым устрои",
-          "offset": 124
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "урак, Валера?! У нас тут ебанат детей режет каждый д",
-          "offset": 597
-        }
-      ]
+      "problems": []
     },
     {
       "scene_index": 33,
@@ -1846,46 +1706,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.48967632115178467,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.26932197663348156,
+          "model_proba": 0.3617626408067742,
+          "episode_max": 0.8748711695252039,
+          "final_proba": 0.3739436863487666,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.019634793914094225,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.010799136652751824,
-          "severity": "None",
+          "model_proba": 0.026978767270633357,
+          "episode_max": 0.9767005661852661,
+          "final_proba": 0.2101784352359016,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.006551928962320974,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.003603560929276536,
+          "model_proba": 0.032697215748325,
+          "episode_max": 0.46391436360427235,
+          "final_proba": 0.11076634138243323,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.07383368908392589,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.04060852899615924,
-          "severity": "None",
+          "model_proba": 0.19219626089379133,
+          "episode_max": 0.4764399713425145,
+          "final_proba": 0.20099593776008814,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.20606788671715673,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.11333733769443621,
-          "severity": "None",
+          "model_proba": 0.1487385776895714,
+          "episode_max": 0.9330497980048136,
+          "final_proba": 0.268416177330227,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
@@ -1898,43 +1758,43 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.44040646977016945,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.24222355837359322,
+          "model_proba": 0.2675801797416611,
+          "episode_max": 0.9132996571423113,
+          "final_proba": 0.3298290302863759,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.06443968376797435,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03544182607238589,
-          "severity": "None",
+          "model_proba": 0.10304584444677688,
+          "episode_max": 0.964507011687147,
+          "final_proba": 0.2495766167831567,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.7345143010338384,
-          "model_proba": 0.03229894341636939,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.23811870918915468,
-          "severity": "Mild",
-          "episodes_count": 2
-        },
-        "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.17566335354114607,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09661484444763034,
+          "model_proba": 0.07797552641580421,
+          "episode_max": 0.5479876588870555,
+          "final_proba": 0.15248407130610342,
           "severity": "None",
           "episodes_count": 0
         },
-        "scary": {
-          "rule_score": 0.6345143010338383,
-          "model_proba": 0.18219185443414268,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.29055981024892996,
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.30480733596453297,
+          "episode_max": 0.833745013281303,
+          "final_proba": 0.33439303743675375,
           "severity": "Mild",
-          "episodes_count": 2
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.18607862351965068,
+          "episode_max": 0.8850107681107218,
+          "final_proba": 0.2793453965579522,
+          "severity": "Mild",
+          "episodes_count": 0
         }
       },
       "scene_rating": "12+",
@@ -1950,46 +1810,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.2645958640083864,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.14552772520461255,
-          "severity": "None",
+          "model_proba": 0.25074515285215576,
+          "episode_max": 0.9750739194627265,
+          "final_proba": 0.33292461796123096,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.06964869299486927,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0383067811471781,
-          "severity": "None",
+          "model_proba": 0.07208259864041158,
+          "episode_max": 0.8726767465449772,
+          "final_proba": 0.2141807785612218,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.019589086682858813,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.010773997675572348,
+          "model_proba": 0.027419703880028724,
+          "episode_max": 0.11159174193850646,
+          "final_proba": 0.037399185521717095,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.471040205260129,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.25907211289307097,
+          "model_proba": 0.3991673290695426,
+          "episode_max": 0.500396693398668,
+          "final_proba": 0.31962136966798205,
           "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.05938576807542161,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03266217244148189,
-          "severity": "None",
+          "model_proba": 0.044242235678477446,
+          "episode_max": 0.8929628840316043,
+          "final_proba": 0.20292580642948346,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
@@ -2002,46 +1862,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.18913763943029,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1040257016866595,
-          "severity": "None",
+          "model_proba": 0.21221860297467007,
+          "episode_max": 0.9739287235748076,
+          "final_proba": 0.3115059763510301,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.03680067368642303,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.020240370527532667,
+          "model_proba": 0.017625685142007044,
+          "episode_max": 0.7981903491209211,
+          "final_proba": 0.1693321966522881,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.01568074026066724,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.008624407143366982,
+          "model_proba": 0.012306222129807327,
+          "episode_max": 0.10900213066227313,
+          "final_proba": 0.02856884830384866,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.27379208445954323,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1505856464527488,
-          "severity": "None",
+          "model_proba": 0.22798347938319685,
+          "episode_max": 0.4313530342455039,
+          "final_proba": 0.21166152050985906,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.04830848080639514,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.02656966444351733,
-          "severity": "None",
+          "model_proba": 0.02621878653372694,
+          "episode_max": 0.9468783832007268,
+          "final_proba": 0.2037960092336952,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
@@ -2053,73 +1913,48 @@
       "tod": "НОЧЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.5426015131959808,
-          "model_proba": 0.6263336692288121,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5072639720346409,
+          "rule_score": 0.0,
+          "model_proba": 0.49393047473746937,
+          "episode_max": 0.9399753645466388,
+          "final_proba": 0.45965683401493596,
           "severity": "Moderate",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.4616575395177523,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2539116467347638,
-          "severity": "Mild",
+          "model_proba": 0.424492827939612,
+          "episode_max": 0.960992591233091,
+          "final_proba": 0.42566957361340485,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.8352030263919616,
-          "model_proba": 0.3754461437673332,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.45705628698962175,
-          "severity": "Moderate",
-          "episodes_count": 3
+          "rule_score": 0.0,
+          "model_proba": 0.4914859120589823,
+          "episode_max": 0.5545200013397247,
+          "final_proba": 0.38122125190038525,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0985745228972138,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.054215987593467595,
+          "model_proba": 0.17461155592507507,
+          "episode_max": 0.2919375768066993,
+          "final_proba": 0.15442387112013117,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.06144877010935242,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03379682356014384,
+          "model_proba": 0.07166562091347149,
+          "episode_max": 0.7608819439582363,
+          "final_proba": 0.1915924802940566,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "цу, а ты находишь только трупы! Что ещё?  БОКОВ Улик п",
-          "offset": 495
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "нные останки ещё одного ребёнка.  ГЕНПРОКУРОР Боков,",
-          "offset": 418
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": ".  ГЕНПРОКУРОР Боков, я тебя вызвал найти убийцу, а ",
-          "offset": 449
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "маним!!  ГЕНПРОКУРОР (перебивает) Козырев, я всегда ",
-          "offset": 1993
-        }
-      ]
+      "scene_rating": "16+",
+      "problems": []
     },
     {
       "scene_index": 38,
@@ -2131,41 +1966,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.17159083764623967,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09437496070543183,
-          "severity": "None",
+          "model_proba": 0.19525653902790113,
+          "episode_max": 0.6859181657457767,
+          "final_proba": 0.244574729614501,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.18012904325525614,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09907097379039088,
-          "severity": "None",
+          "model_proba": 0.19552690459702698,
+          "episode_max": 0.9712260989273858,
+          "final_proba": 0.301785017313842,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.13905505713233066,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.07648028142278186,
-          "severity": "None",
+          "model_proba": 0.39017488175706455,
+          "episode_max": 0.7822688988179074,
+          "final_proba": 0.371049964729967,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.08300370711917879,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.04565203891554834,
+          "model_proba": 0.11716277447464611,
+          "episode_max": 0.356179867838206,
+          "final_proba": 0.13567549952869656,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.03101505116389786,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.017058278140143823,
+          "model_proba": 0.018452283111369608,
+          "episode_max": 0.9004095045965723,
+          "final_proba": 0.19023065663056776,
           "severity": "None",
           "episodes_count": 0
         }
@@ -2183,78 +2018,47 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.6808988897947308,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.37449438938710194,
+          "model_proba": 0.31439290203844117,
+          "episode_max": 0.9026206765922351,
+          "final_proba": 0.3534402314395897,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.2290806870672561,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.12599437788699086,
-          "severity": "None",
+          "model_proba": 0.2958942351605598,
+          "episode_max": 0.9806310021377924,
+          "final_proba": 0.3588680297658664,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.9771158142298192,
-          "model_proba": 0.5511683353996362,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5962773287387457,
-          "severity": "Moderate",
-          "episodes_count": 5
+          "rule_score": 0.0,
+          "model_proba": 0.3385797576637564,
+          "episode_max": 0.3217000810317989,
+          "final_proba": 0.2505588829214258,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.11664301977460428,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06415366087603236,
+          "model_proba": 0.22348037553655625,
+          "episode_max": 0.2948720094349844,
+          "final_proba": 0.1818886084321028,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
-          "rule_score": 0.6345143010338383,
-          "model_proba": 0.03357612916007848,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.20882116134819467,
-          "severity": "Mild",
-          "episodes_count": 2
+          "rule_score": 0.0,
+          "model_proba": 0.025106269448666434,
+          "episode_max": 0.4688269931524365,
+          "final_proba": 0.10757384682725384,
+          "severity": "None",
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "льно вскрикивает.  БОКОВ Сука!  Люди оборачиваются, Бо",
-          "offset": 987
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " на дворе. Ну и идите на хер, товарищ прокурор, со св",
-          "offset": 680
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " на них не то чтобы враждебно, но с некоторой неприя",
-          "offset": 442
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "сё.  БОКОВ Прям так они тебя и послушали. Комендантс",
-          "offset": 604
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " вообще молчала, голову тебе охота оторвать за вчера",
-          "offset": 761
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 40,
@@ -2266,41 +2070,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.4606127336183246,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.25333700349007854,
+          "model_proba": 0.3546720601327791,
+          "episode_max": 0.9188025917039598,
+          "final_proba": 0.3788301514138205,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.10550738623418364,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.05802906242880101,
-          "severity": "None",
+          "model_proba": 0.12497943636564762,
+          "episode_max": 0.978552001803909,
+          "final_proba": 0.264449090361888,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.8352030263919616,
-          "model_proba": 0.09527896488927785,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3029643386066913,
+          "rule_score": 0.0,
+          "model_proba": 0.21144949409456273,
+          "episode_max": 0.43177561227134165,
+          "final_proba": 0.20265234420627787,
           "severity": "Mild",
-          "episodes_count": 3
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.29676793379148403,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.16322236358531622,
-          "severity": "None",
+          "model_proba": 0.274654264089496,
+          "episode_max": 0.4790254377812199,
+          "final_proba": 0.24686493280546679,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.02741449762080224,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.015077973691441232,
+          "model_proba": 0.03800067618158733,
+          "episode_max": 0.8912760003904379,
+          "final_proba": 0.19915557197796063,
           "severity": "None",
           "episodes_count": 0
         }
@@ -2318,46 +2122,46 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.1778059140239873,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09779325271319302,
-          "severity": "None",
+          "model_proba": 0.276764624039302,
+          "episode_max": 0.797420376659922,
+          "final_proba": 0.31170461855360054,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.47018534317906374,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2586019387484851,
+          "model_proba": 0.2957526060901807,
+          "episode_max": 0.9933821527523887,
+          "final_proba": 0.3613403639000772,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.18991502696398843,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.28223371878898784,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.513274340041964,
+          "episode_max": 0.6624233590534064,
+          "final_proba": 0.41478555883376156,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.23059510583886245,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.12682730821137436,
-          "severity": "None",
+          "model_proba": 0.40056590333024306,
+          "episode_max": 0.34772228021854573,
+          "final_proba": 0.28985570287534285,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.03211878053464654,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0176653292940556,
+          "model_proba": 0.047824092870514395,
+          "episode_max": 0.5028171017330713,
+          "final_proba": 0.12686667142539718,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "18+",
       "problems": []
     },
     {
@@ -2370,41 +2174,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.32986660928678924,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1814266351077341,
+          "model_proba": 0.25805816374277446,
+          "episode_max": 0.20499826811924113,
+          "final_proba": 0.1829316436823742,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.15698576104503328,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08634216857476831,
-          "severity": "None",
+          "model_proba": 0.19835127347393355,
+          "episode_max": 0.9823479115044931,
+          "final_proba": 0.30556278271156206,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.7345143010338384,
-          "model_proba": 0.06489150597500373,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2560446185964036,
-          "severity": "Mild",
-          "episodes_count": 2
+          "rule_score": 0.0,
+          "model_proba": 0.11286563016712312,
+          "episode_max": 0.19515779805054737,
+          "final_proba": 0.10110765620202719,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.1797297433872819,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09885135886300506,
-          "severity": "None",
+          "model_proba": 0.2551684792655229,
+          "episode_max": 0.9393699433166087,
+          "final_proba": 0.32821665225935936,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0147764470270908,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.008127045864899941,
+          "model_proba": 0.01754972677453041,
+          "episode_max": 0.6503127958136654,
+          "final_proba": 0.13971490888872481,
           "severity": "None",
           "episodes_count": 0
         }
@@ -2422,78 +2226,47 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.6810455365480608,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.37457504510143347,
+          "model_proba": 0.4146105760926583,
+          "episode_max": 0.42510586589454136,
+          "final_proba": 0.31305699002987036,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.4575934119457833,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2516763765701808,
+          "model_proba": 0.26934515765798733,
+          "episode_max": 0.949119770069892,
+          "final_proba": 0.33796379072587146,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.9771158142298192,
-          "model_proba": 0.30956728223084073,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.46339674949590814,
-          "severity": "Moderate",
-          "episodes_count": 5
+          "rule_score": 0.0,
+          "model_proba": 0.23790960914232,
+          "episode_max": 0.40233129804309925,
+          "final_proba": 0.21131654463689586,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.15777486153972373,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1595566278056423,
-          "severity": "None",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.17665488093275927,
+          "episode_max": 0.7026281142237789,
+          "final_proba": 0.2376858073577734,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.017830328157534915,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.009806680486644204,
+          "model_proba": 0.019754510381058216,
+          "episode_max": 0.8906738681014411,
+          "final_proba": 0.18899975432987026,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " было сообщника, он там себя за двойника выдавал, с ",
-          "offset": 948
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "луйста, использовать служебную машину? Хочу в детдом",
-          "offset": 2165
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "последнюю фразу.  БОКОВ Ребёнка решила сдать? Правил",
-          "offset": 2256
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "ть? Правильно, зачем он тебе, ты ж всё время на рабо",
-          "offset": 2298
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " вы провели опознание с ребёнком без понятых, без по",
-          "offset": 2748
-        }
-      ]
+      "scene_rating": "6+",
+      "problems": []
     },
     {
       "scene_index": 44,
@@ -2504,47 +2277,47 @@
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.00041559371262907236,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.07300903050074024,
-          "severity": "None",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.27291363722632767,
+          "episode_max": 0.9974819885152649,
+          "final_proba": 0.3495988981775332,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.004371408952304802,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0024042749237676415,
-          "severity": "None",
+          "model_proba": 0.07157631533507812,
+          "episode_max": 0.9818211424440279,
+          "final_proba": 0.23573120192309854,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.01836742255097842,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.010102082403038132,
+          "model_proba": 0.030265864523918554,
+          "episode_max": 0.3842453900643117,
+          "final_proba": 0.09349530350101755,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.9124188839426876,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5018303861684782,
-          "severity": "Moderate",
+          "model_proba": 0.18012437568136241,
+          "episode_max": 0.44387057435558513,
+          "final_proba": 0.18784252149586636,
+          "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0009274913242383255,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0005101202283310791,
+          "model_proba": 0.024080602343302504,
+          "episode_max": 0.6735778069864917,
+          "final_proba": 0.14795989268611473,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "16+",
+      "scene_rating": "6+",
       "problems": []
     },
     {
@@ -2557,41 +2330,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.15066011424164022,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08286306283290212,
-          "severity": "None",
+          "model_proba": 0.20885082492497706,
+          "episode_max": 0.5017881850367529,
+          "final_proba": 0.215225590716088,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.1752019963115602,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.09636109797135811,
-          "severity": "None",
+          "model_proba": 0.2191169533968009,
+          "episode_max": 0.9720339200505274,
+          "final_proba": 0.31492110837834597,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.03266545257553527,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0179659989165444,
+          "model_proba": 0.05991994191679146,
+          "episode_max": 0.2595095049705894,
+          "final_proba": 0.08485786904835319,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.1928066639047488,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.10604366514761185,
-          "severity": "None",
+          "model_proba": 0.10560073421251816,
+          "episode_max": 0.870664993294938,
+          "final_proba": 0.23221340247587258,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.05846774160429592,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.03215725788236276,
+          "model_proba": 0.019180361486541408,
+          "episode_max": 0.4766513976547206,
+          "final_proba": 0.1058794783485419,
           "severity": "None",
           "episodes_count": 0
         }
@@ -2609,41 +2382,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.4775954957358717,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.26267752265472943,
+          "model_proba": 0.22616127232083985,
+          "episode_max": 0.827525443374687,
+          "final_proba": 0.28989378845139935,
           "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.13724360682841166,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.07548398375562643,
-          "severity": "None",
+          "model_proba": 0.18205872897680328,
+          "episode_max": 0.9662827023537464,
+          "final_proba": 0.2933888414079911,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.020771766607807596,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.18920492559308838,
+          "rule_score": 0.0,
+          "model_proba": 0.044424320035705435,
+          "episode_max": 0.09388117697021274,
+          "final_proba": 0.04320961141368054,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.15416055176511906,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0847883034708155,
-          "severity": "None",
+          "model_proba": 0.2015278117216701,
+          "episode_max": 0.5168353623224647,
+          "final_proba": 0.2142073689114115,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.018775808103586842,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.010326694456972764,
+          "model_proba": 0.00492873983915209,
+          "episode_max": 0.28833840375052405,
+          "final_proba": 0.06037848766163846,
           "severity": "None",
           "episodes_count": 0
         }
@@ -2661,41 +2434,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.34403380931108696,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.18921859512109784,
+          "model_proba": 0.22576444943023707,
+          "episode_max": 0.3705357171412141,
+          "final_proba": 0.1982775906148732,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.11358596492027172,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06247228070614945,
-          "severity": "None",
+          "model_proba": 0.11353892357948137,
+          "episode_max": 0.9471037908733287,
+          "final_proba": 0.2518671661433805,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.013560125845428098,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.007458069214985454,
-          "severity": "None",
+          "model_proba": 0.1286478248369159,
+          "episode_max": 0.841645108307319,
+          "final_proba": 0.23908532532176754,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.23529777673174143,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1294137772024578,
-          "severity": "None",
+          "model_proba": 0.355317738219661,
+          "episode_max": 0.9130768784190004,
+          "final_proba": 0.3780401317046137,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.050599323156549275,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.027829627736102102,
+          "model_proba": 0.023797972898645724,
+          "episode_max": 0.6623045394377479,
+          "final_proba": 0.14554979298180473,
           "severity": "None",
           "episodes_count": 0
         }
@@ -2713,78 +2486,47 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.8464786965567394,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.4655632831062067,
+          "model_proba": 0.5849084478461566,
+          "episode_max": 0.8171402654195069,
+          "final_proba": 0.48512769939928757,
           "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.2870984270544665,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.15790413487995658,
-          "severity": "None",
+          "model_proba": 0.43240212004982087,
+          "episode_max": 0.9356108989036876,
+          "final_proba": 0.42494334580813903,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.9771158142298192,
-          "model_proba": 0.4366695890127087,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.5333030182259355,
-          "severity": "Moderate",
-          "episodes_count": 5
+          "rule_score": 0.0,
+          "model_proba": 0.5269927948506982,
+          "episode_max": 0.479556040825537,
+          "final_proba": 0.38575724533299144,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.16130455376462158,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08871750457054188,
-          "severity": "None",
+          "model_proba": 0.3389905546583424,
+          "episode_max": 0.7251972584840961,
+          "final_proba": 0.3314842567589076,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.040369923609696864,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.022203457985333276,
+          "model_proba": 0.029651702692531767,
+          "episode_max": 0.7440736196037423,
+          "final_proba": 0.16512316040164093,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " всех предупредили: кто ребёнка прохлопает - увольне",
-          "offset": 514
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " смотреть соседям — вот тебе и зоопарк. У меня воспи",
-          "offset": 1751
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "иректрису. Но она берёт себя в руки и продолжает диа",
-          "offset": 1948
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "скелетированные останки ребёнка. И я очень вас прошу",
-          "offset": 2033
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "друг всё-таки кто-то из ребят у вас убегал, а вы про",
-          "offset": 2116
-        }
-      ]
+      "scene_rating": "16+",
+      "problems": []
     },
     {
       "scene_index": 49,
@@ -2796,41 +2538,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.737105761000562,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.40540816855030914,
+          "model_proba": 0.5368484154488122,
+          "episode_max": 0.9313616000862249,
+          "final_proba": 0.48153894851409174,
           "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.43781731286461173,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.24079952207553648,
-          "severity": "Mild",
+          "model_proba": 0.5314479092052039,
+          "episode_max": 0.9638779618151729,
+          "final_proba": 0.4850719424258968,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.7345143010338384,
-          "model_proba": 0.2706215134135258,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.3691961226875907,
+          "rule_score": 0.0,
+          "model_proba": 0.49859721186059686,
+          "episode_max": 0.34621033204696855,
+          "final_proba": 0.343470532932722,
           "severity": "Mild",
-          "episodes_count": 2
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.34645111751322294,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.19054811463227264,
-          "severity": "None",
+          "model_proba": 0.43937017469834844,
+          "episode_max": 0.32258787765296215,
+          "final_proba": 0.3061711716146841,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.04658508778063599,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.025621798279349798,
+          "model_proba": 0.021015596855853743,
+          "episode_max": 0.47899048593569993,
+          "final_proba": 0.10735667545785955,
           "severity": "None",
           "episodes_count": 0
         }
@@ -2847,97 +2589,48 @@
       "tod": "ВЕЧЕР",
       "per_class": {
         "violence": {
-          "rule_score": 0.7852030263919616,
-          "model_proba": 0.9960550379272701,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.783391178777587,
-          "severity": "Severe",
-          "episodes_count": 3
+          "rule_score": 0.0,
+          "model_proba": 0.5744363284854546,
+          "episode_max": 0.9637933002266275,
+          "final_proba": 0.5086986407123255,
+          "severity": "Moderate",
+          "episodes_count": 0
         },
         "sexual": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.0872626529013766,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.12077491305455137,
-          "severity": "None",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.2864397114809676,
+          "episode_max": 0.9485681234810727,
+          "final_proba": 0.34725546601074675,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 1.0,
-          "model_proba": 0.4747318928719783,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.561102541079588,
-          "severity": "Moderate",
-          "episodes_count": 11
+          "rule_score": 0.0,
+          "model_proba": 0.33469918377769103,
+          "episode_max": 0.5151570861789174,
+          "final_proba": 0.2871159683135136,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.12243122248985812,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06733717236942197,
-          "severity": "None",
+          "model_proba": 0.26972178286061993,
+          "episode_max": 0.8154415091584032,
+          "final_proba": 0.3114352824050216,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
-          "rule_score": 0.49260151319598083,
-          "model_proba": 0.06485794536433316,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.18345232390917748,
+          "rule_score": 0.0,
+          "model_proba": 0.038182534094409644,
+          "episode_max": 0.8432396076996593,
+          "final_proba": 0.1896483152918572,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "юношей, я увидел ужасную аварию, там погиб мальчик лет",
-          "offset": 1451
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "лезы.  СЛИВКО Вы меня расстреливать будете, да?  КОЗЫРЕ",
-          "offset": 355
-        },
-        {
-          "category": "violence",
-          "severity": "Severe",
-          "snippet": "ЫРЕВ И как ты первый раз убил ребёнка?  Сливко вздыхае",
-          "offset": 2584
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "льное качество какое-то? Черта характера?  Сливко как ",
-          "offset": 1354
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": " Вы можете спасти жизнь ребёнка и хоть немного облег",
-          "offset": 435
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "рдца?  СОТРУДНИК СИЗО У тебя нет сердца, нечего у те",
-          "offset": 557
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "бя нет сердца, нечего у тебя брать. Слушай тихо и на",
-          "offset": 583
-        },
-        {
-          "category": "profanity",
-          "severity": "Moderate",
-          "snippet": "оняли, что хотите убить ребёнка?  СЛИВКО Нет, я не х",
-          "offset": 1016
-        }
-      ]
+      "scene_rating": "16+",
+      "problems": []
     },
     {
       "scene_index": 51,
@@ -2949,41 +2642,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.05230012566622465,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.02876506911642356,
+          "model_proba": 0.06984992629492498,
+          "episode_max": 0.5309557835797393,
+          "final_proba": 0.14460861617815662,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.22438227051467916,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.12341024878307355,
-          "severity": "None",
+          "model_proba": 0.22981240341468515,
+          "episode_max": 0.9883315843133715,
+          "final_proba": 0.3240631387407512,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.01619210168885164,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.008905655928868403,
+          "model_proba": 0.04227946839967727,
+          "episode_max": 0.23707419650595615,
+          "final_proba": 0.07066854692101374,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.11712912877537701,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06442102082645736,
-          "severity": "None",
+          "model_proba": 0.1702787122879495,
+          "episode_max": 0.5894566152949381,
+          "final_proba": 0.21154461481735987,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.03481328444470621,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.019147306444588418,
+          "model_proba": 0.04271252215275928,
+          "episode_max": 0.6356131055888257,
+          "final_proba": 0.15061450830178275,
           "severity": "None",
           "episodes_count": 0
         }
@@ -3001,41 +2694,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.13111763737047316,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.07211470055376025,
-          "severity": "None",
+          "model_proba": 0.1617186395716917,
+          "episode_max": 0.7698264657315854,
+          "final_proba": 0.24291054491074754,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.009430728398898138,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.005186900619393977,
+          "model_proba": 0.026095610489044675,
+          "episode_max": 0.9105493344308557,
+          "final_proba": 0.19646245265514573,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.5926015131959808,
-          "model_proba": 0.013572187557172499,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.1852451571152391,
+          "rule_score": 0.0,
+          "model_proba": 0.01621026130379409,
+          "episode_max": 0.09355798272259795,
+          "final_proba": 0.027627240261606338,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.20286313730974337,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.11157472552035887,
+          "model_proba": 0.1131297820763515,
+          "episode_max": 0.4548691186971239,
+          "final_proba": 0.1531952038814181,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.04193300757990714,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.023063154168948927,
+          "model_proba": 0.04853672697709394,
+          "episode_max": 0.7959101089833207,
+          "final_proba": 0.18587722163406584,
           "severity": "None",
           "episodes_count": 0
         }
@@ -3053,41 +2746,41 @@
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.14144039022136795,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.07779221462175238,
-          "severity": "None",
+          "model_proba": 0.27239275297190474,
+          "episode_max": 0.9714108438968821,
+          "final_proba": 0.344098182913924,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.41983930745810594,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2309116191019583,
+          "model_proba": 0.30457170110737597,
+          "episode_max": 0.9698530013475817,
+          "final_proba": 0.36148503587857317,
           "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.25340824285271973,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.13937453356899587,
-          "severity": "None",
+          "model_proba": 0.36057986147819726,
+          "episode_max": 0.6119479244275066,
+          "final_proba": 0.3207085086985098,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.08248305256136004,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.04536567890874803,
+          "model_proba": 0.07528880211337835,
+          "episode_max": 0.370826561708062,
+          "final_proba": 0.11557415350397049,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.01693686032663618,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.0093152731796499,
+          "model_proba": 0.012952212012235398,
+          "episode_max": 0.7957399483441351,
+          "final_proba": 0.1662717062755565,
           "severity": "None",
           "episodes_count": 0
         }
@@ -3104,42 +2797,42 @@
       "tod": "УТРО",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.21312294466853068,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.18999807352648612,
-          "severity": "None",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.19707911440679945,
+          "episode_max": 0.7734970051137627,
+          "final_proba": 0.26309291394649226,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.16129577565091494,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08871267660800322,
-          "severity": "None",
+          "model_proba": 0.1114528101249638,
+          "episode_max": 0.9565714510341934,
+          "final_proba": 0.25261333577556877,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.1541173460632421,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.08476454033478316,
+          "model_proba": 0.07967965198523427,
+          "episode_max": 0.7163178958199834,
+          "final_proba": 0.18708738775587552,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.034477533078456954,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.018962643193151326,
-          "severity": "None",
+          "model_proba": 0.07431675234794821,
+          "episode_max": 0.8280296775526856,
+          "final_proba": 0.20648014930190867,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.05166833419746247,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.028417583808604364,
+          "model_proba": 0.024656696456572848,
+          "episode_max": 0.5131162733803085,
+          "final_proba": 0.11618443772717676,
           "severity": "None",
           "episodes_count": 0
         }
@@ -3156,47 +2849,47 @@
       "tod": "УТРО",
       "per_class": {
         "violence": {
-          "rule_score": 0.24260151319598083,
-          "model_proba": 0.2073197839614753,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.18680633513760567,
-          "severity": "None",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.23649489700083312,
+          "episode_max": 0.7200476824305854,
+          "final_proba": 0.2740817298365753,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.5385843327024957,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.2962213829863727,
-          "severity": "Mild",
+          "model_proba": 0.47211412383360096,
+          "episode_max": 0.9593584703987524,
+          "final_proba": 0.451534462188231,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.11481990486544259,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.06315094767599343,
+          "model_proba": 0.10215413077426526,
+          "episode_max": 0.4216594875352575,
+          "final_proba": 0.1405166694328974,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0882478491551686,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.04853631703534274,
-          "severity": "None",
+          "model_proba": 0.13606806090983126,
+          "episode_max": 0.9572991811937038,
+          "final_proba": 0.26629726973914797,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0480653361798279,
-          "manual_ep_score": 0.0,
-          "final_proba": 0.026435934898905347,
+          "model_proba": 0.03546045293889207,
+          "episode_max": 0.34019290293057414,
+          "final_proba": 0.08754182970250546,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "16+",
       "problems": []
     }
   ]
