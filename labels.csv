@@ -32,3 +32,72 @@ scene_no,place_type,location,tod,has_violence,sev_violence,has_sexual,sev_sexual
 1-23,НАТ.,УЛИЦА МОСКВЫ,ДЕНЬ,1,Severe,0,None,1,Severe,0,None,0,None
 1-24,ИНТ.,ДАЧА МАЛЬЦЕВЫХ.ДЕТСКАЯ,НОЧЬ,1,Severe,0,None,0,None,1,Mild,0,None
 1-25,ИНТ.,ДАЧА МАЛЬЦЕВЫХ.ГОСТИНАЯ,НОЧЬ,1,Severe,0,None,0,None,1,Mild,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+1-2-А,ИНТ.,СЦЕНА ДЛЯ ВИДЕО. ПОЕЗД. КОРИДОР –,ДЕНЬ,0,None,0,None,1,Mild,0,None,0,None
+1-3,ИНТ.,ПОЕЗД. КУПЕ ПРОВОДНИЦЫ –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-4,,ФЛЕШБЭК: ИНТ. ПОЕЗД. КОРИДОР –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-5,ИНТ.,ПОЕЗД. КОРИДОР / КУПЕ ПРОВОДНИЦЫ –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-6,ИНТ.,ПОЕЗД. КОРИДОР –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-7,НАТ.,СТАНЦИЯ. ПЛАТФОРМА –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-7-А,НАТ.,РЕКА. МОСТ –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,1,Mild
+1-9-А,НАТ.,ДОМ ВАРВАРЫ. УЧАСТОК –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-10,НАТ.,ДОМ ВАРВАРЫ. УЧАСТОК –,ДЕНЬ,1,Mild,0,None,0,None,0,None,0,None
+1-11,ИНТ.,ДОМ ВАРВАРЫ. ГОСТИНАЯ –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+1-13,ИНТ.,ДОМ ВАРВАРЫ. ЧЕРДАК –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-14,НАТ.,ДОМ ВАСИ. УЧАСТОК –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-15,ИНТ.,ДОМ ВАРВАРЫ. ЧЕРДАК –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-16,НАТ.,ДОМ ВАРВАРЫ. ЛЕТНЯЯ ВЕРАНДА –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-17,НАТ.,ДОМ ВАРВАРЫ. УЛИЦА –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-17-А,НАТ.,МОСТ –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,1,Mild,0,None,1,Mild,0,None,0,None
+1-20,НАТ.,ДОМ ВАРВАРЫ. УЧАСТОК –,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
+1-21,ИНТ.,ДОМ ВАРВАРЫ. ЧЕРДАК –,НОЧЬ,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,1,Mild
+1-23,нат.,ДОМ ВАРВАРЫ. ЛЕТНЯЯ веранда –,НОЧЬ,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,1,Mild
+1-25,НАТ.,ПОЛЕ –,НОЧЬ,0,None,0,None,0,None,0,None,1,Mild
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,1,Mild,1,Mild,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,1,Mild,1,Mild,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,1,Mild,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,1,Moderate,0,None
+,,,,0,None,0,None,1,Mild,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,1,Mild,1,Moderate,0,None
+,,,,1,Mild,0,None,0,None,0,None,0,None
+,,,,1,Mild,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,1,Mild,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,1,Moderate,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,1,Mild,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,1,Mild,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,1,Moderate,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
+,,,,0,None,0,None,0,None,0,None,0,None
