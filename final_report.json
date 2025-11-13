@@ -1,297 +1,290 @@
 {
   "rating": "18+",
   "summary": {
-    "count_scenes": 55,
+    "count_scenes": 30,
     "scene_ratings": {
-      "6+": 50,
-      "12+": 0,
+      "6+": 12,
+      "12+": 15,
       "16+": 1,
-      "18+": 4
+      "18+": 2
     }
   },
   "parents_guide": {
     "violence": {
-      "percentage_scenes": 9.09,
-      "episodes_total": 10
+      "percentage_scenes": 43.33,
+      "episodes_total": 0
     },
     "sexual": {
       "percentage_scenes": 0.0,
-      "episodes_total": 1
+      "episodes_total": 0
     },
     "profanity": {
-      "percentage_scenes": 5.45,
-      "episodes_total": 3
+      "percentage_scenes": 23.33,
+      "episodes_total": 0
     },
     "alcohol_drugs": {
-      "percentage_scenes": 0.0,
+      "percentage_scenes": 10.0,
       "episodes_total": 0
     },
     "scary": {
-      "percentage_scenes": 0.0,
-      "episodes_total": 1
+      "percentage_scenes": 63.33,
+      "episodes_total": 2
     }
   },
   "details": [
     {
       "scene_index": 1,
-      "scene_no": "2-1",
+      "scene_no": "1",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
-      "tod": "УТРО",
+      "place_type": "",
+      "location": "",
+      "tod": "",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5539134597490422,
-          "final_proba": 0.11078269194980844,
-          "severity": "None",
+          "model_proba": 0.25273906867240054,
+          "episode_max": 0.443019605474456,
+          "final_proba": 0.2276104088647115,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.02352192730212424,
-          "final_proba": 0.004704385460424849,
+          "model_proba": 0.03736521188584188,
+          "episode_max": 0.0807652865821089,
+          "final_proba": 0.036703923853634815,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.21247503193776016,
-          "final_proba": 0.042495006387552034,
+          "model_proba": 0.07801237723820473,
+          "episode_max": 0.03690031126083841,
+          "final_proba": 0.050286869733180285,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.06458689809453151,
-          "final_proba": 0.012917379618906303,
+          "model_proba": 0.07542677724923161,
+          "episode_max": 0.01798828121401758,
+          "final_proba": 0.0450823837298809,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5930055411191084,
-          "final_proba": 0.1186011082238217,
-          "severity": "None",
+          "model_proba": 0.8578809621217589,
+          "episode_max": 0.9233935938040241,
+          "final_proba": 0.6565132479277722,
+          "severity": "Moderate",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 2,
-      "scene_no": "2-2",
+      "scene_no": "1-2",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
-      "tod": "УТРО",
+      "place_type": "ИНТ.",
+      "location": "ПОЕЗД. КУПЕ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.8053750830264881,
-          "final_proba": 0.16107501660529763,
-          "severity": "None",
+          "model_proba": 0.48866351647130096,
+          "episode_max": 0.9176108176120132,
+          "final_proba": 0.4522870975816182,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.020212017902060817,
-          "final_proba": 0.004042403580412164,
+          "model_proba": 0.05351767459636832,
+          "episode_max": 0.005966075361434272,
+          "final_proba": 0.03062793610028943,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.6716599282666152,
-          "final_proba": 0.13433198565332305,
+          "model_proba": 0.13135805440031184,
+          "episode_max": 0.008961741237130956,
+          "final_proba": 0.07403927816759771,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.060313055668752884,
-          "final_proba": 0.012062611133750577,
+          "model_proba": 0.4322024923954313,
+          "episode_max": 0.3204020096836366,
+          "final_proba": 0.30179177275421454,
+          "severity": "Mild",
+          "episodes_count": 0
+        },
+        "scary": {
+          "rule_score": 0.0,
+          "model_proba": 0.2844873041418218,
+          "episode_max": 0.5526366415438151,
+          "final_proba": 0.266995345586765,
+          "severity": "Mild",
+          "episodes_count": 0
+        }
+      },
+      "scene_rating": "16+",
+      "problems": []
+    },
+    {
+      "scene_index": 3,
+      "scene_no": "1-2-А",
+      "period": "",
+      "place_type": "ИНТ.",
+      "location": "СЦЕНА ДЛЯ ВИДЕО. ПОЕЗД. КОРИДОР",
+      "tod": "ДЕНЬ",
+      "per_class": {
+        "violence": {
+          "rule_score": 0.0,
+          "model_proba": 0.22545922687889433,
+          "episode_max": 0.3533868539337079,
+          "final_proba": 0.19467994557013346,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "sexual": {
+          "rule_score": 0.0,
+          "model_proba": 0.0870791794635372,
+          "episode_max": 0.00196868419678875,
+          "final_proba": 0.04828728554430321,
+          "severity": "None",
+          "episodes_count": 0
+        },
+        "profanity": {
+          "rule_score": 0.0,
+          "model_proba": 0.529384877468474,
+          "episode_max": 0.770737327680585,
+          "final_proba": 0.4453091481437777,
+          "severity": "Moderate",
+          "episodes_count": 0
+        },
+        "alcohol_drugs": {
+          "rule_score": 0.0,
+          "model_proba": 0.24474749305908924,
+          "episode_max": 0.12423934576350101,
+          "final_proba": 0.1594589903351993,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.19566306162269673,
-          "final_proba": 0.03913261232453935,
+          "model_proba": 0.06282392562569715,
+          "episode_max": 0.5233032841496965,
+          "final_proba": 0.13921381592407273,
           "severity": "None",
           "episodes_count": 0
         }
       },
       "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "legal",
-          "severity": "Severe",
-          "snippet": "2-2. НАТ. ЛЕС.ВОЗЛЕ ЛАГЕРЯ УТРО 5.\nКОЗЫРЕВ, БОКОВ, ЭКСПЕРТ, ЭКСПЕРТ 1, ЭКСПЕРТ-ФОТОГРАФ, сотрудники милиции (5), понятые (2), тело Андрея Гурченко (02:34)\n\nНа поляне много милиции, машины, люди. Всё оцеплено, в траве мы видим тело. Над ним ",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "scene_index": 3,
-      "scene_no": "2-3",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ПИОНЕРЛАГЕРЬ.АКТОВЫЙ ЗАЛ",
-      "tod": "УТРО",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.6292930077842779,
-          "final_proba": 0.12585860155685558,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.004867082730537374,
-          "final_proba": 0.0009734165461074747,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.16833374741223162,
-          "final_proba": 0.03366674948244632,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.08504003729388775,
-          "final_proba": 0.01700800745877755,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3970379106001012,
-          "final_proba": 0.07940758212002025,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
       "problems": []
     },
     {
       "scene_index": 4,
-      "scene_no": "2-4",
+      "scene_no": "1-3",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ЛЕС.ОЦЕПЛЕНИЕ",
-      "tod": "УТРО",
+      "place_type": "ИНТ.",
+      "location": "ПОЕЗД. КУПЕ ПРОВОДНИЦЫ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.17328679513998632,
-          "model_proba": 0.0,
-          "episode_max": 0.11636141837460456,
-          "final_proba": 0.16190171978690998,
+          "rule_score": 0.0,
+          "model_proba": 0.23151156274579582,
+          "episode_max": 0.2840594492347759,
+          "final_proba": 0.18414324935714288,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.00036285894920569384,
-          "final_proba": 7.257178984113878e-05,
+          "model_proba": 0.10422012214783691,
+          "episode_max": 0.007113324560836946,
+          "final_proba": 0.05874373209347769,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0769725441240305,
-          "final_proba": 0.0153945088248061,
+          "model_proba": 0.22860943927130412,
+          "episode_max": 0.11678629247388851,
+          "final_proba": 0.149092450093995,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.16566903884492384,
-          "final_proba": 0.03313380776898477,
+          "model_proba": 0.2757707029591033,
+          "episode_max": 0.19027478217529045,
+          "final_proba": 0.1897288430625649,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.03924307777011241,
-          "final_proba": 0.007848615554022482,
-          "severity": "None",
+          "model_proba": 0.12201288568849854,
+          "episode_max": 0.6835410218721459,
+          "final_proba": 0.2038152915031034,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 5,
-      "scene_no": "2-5",
+      "scene_no": "1-5",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ШОССЕ",
-      "tod": "УТРО",
+      "place_type": "ИНТ.",
+      "location": "ПОЕЗД. КОРИДОР / КУПЕ ПРОВОДНИЦЫ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5014176237891463,
-          "final_proba": 0.10028352475782927,
-          "severity": "None",
+          "model_proba": 0.294082124053999,
+          "episode_max": 0.3399669344536749,
+          "final_proba": 0.22973855512043442,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.37511327664839306,
-          "final_proba": 0.07502265532967861,
+          "model_proba": 0.05327170447596412,
+          "episode_max": 0.010148080242778574,
+          "final_proba": 0.031329053510335984,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.09540988089356338,
-          "final_proba": 0.019081976178712677,
+          "model_proba": 0.2650551384051563,
+          "episode_max": 0.150357026576495,
+          "final_proba": 0.17585173143813498,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.04754176032905099,
-          "final_proba": 0.009508352065810199,
+          "model_proba": 0.2355458084204874,
+          "episode_max": 0.05754466244182941,
+          "final_proba": 0.14105912711963395,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.22359989107352807,
-          "final_proba": 0.044719978214705615,
+          "model_proba": 0.0879658255468449,
+          "episode_max": 0.46622281638548013,
+          "final_proba": 0.14162576732786072,
           "severity": "None",
           "episodes_count": 0
         }
@@ -301,101 +294,101 @@
     },
     {
       "scene_index": 6,
-      "scene_no": "2-6",
+      "scene_no": "1-6",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "АВТОМОБИЛЬ МАЛЬЦЕВЫХ",
-      "tod": "УТРО",
+      "place_type": "ИНТ.",
+      "location": "ПОЕЗД. КОРИДОР",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.06236826290490292,
-          "final_proba": 0.012473652580980585,
-          "severity": "None",
+          "model_proba": 0.23890883101717353,
+          "episode_max": 0.5158152628732646,
+          "final_proba": 0.23456290963409837,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.003022409591856802,
-          "final_proba": 0.0006044819183713604,
+          "model_proba": 0.0685054505947486,
+          "episode_max": 0.007076356189655094,
+          "final_proba": 0.03909326906504275,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.14252804322368878,
-          "final_proba": 0.028505608644737758,
+          "model_proba": 0.20092843092562196,
+          "episode_max": 0.20658901419519102,
+          "final_proba": 0.1518284398481303,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.13492309340694503,
-          "final_proba": 0.026984618681389006,
+          "model_proba": 0.23838621634919516,
+          "episode_max": 0.04627348430021864,
+          "final_proba": 0.14036711585210107,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2876606249005905,
-          "final_proba": 0.05753212498011811,
-          "severity": "None",
+          "model_proba": 0.15335547789141907,
+          "episode_max": 0.7556387505475394,
+          "final_proba": 0.23547326294978838,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 7,
-      "scene_no": "2-7",
+      "scene_no": "1-7",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
-      "tod": "УТРО",
+      "location": "СТАНЦИЯ. ПЛАТФОРМА",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.22907268296853878,
-          "model_proba": 0.0,
-          "episode_max": 0.7649449323797024,
-          "final_proba": 0.33624713285077157,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.2199982049596459,
+          "episode_max": 0.21981360981984507,
+          "final_proba": 0.16496173469177428,
+          "severity": "None",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0010893046106084019,
-          "final_proba": 0.0002178609221216804,
+          "model_proba": 0.09410697715129838,
+          "episode_max": 0.011317014381322555,
+          "final_proba": 0.05402224030947863,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.29074968522524186,
-          "final_proba": 0.058149937045048374,
-          "severity": "None",
+          "model_proba": 0.3344787192142032,
+          "episode_max": 0.44061434678347977,
+          "final_proba": 0.2720861649245077,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3376946133778555,
-          "final_proba": 0.0675389226755711,
+          "model_proba": 0.19571211768595156,
+          "episode_max": 0.08672106619878886,
+          "final_proba": 0.12498587796703114,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.10761993409257604,
-          "final_proba": 0.02152398681851521,
+          "model_proba": 0.05342274756893577,
+          "episode_max": 0.5053598152365095,
+          "final_proba": 0.13045447421021658,
           "severity": "None",
           "episodes_count": 0
         }
@@ -405,51 +398,51 @@
     },
     {
       "scene_index": 8,
-      "scene_no": "2-8",
+      "scene_no": "1-7-А",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
-      "tod": "УТРО",
+      "location": "РЕКА. МОСТ",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.34297005085919297,
-          "final_proba": 0.0685940101718386,
-          "severity": "None",
+          "model_proba": 0.3211035458441032,
+          "episode_max": 0.8711511544336579,
+          "final_proba": 0.3508371811009884,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.05350806328621565,
-          "final_proba": 0.01070161265724313,
+          "model_proba": 0.11771827232895185,
+          "episode_max": 0.5511246763369525,
+          "final_proba": 0.17496998504831401,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.17342183490402013,
-          "final_proba": 0.03468436698080403,
+          "model_proba": 0.1532632586193234,
+          "episode_max": 0.005665282807140503,
+          "final_proba": 0.08542784880205599,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4664593280287714,
-          "final_proba": 0.09329186560575428,
-          "severity": "None",
+          "model_proba": 0.6406619600341409,
+          "episode_max": 0.07456233865567058,
+          "final_proba": 0.36727654574991164,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
-          "rule_score": 0.1604634715430987,
-          "model_proba": 0.0,
-          "episode_max": 0.3329723594887394,
-          "final_proba": 0.19496524913222685,
+          "rule_score": 0.0,
+          "model_proba": 0.13842613659732664,
+          "episode_max": 0.3590386652701388,
+          "final_proba": 0.14794210818255743,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         }
       },
       "scene_rating": "6+",
@@ -457,49 +450,49 @@
     },
     {
       "scene_index": 9,
-      "scene_no": "2-8-А",
+      "scene_no": "1-8",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ЛЕС.ВОЗЛЕ ЛАГЕРЯ",
-      "tod": "УТРО",
+      "place_type": "ИНТ.",
+      "location": "\"ВОЛГА\" ДЕДУШКИ / НАТ. УЛИЦЫ ПОСЁЛКА",
+      "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1342497898395781,
-          "final_proba": 0.026849957967915623,
+          "model_proba": 0.157108822605215,
+          "episode_max": 0.1482531967475591,
+          "final_proba": 0.11606049178238007,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.005301871598754782,
-          "final_proba": 0.0010603743197509566,
+          "model_proba": 0.08772534190152309,
+          "episode_max": 0.0036709124735622295,
+          "final_proba": 0.04898312054055015,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.2388778612568591,
-          "model_proba": 0.0,
-          "episode_max": 0.6857727233970575,
-          "final_proba": 0.3282568336848988,
+          "rule_score": 0.0,
+          "model_proba": 0.3299427342207425,
+          "episode_max": 0.45444430950610437,
+          "final_proba": 0.27235736572262925,
           "severity": "Mild",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.21233781773769128,
-          "final_proba": 0.04246756354753826,
+          "model_proba": 0.20313180660140218,
+          "episode_max": 0.1239069897567275,
+          "final_proba": 0.1365038915821167,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.16483154976804337,
-          "final_proba": 0.03296630995360868,
+          "model_proba": 0.06269564750129829,
+          "episode_max": 0.5622445789504322,
+          "final_proba": 0.1469315219158005,
           "severity": "None",
           "episodes_count": 0
         }
@@ -509,101 +502,101 @@
     },
     {
       "scene_index": 10,
-      "scene_no": "2-9",
+      "scene_no": "1-9",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "МОРГ.ПРОЗЕКТОРСКАЯ",
+      "place_type": "НАТ.",
+      "location": "ПОЛЕ/ ИНТ. \"ВОЛГА\" ДЕДУШКИ",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.12986288748555866,
-          "final_proba": 0.025972577497111734,
+          "model_proba": 0.11913014780493729,
+          "episode_max": 0.05908218346302753,
+          "final_proba": 0.07733801798532103,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0004903429502017906,
-          "final_proba": 9.806859004035812e-05,
+          "model_proba": 0.05974215460991857,
+          "episode_max": 0.006039067384601501,
+          "final_proba": 0.03406599851237552,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
-          "rule_score": 0.2388778612568591,
-          "model_proba": 0.0,
-          "episode_max": 0.052803639367056995,
-          "final_proba": 0.20166301687889868,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.122314314873678,
+          "episode_max": 0.18098064360855995,
+          "final_proba": 0.10346900190223489,
+          "severity": "None",
+          "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.47924009349049695,
-          "final_proba": 0.09584801869809939,
+          "model_proba": 0.06401868409638077,
+          "episode_max": 0.05820687255397467,
+          "final_proba": 0.04685165076380436,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.04803003130260137,
-          "final_proba": 0.009606006260520274,
-          "severity": "None",
+          "model_proba": 0.7698527732713325,
+          "episode_max": 0.8982822873886073,
+          "final_proba": 0.6030754827769544,
+          "severity": "Moderate",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 11,
-      "scene_no": "2-10",
+      "scene_no": "1-9-А",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "МОРГ.КОРИДОР ПРОЗЕКТОРСКАЯ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАРВАРЫ. УЧАСТОК",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5987003958100978,
-          "final_proba": 0.11974007916201956,
+          "model_proba": 0.13988629089256757,
+          "episode_max": 0.06682866263630004,
+          "final_proba": 0.09030319251817218,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.009015109652639677,
-          "final_proba": 0.0018030219305279354,
+          "model_proba": 0.12581294918910452,
+          "episode_max": 0.002828641753514212,
+          "final_proba": 0.06976285040471034,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.18522749549072778,
-          "final_proba": 0.03704549909814556,
-          "severity": "None",
+          "model_proba": 0.45849516936677576,
+          "episode_max": 0.31410012196620907,
+          "final_proba": 0.3149923675449685,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4070125737905245,
-          "final_proba": 0.08140251475810491,
+          "model_proba": 0.25488033631828194,
+          "episode_max": 0.034938811839390196,
+          "final_proba": 0.14717194734293312,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.06049879320654518,
-          "final_proba": 0.012099758641309036,
+          "model_proba": 0.042251771875263695,
+          "episode_max": 0.34944332493464925,
+          "final_proba": 0.09312713951832488,
           "severity": "None",
           "episodes_count": 0
         }
@@ -613,49 +606,49 @@
     },
     {
       "scene_index": 12,
-      "scene_no": "2-10-А",
+      "scene_no": "1-10",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "МОРГ.ПРОЗЕКТОРСКАЯ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАРВАРЫ. УЧАСТОК",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.9558941672014539,
-          "final_proba": 0.1911788334402908,
-          "severity": "None",
+          "model_proba": 0.48322639774679343,
+          "episode_max": 0.3157257034707863,
+          "final_proba": 0.3289196594548937,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0001448878439007182,
-          "final_proba": 2.897756878014364e-05,
+          "model_proba": 0.10531959599154873,
+          "episode_max": 0.00559256368533293,
+          "final_proba": 0.05904429053241839,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.004701742757552494,
-          "final_proba": 0.0009403485515104989,
-          "severity": "None",
+          "model_proba": 0.3852335684230561,
+          "episode_max": 0.16076967889664193,
+          "final_proba": 0.24403239841200924,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.25525061805399185,
-          "final_proba": 0.05105012361079837,
-          "severity": "None",
+          "model_proba": 0.42671618597132344,
+          "episode_max": 0.05655241636510036,
+          "final_proba": 0.24600438555724796,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.11224365288016726,
-          "final_proba": 0.022448730576033454,
+          "model_proba": 0.0688632114953551,
+          "episode_max": 0.39798801531430317,
+          "final_proba": 0.11747236938530595,
           "severity": "None",
           "episodes_count": 0
         }
@@ -665,257 +658,257 @@
     },
     {
       "scene_index": 13,
-      "scene_no": "2-11",
+      "scene_no": "1-11",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КОМНАТА ДЛЯ СОСТАВЛЕНИЯ ФОТОРОБОТА",
+      "location": "ДОМ ВАРВАРЫ. ГОСТИНАЯ",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3842532872833535,
-          "final_proba": 0.0768506574566707,
+          "model_proba": 0.15441217119244097,
+          "episode_max": 0.19988639799095717,
+          "final_proba": 0.12490397375403398,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.009237471254311144,
-          "final_proba": 0.0018474942508622289,
+          "model_proba": 0.0685177086632096,
+          "episode_max": 0.0016269166590059622,
+          "final_proba": 0.03801012309656647,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.22311523882670617,
-          "final_proba": 0.044623047765341234,
+          "model_proba": 0.1718127214077951,
+          "episode_max": 0.46639456253244194,
+          "final_proba": 0.1877759092807757,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.21439209499199485,
-          "final_proba": 0.042878418998398976,
+          "model_proba": 0.24218493275574027,
+          "episode_max": 0.2392968932221988,
+          "final_proba": 0.18106109166009693,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1037103895915237,
-          "final_proba": 0.020742077918304742,
-          "severity": "None",
+          "model_proba": 0.14690760804446873,
+          "episode_max": 0.7969841673865006,
+          "final_proba": 0.24019601790175793,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 14,
-      "scene_no": "2-12",
+      "scene_no": "1-12",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ДОМ ПАНОВА",
+      "place_type": "ИНТ.",
+      "location": "ДОМ ВАРИ. ГОСТИНАЯ",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.19711434009106754,
-          "model_proba": 0.0,
-          "episode_max": 0.5163069788454121,
-          "final_proba": 0.2609528678419365,
-          "severity": "Mild",
-          "episodes_count": 1
+          "rule_score": 0.0,
+          "model_proba": 0.1737214972025261,
+          "episode_max": 0.21355388350318977,
+          "final_proba": 0.13825760016202732,
+          "severity": "None",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.000708154969353767,
-          "final_proba": 0.0001416309938707534,
+          "model_proba": 0.051160106496092164,
+          "episode_max": 0.0038050744043593154,
+          "final_proba": 0.028899073453722553,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.11757993877308401,
-          "final_proba": 0.0235159877546168,
+          "model_proba": 0.10607555591570075,
+          "episode_max": 0.15454564234685672,
+          "final_proba": 0.08925068422300676,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7697730486689488,
-          "final_proba": 0.15395460973378977,
+          "model_proba": 0.20152816926806158,
+          "episode_max": 0.08531786647352022,
+          "final_proba": 0.12790406639213792,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.12443293112462336,
-          "final_proba": 0.024886586224924675,
-          "severity": "None",
+          "model_proba": 0.2255542894482589,
+          "episode_max": 0.9790209198669192,
+          "final_proba": 0.31985904316992625,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 15,
-      "scene_no": "2-12-А",
+      "scene_no": "1-13",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ДОМ ПАНОВА.ПРИХОЖАЯ КУХНЯ",
+      "location": "ДОМ ВАРВАРЫ. ЧЕРДАК",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3714617766596709,
-          "final_proba": 0.07429235533193418,
-          "severity": "None",
+          "model_proba": 0.31986250321361287,
+          "episode_max": 0.6553266127232691,
+          "final_proba": 0.30698969931214093,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.00029011890662615047,
-          "final_proba": 5.80237813252301e-05,
+          "model_proba": 0.02766074332604053,
+          "episode_max": 0.0044097773196373246,
+          "final_proba": 0.01609536429324976,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.04237062459983621,
-          "final_proba": 0.008474124919967243,
+          "model_proba": 0.03882147581271117,
+          "episode_max": 0.003125792329434905,
+          "final_proba": 0.021976970162878126,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.9207989534170782,
-          "final_proba": 0.18415979068341565,
+          "model_proba": 0.1580395916689253,
+          "episode_max": 0.1279751792922646,
+          "final_proba": 0.11251681127636184,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.33327575349716093,
-          "final_proba": 0.06665515069943219,
-          "severity": "None",
-          "episodes_count": 0
+          "rule_score": 0.25740485429528953,
+          "model_proba": 0.13910532678525472,
+          "episode_max": 0.9582707051871225,
+          "final_proba": 0.332513284343137,
+          "severity": "Mild",
+          "episodes_count": 2
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 16,
-      "scene_no": "2-13",
+      "scene_no": "1-14",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ДОМ ПАНОВА.КОМНАТА БАБУШКИ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАСИ. УЧАСТОК",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5287889875018129,
-          "final_proba": 0.10575779750036259,
+          "model_proba": 0.19155715763282258,
+          "episode_max": 0.10292855301360763,
+          "final_proba": 0.12594214730077397,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 8.95409998891596e-05,
-          "final_proba": 1.790819997783192e-05,
+          "model_proba": 0.05782761614302449,
+          "episode_max": 0.01943344338624188,
+          "final_proba": 0.03569187755591185,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.08646763031456497,
-          "final_proba": 0.017293526062912994,
+          "model_proba": 0.110577569112873,
+          "episode_max": 0.01162537796700394,
+          "final_proba": 0.06314273860548095,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7800654291418263,
-          "final_proba": 0.15601308582836526,
+          "model_proba": 0.13198756390363728,
+          "episode_max": 0.12558373875180065,
+          "final_proba": 0.09770990789736064,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.20582344155503443,
-          "final_proba": 0.04116468831100689,
-          "severity": "None",
+          "model_proba": 0.1623570448914406,
+          "episode_max": 0.9474597116570944,
+          "final_proba": 0.27878831702171125,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 17,
-      "scene_no": "2-14",
+      "scene_no": "1-15",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ДОМ ПАНОВА.ПРИХОЖАЯ",
+      "location": "ДОМ ВАРВАРЫ. ЧЕРДАК",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1443098180501209,
-          "final_proba": 0.028861963610024185,
-          "severity": "None",
+          "model_proba": 0.37311344999674123,
+          "episode_max": 0.6374151581772417,
+          "final_proba": 0.332695429133656,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.00016818623740677744,
-          "final_proba": 3.363724748135549e-05,
+          "model_proba": 0.060372281904384324,
+          "episode_max": 0.0011876319501789294,
+          "final_proba": 0.033442281437447166,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.28241546776526893,
-          "final_proba": 0.05648309355305379,
+          "model_proba": 0.33979499302384825,
+          "episode_max": 0.0009389953665017797,
+          "final_proba": 0.1870750452364169,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5289169908522559,
-          "final_proba": 0.10578339817045118,
+          "model_proba": 0.26334127316372763,
+          "episode_max": 0.037269160251306166,
+          "final_proba": 0.15229153229031145,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3720678947097312,
-          "final_proba": 0.07441357894194624,
+          "model_proba": 0.12683762433577964,
+          "episode_max": 0.5433152749312243,
+          "final_proba": 0.17842374837092367,
           "severity": "None",
           "episodes_count": 0
         }
@@ -925,334 +918,309 @@
     },
     {
       "scene_index": 18,
-      "scene_no": "2-15",
+      "scene_no": "1-16",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ДОМ ПАНОВА.КОМНАТА БАБУШКИ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАРВАРЫ. ЛЕТНЯЯ ВЕРАНДА",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.27325816696467625,
-          "final_proba": 0.05465163339293525,
+          "model_proba": 0.18569284549719772,
+          "episode_max": 0.06226955075867161,
+          "final_proba": 0.11458497517519307,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.00017855720544958644,
-          "final_proba": 3.571144108991729e-05,
+          "model_proba": 0.06163772289868662,
+          "episode_max": 0.0005271599915267869,
+          "final_proba": 0.034006179592583,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.362313282432124,
-          "final_proba": 0.0724626564864248,
+          "model_proba": 0.09660567813111025,
+          "episode_max": 0.035318911053491324,
+          "final_proba": 0.0601969051828089,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3257899051172142,
-          "final_proba": 0.06515798102344283,
+          "model_proba": 0.15303137869985003,
+          "episode_max": 0.19004465212750965,
+          "final_proba": 0.12217618871041946,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1380448398871544,
-          "final_proba": 0.027608967977430884,
-          "severity": "None",
+          "model_proba": 0.18824740832882259,
+          "episode_max": 0.967924382585292,
+          "final_proba": 0.2971209510979108,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 19,
-      "scene_no": "2-16",
+      "scene_no": "1-17",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАРВАРЫ. УЛИЦА",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.457717520956289,
-          "final_proba": 0.0915435041912578,
-          "severity": "None",
+          "model_proba": 0.23251527475817765,
+          "episode_max": 0.3764455648698533,
+          "final_proba": 0.2031725140909684,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
-          "rule_score": 0.21886718433847496,
-          "model_proba": 0.0,
-          "episode_max": 0.02575857013805143,
-          "final_proba": 0.18024546149839027,
+          "rule_score": 0.0,
+          "model_proba": 0.032812545717176796,
+          "episode_max": 0.004001888615757029,
+          "final_proba": 0.018847277867598645,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7370021088682637,
-          "final_proba": 0.14740042177365273,
+          "model_proba": 0.17722919227615708,
+          "episode_max": 0.00956207823486808,
+          "final_proba": 0.09938847139886002,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7489663063853236,
-          "final_proba": 0.14979326127706472,
+          "model_proba": 0.16107331865550412,
+          "episode_max": 0.10919720555945357,
+          "final_proba": 0.110429766372418,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1291918608046039,
-          "final_proba": 0.025838372160920782,
-          "severity": "None",
+          "model_proba": 0.17545146177463686,
+          "episode_max": 0.9413335092247329,
+          "final_proba": 0.28476500582099684,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 20,
-      "scene_no": "2-17",
+      "scene_no": "1-17-А",
       "period": "",
       "place_type": "НАТ.",
-      "location": "УЛИЦА. ТЕЛЕФОННАЯ БУДКА",
+      "location": "МОСТ",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.18191401554354159,
-          "final_proba": 0.03638280310870832,
-          "severity": "None",
+          "model_proba": 0.2584102208003582,
+          "episode_max": 0.5190568318561082,
+          "final_proba": 0.24593698781141865,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.003076302383023464,
-          "final_proba": 0.0006152604766046928,
+          "model_proba": 0.03831007842265654,
+          "episode_max": 0.00775458618356087,
+          "final_proba": 0.02262146036917327,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5970205405977896,
-          "final_proba": 0.11940410811955793,
+          "model_proba": 0.2482806354861932,
+          "episode_max": 0.0015680904846385548,
+          "final_proba": 0.13686796761433398,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2068976675687171,
-          "final_proba": 0.041379533513743426,
+          "model_proba": 0.2450101066145565,
+          "episode_max": 0.0746437830233327,
+          "final_proba": 0.14968431524267262,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.017138898895728033,
-          "final_proba": 0.0034277797791456067,
-          "severity": "None",
+          "model_proba": 0.18020965404694156,
+          "episode_max": 0.8041915706612428,
+          "final_proba": 0.2599536238580664,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 21,
-      "scene_no": "2-18",
+      "scene_no": "1-18",
       "period": "",
       "place_type": "НАТ.",
-      "location": "МЯСОКОМБИНАТ",
+      "location": "У СЕЛЬСКОГО МАГАЗИНА",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1312631691779561,
-          "final_proba": 0.026252633835591222,
+          "model_proba": 0.17593441659676776,
+          "episode_max": 0.03626552752996925,
+          "final_proba": 0.10401703463421613,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.023429538673347485,
-          "final_proba": 0.0046859077346694976,
+          "model_proba": 0.09912749514747077,
+          "episode_max": 0.006096773736969219,
+          "final_proba": 0.055739477078502776,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.08251163161423294,
-          "final_proba": 0.01650232632284659,
+          "model_proba": 0.11042958176238417,
+          "episode_max": 0.06478501950846884,
+          "final_proba": 0.07369327387100506,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1417431738823166,
-          "final_proba": 0.028348634776463322,
+          "model_proba": 0.23053227399235923,
+          "episode_max": 0.331963917698696,
+          "final_proba": 0.1931855342355368,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.10810172968427956,
-          "final_proba": 0.02162034593685591,
-          "severity": "None",
+          "model_proba": 0.17643187151336504,
+          "episode_max": 0.8101356411815933,
+          "final_proba": 0.2590646575686695,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 22,
-      "scene_no": "2-19",
+      "scene_no": "1-19",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "МЯСОКОМБИНАТ.РАЗДЕЛОЧНЫЙ ЦЕХ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАРВАРЫ. ЛЕТНЯЯ ВЕРАНДА",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.4935202565055024,
-          "model_proba": 0.0,
-          "episode_max": 0.1203729666989141,
-          "final_proba": 0.4188907985441848,
-          "severity": "Moderate",
-          "episodes_count": 4
+          "rule_score": 0.0,
+          "model_proba": 0.5436715506834138,
+          "episode_max": 0.31960719216567857,
+          "final_proba": 0.36294079130901336,
+          "severity": "Mild",
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.00191635911307795,
-          "final_proba": 0.00038327182261559004,
+          "model_proba": 0.06698083118153791,
+          "episode_max": 0.0030990909172295116,
+          "final_proba": 0.03745927533329176,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5189047312742694,
-          "final_proba": 0.10378094625485389,
-          "severity": "None",
+          "model_proba": 0.557584773895759,
+          "episode_max": 0.5940911579896431,
+          "final_proba": 0.42548985724059607,
+          "severity": "Moderate",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4802286711226385,
-          "final_proba": 0.09604573422452771,
+          "model_proba": 0.22332483869317007,
+          "episode_max": 0.19262589606902158,
+          "final_proba": 0.16135384049504786,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3248458201353476,
-          "final_proba": 0.06496916402706952,
+          "model_proba": 0.05083574409865634,
+          "episode_max": 0.7829032078848116,
+          "final_proba": 0.18454030083122333,
           "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "16+",
-      "problems": [
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": " в морг. МЯСНИК Я просто кровь тут сливаю, нехорошо сей",
-          "offset": 582
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "атривает. Мясник сливает кровь из туши. Она стекает в о",
-          "offset": 712
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "о, сливайте. Боков берёт нож, рассматривает. Мясник с",
-          "offset": 677
-        },
-        {
-          "category": "violence",
-          "severity": "Moderate",
-          "snippet": "нкованную ванну. БОКОВ А нож у вас, Николай Платоныч,",
-          "offset": 769
-        }
-      ]
+      "scene_rating": "18+",
+      "problems": []
     },
     {
       "scene_index": 23,
-      "scene_no": "2-20",
+      "scene_no": "1-20",
       "period": "",
       "place_type": "НАТ.",
-      "location": "ДАЧА ПЕВИЦЫ",
+      "location": "ДОМ ВАРВАРЫ. УЧАСТОК",
       "tod": "ДЕНЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.11221928038040661,
-          "final_proba": 0.022443856076081323,
+          "model_proba": 0.16320296113381388,
+          "episode_max": 0.18935841644716594,
+          "final_proba": 0.12763331191303084,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.021199635014737872,
-          "final_proba": 0.004239927002947575,
+          "model_proba": 0.11803115300924137,
+          "episode_max": 0.007750293222280312,
+          "final_proba": 0.06646719279953882,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.20910177260162785,
-          "final_proba": 0.04182035452032557,
-          "severity": "None",
+          "model_proba": 0.3769204476965332,
+          "episode_max": 0.8434142302731702,
+          "final_proba": 0.37598909228772737,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.44837799092380753,
-          "final_proba": 0.0896755981847615,
+          "model_proba": 0.2429051995743647,
+          "episode_max": 0.20741446112234035,
+          "final_proba": 0.17508075199036868,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4299344513194929,
-          "final_proba": 0.0859868902638986,
+          "model_proba": 0.038830597965556345,
+          "episode_max": 0.36542790908315576,
+          "final_proba": 0.09444241069768713,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1262,102 +1230,102 @@
     },
     {
       "scene_index": 24,
-      "scene_no": "2-21",
+      "scene_no": "1-21",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "ДАЧА ПЕВИЦЫ.ГОСТИНАЯ",
-      "tod": "ДЕНЬ",
+      "location": "ДОМ ВАРВАРЫ. ЧЕРДАК",
+      "tod": "НОЧЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.6441467099671615,
-          "final_proba": 0.1288293419934323,
+          "model_proba": 0.20878494869574582,
+          "episode_max": 0.3233298347014477,
+          "final_proba": 0.17949768872294974,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.06540432215490243,
-          "final_proba": 0.013080864430980485,
+          "model_proba": 0.050018500717154024,
+          "episode_max": 0.0020906158969995754,
+          "final_proba": 0.02792829857383463,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.042559080142152796,
-          "final_proba": 0.00851181602843056,
+          "model_proba": 0.20895865469367741,
+          "episode_max": 0.001013215332762087,
+          "final_proba": 0.115129903148075,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.40435610319469245,
-          "final_proba": 0.08087122063893849,
+          "model_proba": 0.19892984809143033,
+          "episode_max": 0.07742477721359448,
+          "final_proba": 0.12489637189300559,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.40912197398035305,
-          "final_proba": 0.08182439479607062,
-          "severity": "None",
+          "model_proba": 0.16495560162657574,
+          "episode_max": 0.8528360044908369,
+          "final_proba": 0.26129278179278403,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 25,
-      "scene_no": "2-22",
+      "scene_no": "1-22",
       "period": "",
-      "place_type": "НАТ.",
-      "location": "ДАЧА ПЕВИЦЫ",
-      "tod": "ДЕНЬ",
+      "place_type": "ИНТ.",
+      "location": "ДОМ ВАСИ. КОМНАТА ВАСИ",
+      "tod": "НОЧЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.11993396605277237,
-          "final_proba": 0.023986793210554476,
+          "model_proba": 0.05865733714337349,
+          "episode_max": 0.04725618958136683,
+          "final_proba": 0.04171277334512879,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.002679173901770456,
-          "final_proba": 0.0005358347803540912,
+          "model_proba": 0.04195437437465321,
+          "episode_max": 0.005954505677402862,
+          "final_proba": 0.024265807041539838,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7107646435887673,
-          "final_proba": 0.14215292871775348,
+          "model_proba": 0.018888957469117635,
+          "episode_max": 0.2204429707926285,
+          "final_proba": 0.0544775207665404,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.15553546512662048,
-          "final_proba": 0.031107093025324096,
+          "model_proba": 0.001625359745043383,
+          "episode_max": 0.04142227585255305,
+          "final_proba": 0.009178403030284471,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.12182025386744674,
-          "final_proba": 0.02436405077348935,
-          "severity": "None",
+          "model_proba": 0.9999962352987891,
+          "episode_max": 0.9851930135789282,
+          "final_proba": 0.7470365321301197,
+          "severity": "Severe",
           "episodes_count": 0
         }
       },
@@ -1366,49 +1334,49 @@
     },
     {
       "scene_index": 26,
-      "scene_no": "2-23",
+      "scene_no": "1-23",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ДАЧА ПЕВИЦЫ.ГОСТИНАЯ",
-      "tod": "ДЕНЬ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАРВАРЫ. ЛЕТНЯЯ веранда",
+      "tod": "НОЧЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.27465307216702745,
-          "model_proba": 0.0,
-          "episode_max": 0.7345402858601702,
-          "final_proba": 0.366630514905656,
+          "rule_score": 0.0,
+          "model_proba": 0.37456603498353486,
+          "episode_max": 0.3415509633399948,
+          "final_proba": 0.27432151190894316,
           "severity": "Mild",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.003325691034190407,
-          "final_proba": 0.0006651382068380814,
+          "model_proba": 0.06333156171062562,
+          "episode_max": 0.020619488646273797,
+          "final_proba": 0.03895625667009886,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3835278445595012,
-          "final_proba": 0.07670556891190024,
+          "model_proba": 0.12159249376100853,
+          "episode_max": 0.23473319667113654,
+          "final_proba": 0.113822510902782,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.24843800281567607,
-          "final_proba": 0.04968760056313522,
+          "model_proba": 0.2880373224235471,
+          "episode_max": 0.1508072593463233,
+          "final_proba": 0.1885819792022156,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.435516532189839,
-          "final_proba": 0.0871033064379678,
+          "model_proba": 0.1207073630089185,
+          "episode_max": 0.37779202084039976,
+          "final_proba": 0.14194745382298513,
           "severity": "None",
           "episodes_count": 0
         }
@@ -1418,50 +1386,50 @@
     },
     {
       "scene_index": 27,
-      "scene_no": "2-24",
+      "scene_no": "1-24",
       "period": "",
-      "place_type": "ИНТ.",
-      "location": "ПОЧТА",
-      "tod": "ДЕНЬ",
+      "place_type": "НАТ.",
+      "location": "ДОМ ВАСИ. УЧАСТОК",
+      "tod": "НОЧЬ",
       "per_class": {
         "violence": {
-          "rule_score": 0.21886718433847496,
-          "model_proba": 0.0,
-          "episode_max": 0.08119323503937476,
-          "final_proba": 0.19133239447865494,
+          "rule_score": 0.0,
+          "model_proba": 0.11517280748992202,
+          "episode_max": 0.10386203267308804,
+          "final_proba": 0.08411745065407472,
           "severity": "None",
-          "episodes_count": 1
+          "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.006885774687045637,
-          "final_proba": 0.0013771549374091275,
+          "model_proba": 0.051536600828670884,
+          "episode_max": 0.004632156200345846,
+          "final_proba": 0.029271561695838156,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.568272461239021,
-          "final_proba": 0.1136544922478042,
+          "model_proba": 0.07270275775765118,
+          "episode_max": 0.07782441368960752,
+          "final_proba": 0.05555139950462966,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3284288057230993,
-          "final_proba": 0.06568576114461987,
+          "model_proba": 0.024997658669669076,
+          "episode_max": 0.04362005933135334,
+          "final_proba": 0.02247272413458866,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.19273607471724188,
-          "final_proba": 0.03854721494344838,
-          "severity": "None",
+          "model_proba": 0.9845381430265034,
+          "episode_max": 0.9503324875321858,
+          "final_proba": 0.731562476171014,
+          "severity": "Severe",
           "episodes_count": 0
         }
       },
@@ -1470,50 +1438,50 @@
     },
     {
       "scene_index": 28,
-      "scene_no": "2-25",
+      "scene_no": "1-25",
       "period": "",
       "place_type": "НАТ.",
-      "location": "КОНЮШНЯ",
-      "tod": "ВЕЧЕР",
+      "location": "ПОЛЕ",
+      "tod": "НОЧЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1376322055073324,
-          "final_proba": 0.027526441101466483,
+          "model_proba": 0.07544952281818393,
+          "episode_max": 0.09604612725380247,
+          "final_proba": 0.06070646300076166,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.007629989704760684,
-          "final_proba": 0.0015259979409521368,
+          "model_proba": 0.03349207961705113,
+          "episode_max": 0.0017156890989005159,
+          "final_proba": 0.018763781609158228,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7502745227348427,
-          "final_proba": 0.15005490454696857,
+          "model_proba": 0.05584721284544328,
+          "episode_max": 0.25105003122190644,
+          "final_proba": 0.0809259733093751,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.08157594629814086,
-          "final_proba": 0.01631518925962817,
+          "model_proba": 0.008949672669733127,
+          "episode_max": 0.0023331894371796972,
+          "final_proba": 0.00538895785578916,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.07332988071445437,
-          "final_proba": 0.014665976142890875,
-          "severity": "None",
+          "model_proba": 0.9987780283402447,
+          "episode_max": 0.9748641779496585,
+          "final_proba": 0.7443007511770663,
+          "severity": "Severe",
           "episodes_count": 0
         }
       },
@@ -1522,1427 +1490,106 @@
     },
     {
       "scene_index": 29,
-      "scene_no": "2-26-А",
+      "scene_no": "1-26",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "КВАРТИРА ДОБРОВОЛЬСКОЙ.ДВЕРЬ ПРИХОЖАЯ",
-      "tod": "ВЕЧЕР",
+      "location": "ДОМ ВАРВАРЫ. ПЕРВЫЙ ЭТАЖ",
+      "tod": "НОЧЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.228854542779657,
-          "final_proba": 0.045770908555931404,
-          "severity": "None",
+          "model_proba": 0.2691862708441895,
+          "episode_max": 0.6521427000669932,
+          "final_proba": 0.2784809889777029,
+          "severity": "Mild",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0002969081317852912,
-          "final_proba": 5.938162635705824e-05,
+          "model_proba": 0.02317851631431234,
+          "episode_max": 0.005288211621013475,
+          "final_proba": 0.013805826297074483,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.040532014546005884,
-          "final_proba": 0.008106402909201177,
+          "model_proba": 0.20341653735246737,
+          "episode_max": 0.0003868335109112259,
+          "final_proba": 0.1119564622460393,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5558285892102889,
-          "final_proba": 0.11116571784205778,
+          "model_proba": 0.2894667491965108,
+          "episode_max": 0.09308354346996317,
+          "final_proba": 0.17782342075207355,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1317666391535997,
-          "final_proba": 0.026353327830719944,
-          "severity": "None",
+          "model_proba": 0.26169455948865855,
+          "episode_max": 0.9065085906974834,
+          "final_proba": 0.32523372585825894,
+          "severity": "Mild",
           "episodes_count": 0
         }
       },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     },
     {
       "scene_index": 30,
-      "scene_no": "2-26-В",
+      "scene_no": "1-27",
       "period": "",
       "place_type": "ИНТ.",
-      "location": "КВАРТИРА ДОБРОВЛЬСКОЙ.СПАЛЬНЯ",
-      "tod": "ВЕЧЕР",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.32662302807083016,
-          "final_proba": 0.06532460561416603,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.000635979460304967,
-          "final_proba": 0.0001271958920609934,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.07749137089030354,
-          "final_proba": 0.01549827417806071,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2471347508975963,
-          "final_proba": 0.04942695017951926,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.17111177805301772,
-          "final_proba": 0.03422235561060354,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 31,
-      "scene_no": "2-27",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "МОРГ.ЛАБОРАТОРИЯ",
+      "location": "ДОМ ВАРВАРЫ. ЧЕРДАК",
       "tod": "НОЧЬ",
       "per_class": {
         "violence": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3267948987827308,
-          "final_proba": 0.06535897975654617,
+          "model_proba": 0.1285136438536029,
+          "episode_max": 0.08116830064706451,
+          "final_proba": 0.0869161642488945,
           "severity": "None",
           "episodes_count": 0
         },
         "sexual": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.006438094541175671,
-          "final_proba": 0.0012876189082351344,
+          "model_proba": 0.06208088979106992,
+          "episode_max": 0.009596725289667958,
+          "final_proba": 0.036063834443022046,
           "severity": "None",
           "episodes_count": 0
         },
         "profanity": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3145504460091967,
-          "final_proba": 0.06291008920183934,
+          "model_proba": 0.15438195057466536,
+          "episode_max": 0.019363796348461648,
+          "final_proba": 0.08878283208575828,
           "severity": "None",
           "episodes_count": 0
         },
         "alcohol_drugs": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2036720783120002,
-          "final_proba": 0.04073441566240005,
+          "model_proba": 0.1938761127600166,
+          "episode_max": 0.15117933687583623,
+          "final_proba": 0.13686772939317637,
           "severity": "None",
           "episodes_count": 0
         },
         "scary": {
           "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.06853560895671731,
-          "final_proba": 0.013707121791343464,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 32,
-      "scene_no": "2-28",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДОРОГА ИЗ ОДИНЦОВО В МОСКВУ",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.34005727691633464,
-          "final_proba": 0.06801145538326693,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0011278979105784881,
-          "final_proba": 0.00022557958211569763,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7885760070195159,
-          "final_proba": 0.1577152014039032,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.025077756784997463,
-          "final_proba": 0.0050155513569994925,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1165000631249932,
-          "final_proba": 0.02330001262499864,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "legal",
-          "severity": "Severe",
-          "snippet": "2-28. НАТ. ДОРОГА ИЗ ОДИНЦОВО В МОСКВУ НОЧЬ 5.\nБОКОВ, КОЗЫРЕВ (00:57)\n\nБоков с неприязнью смотрит на Козырева.\n\nБОКОВ\nВот нахера вы это с Пановым устроили? Ну ладно эта заполошная, а ты вроде нормальный мужик. Ну сказал же - не он. Как об с",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "scene_index": 33,
-      "scene_no": "2-29",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДАЧА МАЛЬЦЕВЫХ.ДЕТСКАЯ",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2599687390454948,
-          "final_proba": 0.05199374780909896,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.006363409967810526,
-          "final_proba": 0.0012726819935621053,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.02353439689677179,
-          "final_proba": 0.0047068793793543584,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.013729220284637465,
-          "final_proba": 0.002745844056927493,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.8145510100592719,
-          "final_proba": 0.16291020201185438,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 34,
-      "scene_no": "2-30",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДАЧА МАЛЬЦЕВЫХ.ДВОР ЗА ЗАБОРОМ",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.02792003401040498,
-          "final_proba": 0.005584006802080996,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.01095550924693343,
-          "final_proba": 0.0021911018493866864,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.14341701482872368,
-          "final_proba": 0.028683402965744738,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.014039095409725429,
-          "final_proba": 0.0028078190819450857,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.9834842634234073,
-          "final_proba": 0.19669685268468148,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 35,
-      "scene_no": "2-30-А",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДАЧА МАЛЬЦЕВЫХ.ДВОР",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.49364250032680906,
-          "final_proba": 0.09872850006536182,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.00020678918312820306,
-          "final_proba": 4.1357836625640616e-05,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.20447241378347708,
-          "final_proba": 0.04089448275669542,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.06687639303091414,
-          "final_proba": 0.013375278606182829,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.8445960389384957,
-          "final_proba": 0.16891920778769914,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 36,
-      "scene_no": "2-30-В",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДАЧА МАЛЬЦЕВЫХ.ЗА ЗАБОРОМ",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.655625529769744,
-          "final_proba": 0.1311251059539488,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.014148695686245225,
-          "final_proba": 0.002829739137249045,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.08052272327393938,
-          "final_proba": 0.016104544654787875,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.07529151195629878,
-          "final_proba": 0.015058302391259756,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4140416054609682,
-          "final_proba": 0.08280832109219365,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 37,
-      "scene_no": "2-31",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ГЕНПРОКУРАТУРА МОСКВА.КАБИНЕТ ГЕНПРОКУРОРА СССР",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.39356929427409554,
-          "final_proba": 0.07871385885481912,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.01771921105292489,
-          "final_proba": 0.003543842210584978,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.6663477928432547,
-          "final_proba": 0.13326955856865094,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2215353063883334,
-          "final_proba": 0.04430706127766668,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.23152184743133555,
-          "final_proba": 0.046304369486267115,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 38,
-      "scene_no": "2-32",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ГЕНПРОКУРАТУРА МОСКВА.КОРИДОР",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.13577321347494578,
-          "final_proba": 0.027154642694989156,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0019225574254856644,
-          "final_proba": 0.0003845114850971329,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.45755989720364265,
-          "final_proba": 0.09151197944072853,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.13550701694612755,
-          "final_proba": 0.02710140338922551,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.08762370487146631,
-          "final_proba": 0.017524740974293265,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 39,
-      "scene_no": "2-33",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "КЛАДБИЩЕ",
-      "tod": "УТРО",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.6795850817223024,
-          "final_proba": 0.1359170163444605,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.004168739978148935,
-          "final_proba": 0.0008337479956297871,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.19711434009106754,
-          "model_proba": 0.0,
-          "episode_max": 0.5702343393739997,
-          "final_proba": 0.271738339947654,
+          "model_proba": 0.16614766256823985,
+          "episode_max": 0.9344309614697555,
+          "final_proba": 0.27826740670648303,
           "severity": "Mild",
-          "episodes_count": 1
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.14739357831353564,
-          "final_proba": 0.029478715662707128,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.25048470758627506,
-          "final_proba": 0.050096941517255016,
-          "severity": "None",
           "episodes_count": 0
         }
       },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "legal",
-          "severity": "Severe",
-          "snippet": "2-33. НАТ. КЛАДБИЩЕ УТРО 6.\nБОКОВ, КОЗЫРЕВ, ДОБРОВОЛЬСКАЯ, ХВАН, КОНЮХ, МАЛЬЦЕВ, ДИМА, ОТЕЦ МИХАИЛ, БАБУШКА ПАНОВА, ПАНОВА, БУХГАЛТЕР КОНЕЗАВОДА, ДИРЕКТОР КОНЕЗАВОДА, ОЛЕГ, МИША, КОЛЯ, мальчик 1, жители (7), несущие гроб (4), человек у моги",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "scene_index": 40,
-      "scene_no": "2-34",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "БОЛЬНИЦА ОДИНЦОВО.ПАЛАТА",
-      "tod": "УТРО",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.09786616757884277,
-          "final_proba": 0.019573233515768555,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.002004881941588326,
-          "final_proba": 0.00040097638831766523,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5704451836006916,
-          "final_proba": 0.11408903672013833,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.23356042298507573,
-          "final_proba": 0.04671208459701515,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2545570622039158,
-          "final_proba": 0.050911412440783156,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 41,
-      "scene_no": "2-35",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "МИЛИЦЕЙСКИЙ АВТОМОБИЛЬ",
-      "tod": "УТРО",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.21398512794201738,
-          "final_proba": 0.04279702558840348,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.029780638321453994,
-          "final_proba": 0.005956127664290799,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.10952714754976092,
-          "final_proba": 0.021905429509952185,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.09941112094151669,
-          "final_proba": 0.01988222418830334,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.08812516479099201,
-          "final_proba": 0.017625032958198405,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 42,
-      "scene_no": "2-36",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "МЯСОКОМБИНАТ.СТОЛОВАЯ",
-      "tod": "УТРО",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.35851165399427254,
-          "final_proba": 0.0717023307988545,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0028477398488599664,
-          "final_proba": 0.0005695479697719933,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.16004407063000675,
-          "final_proba": 0.03200881412600135,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.8695748333896743,
-          "final_proba": 0.17391496667793488,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.18596113994149793,
-          "final_proba": 0.03719222798829959,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 43,
-      "scene_no": "2-37",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ",
-      "tod": "ДЕНЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.8298556895776694,
-          "final_proba": 0.1659711379155339,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.023113116188179354,
-          "final_proba": 0.004622623237635871,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.63003191579893,
-          "final_proba": 0.12600638315978602,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3985505906264564,
-          "final_proba": 0.07971011812529129,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.30580448289509016,
-          "final_proba": 0.061160896579018034,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 44,
-      "scene_no": "2-38",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ГОРКИ",
-      "tod": "ДЕНЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.687566185979865,
-          "final_proba": 0.137513237195973,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0016587990326186737,
-          "final_proba": 0.0003317598065237348,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.10829892755061755,
-          "final_proba": 0.021659785510123514,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.16075857270017793,
-          "final_proba": 0.03215171454003559,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.16894406753541283,
-          "final_proba": 0.033788813507082564,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 45,
-      "scene_no": "2-39",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДЕТСКИЙ ДОМ",
-      "tod": "ДЕНЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.14391936980378142,
-          "final_proba": 0.028783873960756285,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.028166918310610516,
-          "final_proba": 0.005633383662122103,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.037366410830479105,
-          "final_proba": 0.0074732821660958215,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4517026140367541,
-          "final_proba": 0.09034052280735083,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3817595529922723,
-          "final_proba": 0.07635191059845448,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 46,
-      "scene_no": "2-40",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ДЕТСКИЙ ДОМ.ХОЛЛ",
-      "tod": "ДЕНЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.177382486435296,
-          "final_proba": 0.0354764972870592,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0015759735720932435,
-          "final_proba": 0.00031519471441864873,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4053611481324816,
-          "final_proba": 0.08107222962649632,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.32281632044172615,
-          "final_proba": 0.06456326408834523,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.36287654697928307,
-          "final_proba": 0.07257530939585662,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 47,
-      "scene_no": "2-41",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ДЕТСКИЙ ДОМ.АКТОВЫЙ ЗАЛ",
-      "tod": "ДЕНЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.09715710253839532,
-          "final_proba": 0.019431420507679067,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0015215522067770022,
-          "final_proba": 0.0003043104413554005,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.27767510214298474,
-          "final_proba": 0.055535020428596954,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7889983441210254,
-          "final_proba": 0.1577996688242051,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3668467388381442,
-          "final_proba": 0.07336934776762885,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 48,
-      "scene_no": "2-42",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ДЕТСКИЙ ДОМ.ХОЛЛ",
-      "tod": "ДЕНЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2313381274652661,
-          "final_proba": 0.04626762549305322,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0021097029547945652,
-          "final_proba": 0.0004219405909589131,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5707745842749966,
-          "final_proba": 0.11415491685499933,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.4976300864450544,
-          "final_proba": 0.09952601728901089,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.36292290921924575,
-          "final_proba": 0.07258458184384915,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 49,
-      "scene_no": "2-43",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДЕТСКИЙ ДОМ",
-      "tod": "ДЕНЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2987231758199822,
-          "final_proba": 0.059744635163996446,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.0015029719137241097,
-          "final_proba": 0.00030059438274482195,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.28006570203270437,
-          "final_proba": 0.05601314040654087,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2660036531401644,
-          "final_proba": 0.05320073062803288,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.13808321783475827,
-          "final_proba": 0.027616643566951656,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 50,
-      "scene_no": "2-44",
-      "period": "",
-      "place_type": "ИНТ.",
-      "location": "ТЮРЬМА. КАМЕРА",
-      "tod": "ВЕЧЕР",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.27465307216702745,
-          "model_proba": 0.0,
-          "episode_max": 0.7291121914073555,
-          "final_proba": 0.3655448960150931,
-          "severity": "Mild",
-          "episodes_count": 1
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.009730357658243058,
-          "final_proba": 0.0019460715316486116,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1188832787046452,
-          "final_proba": 0.02377665574092904,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.37266336691280744,
-          "final_proba": 0.07453267338256149,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.3290066429958828,
-          "final_proba": 0.06580132859917656,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 51,
-      "scene_no": "2-45",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "АВТОБУСНАЯ ОСТАНОВКА",
-      "tod": "ВЕЧЕР",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.01034761271150763,
-          "final_proba": 0.002069522542301526,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2064395677087217,
-          "final_proba": 0.041287913541744346,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.07040656234415865,
-          "final_proba": 0.01408131246883173,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.20633307985253746,
-          "final_proba": 0.04126661597050749,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.5769305703523805,
-          "final_proba": 0.11538611407047611,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 52,
-      "scene_no": "2-45-А",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДОМ МАКУРИНА",
-      "tod": "ВЕЧЕР",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.464524372548363,
-          "final_proba": 0.09290487450967261,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.06572763650908092,
-          "final_proba": 0.013145527301816185,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.03120688428612276,
-          "final_proba": 0.0062413768572245525,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.11103359219852059,
-          "final_proba": 0.02220671843970412,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7425296439954101,
-          "final_proba": 0.14850592879908203,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 53,
-      "scene_no": "2-46",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ",
-      "tod": "НОЧЬ",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.7392603487370536,
-          "final_proba": 0.14785206974741072,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.02408216132147414,
-          "final_proba": 0.004816432264294828,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.24778972157768703,
-          "final_proba": 0.04955794431553741,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.2193884621519164,
-          "final_proba": 0.04387769243038328,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.025797008402618945,
-          "final_proba": 0.005159401680523789,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "18+",
-      "problems": [
-        {
-          "category": "legal",
-          "severity": "Severe",
-          "snippet": "2-46. НАТ. ОТДЕЛЕНИЕ МИЛИЦИИ ОДИНЦОВО.КАБИНЕТ СЛЕДОВАТЕЛЕЙ НОЧЬ 6.\nБОКОВ, КОЗЫРЕВ, ДОБРОВОЛЬСКАЯ (00:52)\n\nНа столе разложены фотографии Макурина, сделанные наружкой. Все курят.\n\nБОКОВ\nПока это единственный наш подозреваемый, правильно поним",
-          "offset": 0
-        }
-      ]
-    },
-    {
-      "scene_index": 54,
-      "scene_no": "2-47",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДОМ МАКУРИНА",
-      "tod": "УТРО",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.6756364446912871,
-          "final_proba": 0.13512728893825743,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.00757416850227107,
-          "final_proba": 0.001514833700454214,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.1392611192382258,
-          "final_proba": 0.027852223847645158,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.033231036321068046,
-          "final_proba": 0.00664620726421361,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.30270878803487045,
-          "final_proba": 0.06054175760697409,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
-      "problems": []
-    },
-    {
-      "scene_index": 55,
-      "scene_no": "2-48",
-      "period": "",
-      "place_type": "НАТ.",
-      "location": "ДОМ МАКУРИНА",
-      "tod": "УТРО",
-      "per_class": {
-        "violence": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.28026650358658317,
-          "final_proba": 0.05605330071731664,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "sexual": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.011983407945105056,
-          "final_proba": 0.0023966815890210116,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "profanity": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.07460647267841482,
-          "final_proba": 0.014921294535682965,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "alcohol_drugs": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.12378859322521274,
-          "final_proba": 0.02475771864504255,
-          "severity": "None",
-          "episodes_count": 0
-        },
-        "scary": {
-          "rule_score": 0.0,
-          "model_proba": 0.0,
-          "episode_max": 0.29018999100035536,
-          "final_proba": 0.05803799820007108,
-          "severity": "None",
-          "episodes_count": 0
-        }
-      },
-      "scene_rating": "6+",
+      "scene_rating": "12+",
       "problems": []
     }
   ]

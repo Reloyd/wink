@@ -101,11 +101,15 @@ scene_no,place_type,location,tod,has_violence,sev_violence,has_sexual,sev_sexual
 4-38,НАТ.,КАРЕЛИЯ. ДОРОГА,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
 4-39,ИНТ.,КАРАОКЕ «КАБАН»,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
 1,ИНТ.,КАБИНЕТ,ДЕНЬ,0,None,0,None,0,None,0,None,1,Mild
+2,НАТ.,ЖД ПУТИ,ДЕНЬ,1,Severe,0,None,1,Severe,1,Mild,0,None
+3,НАТ.,У ЦИРКА,ДЕНЬ,1,Severe,0,None,1,Severe,1,Mild,0,None
 4,НАТ.,У НОВОГО ДОМА ГЕРМАНА,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
 5,ИНТ.,СЪЕМНАЯ КВАРТИРА,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
 6,НАТ.,В ЦИРКЕ/ У ЦИРКА,НОЧЬ,1,Mild,0,None,0,None,1,Mild,0,None
+7,НАТ.,У ЦИРКА,НОЧЬ,1,Moderate,0,None,1,Severe,1,Mild,0,None
 8,ИНТ.,В БОБИКЕ,НОЧЬ,0,None,0,None,1,Severe,0,None,0,None
 9,НАТ.,У ЦИРКА,НОЧЬ,1,Mild,0,None,0,None,0,None,0,None
+10,ИНТ.,СЪЕМНАЯ КВАРТИРА ГЕРМАНА. КОМНАТА ГЕРМАНА/ КУХНЯ,ДЕНЬ,0,None,0,None,0,None,1,Moderate,0,None
 11,ИНТ.,СЪЕМНАЯ КВАРТИРА ГЕРМАНА. КУХНЯ,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
 14,ИНТ.,СЪЕМНАЯ КВАРТИРА ГЕРМАНА,ДЕНЬ,0,None,0,None,0,None,0,None,0,None
 16,ИНТ.,КАБИНЕТ МИШИ,ДЕНЬ,1,Moderate,0,None,1,Severe,1,Mild,0,None

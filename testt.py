@@ -1,8 +1,4 @@
 import numpy as np
-
-X = np.load("data_X.npy")
-print("X:", X.shape)
-
-for cat in ["violence","sexual","profanity","alcohol_drugs","scary"]:
-    y = np.load(f"data_y_{cat}.npy")
-    print(cat, y.shape)
+data = np.load('data_y_profanity.npy')
+data1 = np.load('data_y_sexual.npy')
+print(len(data), len(data1))
